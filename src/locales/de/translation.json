@@ -1,0 +1,429 @@
+{
+  "common": {
+    "home": "Startseite",
+    "services": "Dienstleistungen",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "welcome": "Willkommen",
+    "learnMore": "Mehr erfahren"
+  },
+  "home": {
+    "title": "Startseite",
+    "subtitle": "Willkommen bei unserem Unternehmen",
+    "heroTitle": "Innovative Lösungen für Ihr Unternehmen",
+    "heroDescription": "Wir bieten modernste Technologielösungen, die das Wachstum und den Erfolg von Unternehmen weltweit vorantreiben.",
+    "featuresTitle": "Unsere Hauptmerkmale",
+    "feature1Title": "Professionelle Exzellenz",
+    "feature1Description": "Lieferung hochwertiger Dienstleistungen mit Liebe zum Detail und Engagement für Exzellenz.",
+    "feature2Title": "Globale Reichweite",
+    "feature2Description": "Tätig in mehreren Ländern und Betreuung von Kunden weltweit.",
+    "feature3Title": "24/7 Support",
+    "feature3Description": "Rund um die Uhr Kundensupport, damit Ihr Geschäft nie stillsteht."
+  },
+  "services": {
+    "title": "Unsere Dienstleistungen",
+    "subtitle": "Umfassende Lösungen für Ihre Geschäftsanforderungen",
+    "service1Title": "Webentwicklung",
+    "service1Description": "Maßgeschneiderte Webanwendungen mit modernen Technologien und Best Practices.",
+    "service1Price": "Ab €4.500",
+    "service2Title": "Mobile Entwicklung",
+    "service2Description": "Native und plattformübergreifende mobile Anwendungen für iOS und Android.",
+    "service2Price": "Ab €6.800",
+    "service3Title": "Cloud-Lösungen",
+    "service3Description": "Skalierbare Cloud-Infrastruktur und Migrationsdienste für Ihr Unternehmen.",
+    "service3Price": "Ab €9.000"
+  },
+  "about": {
+    "title": "Über uns",
+    "subtitle": "Erfahren Sie mehr über unser Unternehmen",
+    "mission": "Unsere Mission",
+    "missionText": "Unternehmen mit innovativen Technologielösungen zu stärken, die Wachstum, Effizienz und Erfolg im digitalen Zeitalter vorantreiben.",
+    "vision": "Unsere Vision",
+    "visionText": "Der führende globale Anbieter von Technologielösungen zu sein, anerkannt für Exzellenz, Innovation und Kundenzufriedenheit.",
+    "values": "Unsere Werte",
+    "valuesText": "Integrität, Innovation, Exzellenz, Zusammenarbeit und Kundenfokus sind die Kernwerte, die alles leiten, was wir tun."
+  },
+  "contact": {
+    "title": "Kontaktieren Sie uns",
+    "subtitle": "Nehmen Sie Kontakt mit unserem Team auf",
+    "nameLabel": "Name",
+    "emailLabel": "E-Mail",
+    "messageLabel": "Nachricht",
+    "submitButton": "Nachricht senden",
+    "addressTitle": "Adresse",
+    "address": "Geschäftsstraße 123, Suite 100, Berlin, 10115",
+    "phoneTitle": "Telefon",
+    "phone": "+49 (30) 123-4567",
+    "emailTitle": "E-Mail",
+    "email": "info@unternehmen.de"
+  },
+  "currency": "EUR",
+  "shop": {
+    "title": "Service-Shop",
+    "subtitle": "Durchsuchen und kaufen Sie unsere professionellen Webentwicklungsdienstleistungen",
+    "loading": "Produkte werden geladen...",
+
+    "hero": {
+      "title": "Service-Shop",
+      "subtitle": "Durchsuchen und kaufen Sie unsere professionellen Webentwicklungsdienstleistungen"
+    },
+
+    "banner": {
+      "sanityDisabled": "Statische Produktdaten werden verwendet. Um Sanity CMS zu aktivieren, führen Sie aus:",
+      "sanityCommand": "npm run seed:products"
+    },
+
+    "sort": {
+      "popular": "Beliebt",
+      "lowToHigh": "Niedrig zu Hoch",
+      "highToLow": "Hoch zu Niedrig"
+    },
+
+    "filters": {
+      "search": "Dienstleistungen suchen...",
+      "categories": "Kategorien",
+      "showing": "Anzeige",
+      "of": "von",
+      "services": "Dienstleistungen"
+    },
+
+    "categories": {
+      "all": "Alle Dienstleistungen",
+      "webDesign": "Webdesign",
+      "development": "Entwicklung",
+      "marketing": "Marketing",
+      "seo": "SEO",
+      "maintenance": "Wartung",
+      "consulting": "Beratung"
+    },
+
+    "product": {
+      "addToCart": "In den Warenkorb",
+      "inCart": "Im Warenkorb",
+      "perMonth": "pro Monat",
+      "perYear": "pro Jahr",
+      "oneTime": "einmalige Zahlung",
+      "deliveryTime": "Lieferzeit"
+    },
+
+    "cart": {
+      "title": "Warenkorb",
+      "empty": "Ihr Warenkorb ist leer",
+      "emptyMessage": "Fügen Sie Dienstleistungen zu Ihrem Warenkorb hinzu",
+      "subtotal": "Zwischensumme",
+      "tax": "Steuer",
+      "total": "Gesamt",
+      "checkout": "Zur Kasse",
+      "remove": "Entfernen",
+      "quantity": "Menge",
+      "promoCode": "Gutscheincode eingeben",
+      "apply": "Anwenden"
+    },
+
+    "noResults": {
+      "title": "Keine Dienstleistungen gefunden",
+      "message": "Versuchen Sie, Ihre Filter oder Suchanfrage anzupassen",
+      "clearFilters": "Filter löschen"
+    },
+
+    "notifications": {
+      "addedToCart": "{{productName}} zum Warenkorb hinzugefügt!",
+      "removedFromCart": "{{productName}} aus dem Warenkorb entfernt",
+      "quantityUpdated": "Menge aktualisiert"
+    },
+
+    "checkout": {
+      "comingSoon": "Checkout-Funktion kommt bald!",
+      "yourCart": "Ihr Warenkorb:",
+      "total": "Gesamt:"
+    },
+    "badges": {
+      "bestValue": "Bestes Angebot",
+      "essential": "Essentiell",
+      "new": "Neu",
+      "popular": "Beliebt"
+    }
+  },
+  "products": {
+    "landing-page": {
+      "name": "Landing Page Design",
+      "description": "Professionelle einseitige Website optimiert für Konversionen",
+      "deliveryTime": "1-2 Wochen",
+      "features": {
+        "0": "Individuelles responsives Design",
+        "1": "Mobile-First-Ansatz",
+        "2": "SEO-Optimierung",
+        "3": "Kontaktformular-Integration",
+        "4": "3 Überarbeitungsrunden",
+        "5": "Quelldateien inklusive"
+      }
+    },
+    "business-website": {
+      "name": "Unternehmenswebsite",
+      "description": "Voll ausgestattete mehrseitige Website für Ihr Unternehmen",
+      "deliveryTime": "3-4 Wochen",
+      "features": {
+        "0": "Bis zu 10 Seiten",
+        "1": "Individuelle CMS-Integration",
+        "2": "Blog-Funktionalität",
+        "3": "Kontaktformulare",
+        "4": "Bildergalerie",
+        "5": "SEO-Optimierung",
+        "6": "Analytics-Einrichtung",
+        "7": "5 Überarbeitungsrunden"
+      }
+    },
+    "ecommerce-store": {
+      "name": "E-Commerce-Shop",
+      "description": "Kompletter Online-Shop mit Zahlungsintegration",
+      "deliveryTime": "6-8 Wochen",
+      "features": {
+        "0": "Produktkatalog (bis zu 100 Artikel)",
+        "1": "Warenkorb & Checkout",
+        "2": "Zahlungsgateway-Integration",
+        "3": "Bestandsverwaltung",
+        "4": "Bestellverfolgung",
+        "5": "Kundenkonten",
+        "6": "E-Mail-Benachrichtigungen",
+        "7": "Mobile-App-ready"
+      }
+    },
+    "web-app-mvp": {
+      "name": "Web-App MVP",
+      "description": "Minimal lebensfähiges Produkt für Ihre Webanwendung",
+      "deliveryTime": "8-12 Wochen",
+      "features": {
+        "0": "Individuelle Funktionalität",
+        "1": "Benutzerauthentifizierung",
+        "2": "Datenbankdesign",
+        "3": "API-Entwicklung",
+        "4": "Admin-Dashboard",
+        "5": "Testing & QA",
+        "6": "3 Monate Support"
+      }
+    },
+    "custom-integration": {
+      "name": "Individuelle Integration",
+      "description": "Verbinden Sie Ihre Systeme mit Drittanbieter-APIs",
+      "deliveryTime": "2-3 Wochen",
+      "features": {
+        "0": "API-Integration",
+        "1": "Datensynchronisation",
+        "2": "Fehlerbehandlung",
+        "3": "Dokumentation",
+        "4": "Testing",
+        "5": "1 Monat Support"
+      }
+    },
+    "seo-audit": {
+      "name": "SEO-Audit & Strategie",
+      "description": "Umfassende SEO-Analyse mit Aktionsplan",
+      "deliveryTime": "1 Woche",
+      "features": {
+        "0": "Technisches SEO-Audit",
+        "1": "Keyword-Recherche",
+        "2": "Konkurrenzanalyse",
+        "3": "Content-Empfehlungen",
+        "4": "Backlink-Analyse",
+        "5": "Detaillierter Bericht"
+      }
+    },
+    "content-marketing": {
+      "name": "Content-Marketing-Paket",
+      "description": "Monatliche Content-Erstellung und -Verteilung",
+      "deliveryTime": "Laufend",
+      "features": {
+        "0": "4 Blogbeiträge pro Monat",
+        "1": "Social-Media-Content",
+        "2": "E-Mail-Newsletter",
+        "3": "Content-Kalender",
+        "4": "Performance-Tracking"
+      }
+    },
+    "social-media-management": {
+      "name": "Social-Media-Management",
+      "description": "Komplette Verwaltung der Social-Media-Präsenz",
+      "deliveryTime": "Laufend",
+      "features": {
+        "0": "Tägliche Beiträge (3 Plattformen)",
+        "1": "Content-Erstellung",
+        "2": "Community-Management",
+        "3": "Analytics & Reporting",
+        "4": "Verwaltung bezahlter Anzeigen",
+        "5": "Strategieberatung"
+      }
+    },
+    "local-seo": {
+      "name": "Lokale SEO-Optimierung",
+      "description": "Dominieren Sie lokale Suchergebnisse",
+      "deliveryTime": "Laufend",
+      "features": {
+        "0": "Google Business Profile-Optimierung",
+        "1": "Lokaler Brancheneintrag-Aufbau",
+        "2": "Einrichtung des Bewertungsmanagements",
+        "3": "Lokale Keyword-Optimierung",
+        "4": "Monatliches Reporting"
+      }
+    },
+    "website-maintenance": {
+      "name": "Website-Wartung",
+      "description": "Halten Sie Ihre Website sicher und aktuell",
+      "deliveryTime": "Laufend",
+      "features": {
+        "0": "Wöchentliche Backups",
+        "1": "Sicherheitsüberwachung",
+        "2": "Software-Updates",
+        "3": "Performance-Optimierung",
+        "4": "Prioritäts-Support",
+        "5": "Monatliche Berichte"
+      }
+    },
+    "premium-support": {
+      "name": "Premium-Support-Plan",
+      "description": "24/7 Prioritäts-Support für Ihre Website",
+      "deliveryTime": "Laufend",
+      "features": {
+        "0": "24/7 Support-Zugang",
+        "1": "2 Stunden Reaktionszeit",
+        "2": "Unbegrenzte kleinere Updates",
+        "3": "5 Stunden Entwicklung/Monat",
+        "4": "Notfall-Fixes",
+        "5": "Dedizierter Account Manager"
+      }
+    },
+    "strategy-consultation": {
+      "name": "Strategieberatung",
+      "description": "Expertenberatung für Ihre digitale Strategie",
+      "deliveryTime": "3-5 Tage",
+      "features": {
+        "0": "2-Stunden-Beratungsgespräch",
+        "1": "Branchenanalyse",
+        "2": "Technologie-Empfehlungen",
+        "3": "Roadmap-Planung",
+        "4": "Follow-up-Bericht"
+      }
+    },
+    "technical-review": {
+      "name": "Technisches Code-Review",
+      "description": "Professionelle Überprüfung Ihrer Codebasis",
+      "deliveryTime": "1 Woche",
+      "features": {
+        "0": "Vollständiges Code-Audit",
+        "1": "Sicherheitsbewertung",
+        "2": "Performance-Analyse",
+        "3": "Best-Practices-Review",
+        "4": "Detaillierte Empfehlungen",
+        "5": "Video-Walkthrough"
+      }
+    },
+    "ui-ux-design": {
+      "name": "UI/UX-Design-Paket",
+      "description": "Komplettes User-Interface- und Experience-Design",
+      "deliveryTime": "3-4 Wochen",
+      "features": {
+        "0": "User-Research & Personas",
+        "1": "Wireframes & Prototypen",
+        "2": "High-Fidelity-Mockups",
+        "3": "Interaktive Prototypen",
+        "4": "Design-System-Erstellung",
+        "5": "Usability-Testing",
+        "6": "Übergabe an Entwickler"
+      }
+    },
+    "mobile-app-design": {
+      "name": "Mobile-App-Design",
+      "description": "iOS- und Android-App-Design",
+      "deliveryTime": "4-6 Wochen",
+      "features": {
+        "0": "iOS- & Android-Designs",
+        "1": "App-Icon-Design",
+        "2": "Onboarding-Screens",
+        "3": "Alle Hauptbildschirme",
+        "4": "Komponenten-Bibliothek",
+        "5": "Interaktiver Prototyp",
+        "6": "Design-Richtlinien"
+      }
+    },
+    "wordpress-development": {
+      "name": "WordPress-Website",
+      "description": "Individuelle WordPress-Site mit Theme",
+      "deliveryTime": "2-3 Wochen",
+      "features": {
+        "0": "Individuelle Theme-Entwicklung",
+        "1": "Plugin-Integration",
+        "2": "Responsives Design",
+        "3": "SEO-Optimierung",
+        "4": "Kontaktformulare",
+        "5": "Blog-Einrichtung",
+        "6": "Schulung inklusive"
+      }
+    },
+    "api-development": {
+      "name": "REST-API-Entwicklung",
+      "description": "Individuelles RESTful API-Backend",
+      "deliveryTime": "3-4 Wochen",
+      "features": {
+        "0": "Individuelle Endpunkte",
+        "1": "Authentifizierung & Autorisierung",
+        "2": "Datenbankdesign",
+        "3": "Dokumentation",
+        "4": "Test-Suite",
+        "5": "Deployment-Setup",
+        "6": "1 Monat Support"
+      }
+    },
+    "ppc-management": {
+      "name": "PPC-Kampagnen-Management",
+      "description": "Google Ads & Facebook Ads Management",
+      "deliveryTime": "Laufend",
+      "features": {
+        "0": "Kampagnen-Setup",
+        "1": "Anzeigentexterstellung",
+        "2": "A/B-Testing",
+        "3": "Budget-Optimierung",
+        "4": "Monatliches Reporting",
+        "5": "Landing-Page-Optimierung"
+      }
+    },
+    "email-marketing": {
+      "name": "E-Mail-Marketing-Service",
+      "description": "Komplettes E-Mail-Kampagnen-Management",
+      "deliveryTime": "Laufend",
+      "features": {
+        "0": "4 E-Mail-Kampagnen/Monat",
+        "1": "Listen-Management",
+        "2": "Template-Design",
+        "3": "A/B-Testing",
+        "4": "Analytics & Reporting",
+        "5": "Automatisierungs-Setup"
+      }
+    },
+    "conversion-optimization": {
+      "name": "Conversion-Rate-Optimierung",
+      "description": "Erhöhen Sie Ihre Website-Konversionen",
+      "deliveryTime": "Laufend",
+      "features": {
+        "0": "Conversion-Audit",
+        "1": "Heatmap-Analyse",
+        "2": "A/B-Test-Setup",
+        "3": "Landing-Page-Optimierung",
+        "4": "Formular-Optimierung",
+        "5": "Monatliches Reporting"
+      }
+    },
+    "technical-seo": {
+      "name": "Technische SEO-Optimierung",
+      "description": "Erweiterte technische SEO-Verbesserungen",
+      "deliveryTime": "2-3 Wochen",
+      "features": {
+        "0": "Website-Geschwindigkeitsoptimierung",
+        "1": "Mobile-Optimierung",
+        "2": "Schema-Markup",
+        "3": "XML-Sitemap-Optimierung",
+        "4": "Robots.txt-Konfiguration",
+        "5": "Core Web Vitals-Verbesserung",
+        "6": "Technischer Audit-Bericht"
+      }
+    }
+  }
+}

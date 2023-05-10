@@ -1,0 +1,429 @@
+{
+  "common": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "welcome": "Bienvenido",
+    "learnMore": "Más información"
+  },
+  "home": {
+    "title": "Inicio",
+    "subtitle": "Bienvenido a Nuestra Empresa",
+    "heroTitle": "Soluciones Innovadoras para su Negocio",
+    "heroDescription": "Proporcionamos soluciones tecnológicas de vanguardia que impulsan el crecimiento y el éxito de empresas en todo el mundo.",
+    "featuresTitle": "Nuestras Características Clave",
+    "feature1Title": "Excelencia Profesional",
+    "feature1Description": "Ofrecemos servicios de alta calidad con atención al detalle y compromiso con la excelencia.",
+    "feature2Title": "Alcance Global",
+    "feature2Description": "Operamos en múltiples países y atendemos clientes en todo el mundo.",
+    "feature3Title": "Soporte 24/7",
+    "feature3Description": "Atención al cliente las 24 horas para que su negocio nunca se detenga."
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Soluciones Integrales para sus Necesidades Empresariales",
+    "service1Title": "Desarrollo Web",
+    "service1Description": "Aplicaciones web personalizadas construidas con tecnologías modernas y mejores prácticas.",
+    "service1Price": "Desde €4.500",
+    "service2Title": "Desarrollo Móvil",
+    "service2Description": "Aplicaciones móviles nativas y multiplataforma para iOS y Android.",
+    "service2Price": "Desde €6.800",
+    "service3Title": "Soluciones en la Nube",
+    "service3Description": "Infraestructura de nube escalable y servicios de migración para su empresa.",
+    "service3Price": "Desde €9.000"
+  },
+  "about": {
+    "title": "Nosotros",
+    "subtitle": "Conozca Más Sobre Nuestra Empresa",
+    "mission": "Nuestra Misión",
+    "missionText": "Empoderar a las empresas con soluciones tecnológicas innovadoras que impulsen el crecimiento, la eficiencia y el éxito en la era digital.",
+    "vision": "Nuestra Visión",
+    "visionText": "Ser el proveedor global líder de soluciones tecnológicas, reconocido por excelencia, innovación y satisfacción del cliente.",
+    "values": "Nuestros Valores",
+    "valuesText": "Integridad, Innovación, Excelencia, Colaboración y Enfoque en el Cliente son los valores fundamentales que guían todo lo que hacemos."
+  },
+  "contact": {
+    "title": "Contáctenos",
+    "subtitle": "Póngase en Contacto con Nuestro Equipo",
+    "nameLabel": "Nombre",
+    "emailLabel": "Correo electrónico",
+    "messageLabel": "Mensaje",
+    "submitButton": "Enviar mensaje",
+    "addressTitle": "Dirección",
+    "address": "Calle Empresarial 123, Suite 100, Madrid, 28001",
+    "phoneTitle": "Teléfono",
+    "phone": "+34 (91) 123-4567",
+    "emailTitle": "Correo electrónico",
+    "email": "info@empresa.es"
+  },
+  "currency": "EUR",
+  "products": {
+    "landing-page": {
+      "name": "Diseño de Landing Page",
+      "description": "Sitio web profesional de una sola página optimizado para conversiones",
+      "deliveryTime": "1-2 semanas",
+      "features": {
+        "0": "Diseño responsive personalizado",
+        "1": "Enfoque mobile-first",
+        "2": "Optimización SEO",
+        "3": "Integración de formulario de contacto",
+        "4": "3 rondas de revisión",
+        "5": "Archivos fuente incluidos"
+      }
+    },
+    "business-website": {
+      "name": "Sitio Web Empresarial",
+      "description": "Sitio web multipágina con todas las funciones para su negocio",
+      "deliveryTime": "3-4 semanas",
+      "features": {
+        "0": "Hasta 10 páginas",
+        "1": "Integración CMS personalizada",
+        "2": "Funcionalidad de blog",
+        "3": "Formularios de contacto",
+        "4": "Galería de imágenes",
+        "5": "Optimización SEO",
+        "6": "Configuración de analytics",
+        "7": "5 rondas de revisión"
+      }
+    },
+    "ecommerce-store": {
+      "name": "Tienda E-Commerce",
+      "description": "Tienda online completa con integración de pagos",
+      "deliveryTime": "6-8 semanas",
+      "features": {
+        "0": "Catálogo de productos (hasta 100 artículos)",
+        "1": "Carrito de compras y checkout",
+        "2": "Integración de pasarela de pago",
+        "3": "Gestión de inventario",
+        "4": "Seguimiento de pedidos",
+        "5": "Cuentas de cliente",
+        "6": "Notificaciones por email",
+        "7": "Listo para app móvil"
+      }
+    },
+    "web-app-mvp": {
+      "name": "MVP de Aplicación Web",
+      "description": "Producto mínimo viable para su aplicación web",
+      "deliveryTime": "8-12 semanas",
+      "features": {
+        "0": "Funcionalidad personalizada",
+        "1": "Autenticación de usuarios",
+        "2": "Diseño de base de datos",
+        "3": "Desarrollo de API",
+        "4": "Panel de administración",
+        "5": "Testing y QA",
+        "6": "3 meses de soporte"
+      }
+    },
+    "custom-integration": {
+      "name": "Integración Personalizada",
+      "description": "Conecte sus sistemas con APIs de terceros",
+      "deliveryTime": "2-3 semanas",
+      "features": {
+        "0": "Integración de API",
+        "1": "Sincronización de datos",
+        "2": "Manejo de errores",
+        "3": "Documentación",
+        "4": "Testing",
+        "5": "1 mes de soporte"
+      }
+    },
+    "seo-audit": {
+      "name": "Auditoría y Estrategia SEO",
+      "description": "Análisis SEO completo con plan de acción",
+      "deliveryTime": "1 semana",
+      "features": {
+        "0": "Auditoría SEO técnica",
+        "1": "Investigación de palabras clave",
+        "2": "Análisis de competencia",
+        "3": "Recomendaciones de contenido",
+        "4": "Análisis de backlinks",
+        "5": "Informe detallado"
+      }
+    },
+    "content-marketing": {
+      "name": "Paquete de Marketing de Contenidos",
+      "description": "Creación y distribución mensual de contenidos",
+      "deliveryTime": "Continuo",
+      "features": {
+        "0": "4 posts de blog por mes",
+        "1": "Contenido para redes sociales",
+        "2": "Newsletter por email",
+        "3": "Calendario de contenidos",
+        "4": "Seguimiento de rendimiento"
+      }
+    },
+    "social-media-management": {
+      "name": "Gestión de Redes Sociales",
+      "description": "Gestión completa de presencia en redes sociales",
+      "deliveryTime": "Continuo",
+      "features": {
+        "0": "Publicaciones diarias (3 plataformas)",
+        "1": "Creación de contenido",
+        "2": "Gestión de comunidad",
+        "3": "Analytics e informes",
+        "4": "Gestión de anuncios pagados",
+        "5": "Consultoría estratégica"
+      }
+    },
+    "local-seo": {
+      "name": "Optimización SEO Local",
+      "description": "Domine los resultados de búsqueda local",
+      "deliveryTime": "Continuo",
+      "features": {
+        "0": "Optimización de Google Business Profile",
+        "1": "Construcción de citas locales",
+        "2": "Configuración de gestión de reseñas",
+        "3": "Optimización de palabras clave locales",
+        "4": "Informes mensuales"
+      }
+    },
+    "website-maintenance": {
+      "name": "Mantenimiento de Sitio Web",
+      "description": "Mantenga su sitio web seguro y actualizado",
+      "deliveryTime": "Continuo",
+      "features": {
+        "0": "Copias de seguridad semanales",
+        "1": "Monitoreo de seguridad",
+        "2": "Actualizaciones de software",
+        "3": "Optimización de rendimiento",
+        "4": "Soporte prioritario",
+        "5": "Informes mensuales"
+      }
+    },
+    "premium-support": {
+      "name": "Plan de Soporte Premium",
+      "description": "Soporte prioritario 24/7 para su sitio web",
+      "deliveryTime": "Continuo",
+      "features": {
+        "0": "Acceso a soporte 24/7",
+        "1": "Tiempo de respuesta de 2 horas",
+        "2": "Actualizaciones menores ilimitadas",
+        "3": "5 horas de desarrollo/mes",
+        "4": "Correcciones de emergencia",
+        "5": "Gestor de cuenta dedicado"
+      }
+    },
+    "strategy-consultation": {
+      "name": "Consultoría Estratégica",
+      "description": "Orientación experta para su estrategia digital",
+      "deliveryTime": "3-5 días",
+      "features": {
+        "0": "Llamada de consultoría de 2 horas",
+        "1": "Análisis de industria",
+        "2": "Recomendaciones tecnológicas",
+        "3": "Planificación de hoja de ruta",
+        "4": "Informe de seguimiento"
+      }
+    },
+    "technical-review": {
+      "name": "Revisión Técnica de Código",
+      "description": "Revisión profesional de su base de código",
+      "deliveryTime": "1 semana",
+      "features": {
+        "0": "Auditoría completa de código",
+        "1": "Evaluación de seguridad",
+        "2": "Análisis de rendimiento",
+        "3": "Revisión de mejores prácticas",
+        "4": "Recomendaciones detalladas",
+        "5": "Video explicativo"
+      }
+    },
+    "ui-ux-design": {
+      "name": "Paquete de Diseño UI/UX",
+      "description": "Diseño completo de interfaz y experiencia de usuario",
+      "deliveryTime": "3-4 semanas",
+      "features": {
+        "0": "Investigación de usuarios y personas",
+        "1": "Wireframes y prototipos",
+        "2": "Mockups de alta fidelidad",
+        "3": "Prototipos interactivos",
+        "4": "Creación de sistema de diseño",
+        "5": "Pruebas de usabilidad",
+        "6": "Entrega a desarrolladores"
+      }
+    },
+    "mobile-app-design": {
+      "name": "Diseño de App Móvil",
+      "description": "Diseño de aplicaciones iOS y Android",
+      "deliveryTime": "4-6 semanas",
+      "features": {
+        "0": "Diseños para iOS y Android",
+        "1": "Diseño de icono de app",
+        "2": "Pantallas de onboarding",
+        "3": "Todas las pantallas principales",
+        "4": "Biblioteca de componentes",
+        "5": "Prototipo interactivo",
+        "6": "Guías de diseño"
+      }
+    },
+    "wordpress-development": {
+      "name": "Sitio Web WordPress",
+      "description": "Sitio WordPress personalizado con tema",
+      "deliveryTime": "2-3 semanas",
+      "features": {
+        "0": "Desarrollo de tema personalizado",
+        "1": "Integración de plugins",
+        "2": "Diseño responsive",
+        "3": "Optimización SEO",
+        "4": "Formularios de contacto",
+        "5": "Configuración de blog",
+        "6": "Capacitación incluida"
+      }
+    },
+    "api-development": {
+      "name": "Desarrollo de API REST",
+      "description": "Backend de API RESTful personalizado",
+      "deliveryTime": "3-4 semanas",
+      "features": {
+        "0": "Endpoints personalizados",
+        "1": "Autenticación y autorización",
+        "2": "Diseño de base de datos",
+        "3": "Documentación",
+        "4": "Suite de testing",
+        "5": "Configuración de deployment",
+        "6": "1 mes de soporte"
+      }
+    },
+    "ppc-management": {
+      "name": "Gestión de Campañas PPC",
+      "description": "Gestión de Google Ads y Facebook Ads",
+      "deliveryTime": "Continuo",
+      "features": {
+        "0": "Configuración de campañas",
+        "1": "Redacción de anuncios",
+        "2": "Pruebas A/B",
+        "3": "Optimización de presupuesto",
+        "4": "Informes mensuales",
+        "5": "Optimización de landing page"
+      }
+    },
+    "email-marketing": {
+      "name": "Servicio de Email Marketing",
+      "description": "Gestión completa de campañas de email",
+      "deliveryTime": "Continuo",
+      "features": {
+        "0": "4 campañas de email/mes",
+        "1": "Gestión de listas",
+        "2": "Diseño de plantillas",
+        "3": "Pruebas A/B",
+        "4": "Analytics e informes",
+        "5": "Configuración de automatización"
+      }
+    },
+    "conversion-optimization": {
+      "name": "Optimización de Tasa de Conversión",
+      "description": "Aumente las conversiones de su sitio web",
+      "deliveryTime": "Continuo",
+      "features": {
+        "0": "Auditoría de conversión",
+        "1": "Análisis de heatmap",
+        "2": "Configuración de pruebas A/B",
+        "3": "Optimización de landing page",
+        "4": "Optimización de formularios",
+        "5": "Informes mensuales"
+      }
+    },
+    "technical-seo": {
+      "name": "Optimización SEO Técnica",
+      "description": "Mejoras técnicas avanzadas de SEO",
+      "deliveryTime": "2-3 semanas",
+      "features": {
+        "0": "Optimización de velocidad del sitio",
+        "1": "Optimización móvil",
+        "2": "Marcado de Schema",
+        "3": "Optimización de sitemap XML",
+        "4": "Configuración de robots.txt",
+        "5": "Mejora de Core Web Vitals",
+        "6": "Informe de auditoría técnica"
+      }
+    }
+  },
+  "shop": {
+    "title": "Boutique de Services",
+    "subtitle": "Parcourez et achetez nos services professionnels de développement web",
+    "loading": "Chargement des produits...",
+
+    "hero": {
+      "title": "Boutique de Services",
+      "subtitle": "Parcourez et achetez nos services professionnels de développement web"
+    },
+
+    "banner": {
+      "sanityDisabled": "Utilisation de données produits statiques. Pour activer Sanity CMS, exécutez :",
+      "sanityCommand": "npm run seed:products"
+    },
+
+    "sort": {
+      "popular": "Populaire",
+      "lowToHigh": "Prix croissant",
+      "highToLow": "Prix décroissant"
+    },
+
+    "filters": {
+      "search": "Rechercher des services...",
+      "categories": "Catégories",
+      "showing": "Affichage",
+      "of": "sur",
+      "services": "services"
+    },
+
+    "categories": {
+      "all": "Tous les Services",
+      "webDesign": "Design Web",
+      "development": "Développement",
+      "marketing": "Marketing",
+      "seo": "SEO",
+      "maintenance": "Maintenance",
+      "consulting": "Conseil"
+    },
+
+    "product": {
+      "addToCart": "Ajouter au Panier",
+      "inCart": "Dans le Panier",
+      "perMonth": "par mois",
+      "perYear": "par an",
+      "oneTime": "paiement unique",
+      "deliveryTime": "Délai de Livraison"
+    },
+
+    "cart": {
+      "title": "Panier",
+      "empty": "Votre panier est vide",
+      "emptyMessage": "Commencez à ajouter des services à votre panier",
+      "subtotal": "Sous-total",
+      "tax": "Taxe",
+      "total": "Total",
+      "checkout": "Passer la commande",
+      "remove": "Supprimer",
+      "quantity": "Quantité",
+      "promoCode": "Entrez le code promo",
+      "apply": "Appliquer"
+    },
+
+    "noResults": {
+      "title": "Aucun service trouvé",
+      "message": "Essayez d'ajuster vos filtres ou votre recherche",
+      "clearFilters": "Effacer les Filtres"
+    },
+
+    "notifications": {
+      "addedToCart": "{{productName}} ajouté au panier !",
+      "removedFromCart": "{{productName}} retiré du panier",
+      "quantityUpdated": "Quantité mise à jour"
+    },
+
+    "checkout": {
+      "comingSoon": "Fonctionnalité de paiement bientôt disponible !",
+      "yourCart": "Votre panier :",
+      "total": "Total :"
+    },
+    "badges": {
+      "bestValue": "Mejor Valor",
+      "essential": "Esencial",
+      "new": "Nuevo",
+      "popular": "Popular"
+    }
+  }
+}

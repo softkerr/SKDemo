@@ -1,0 +1,358 @@
+{
+  "badges": {
+    "bestValue": "Best Value",
+    "essential": "Essential",
+    "new": "New",
+    "popular": "Popular"
+  },
+  "banner": {
+    "sanityCommand": "npm run seed:products",
+    "sanityDisabled": "Using static product data. To enable Sanity CMS, run:"
+  },
+  "cart": {
+    "apply": "Apply",
+    "checkout": "Checkout",
+    "empty": "Your cart is empty",
+    "emptyMessage": "Start adding services to your cart",
+    "promoCode": "Enter promo code",
+    "quantity": "Quantity",
+    "remove": "Remove",
+    "subtotal": "Subtotal",
+    "tax": "Tax",
+    "title": "Shopping Cart",
+    "total": "Total"
+  },
+  "categories": {
+    "all": "All Services",
+    "consulting": "Consulting",
+    "development": "Development",
+    "maintenance": "Maintenance",
+    "marketing": "Marketing",
+    "seo": "SEO",
+    "webDesign": "Web Design"
+  },
+  "checkout": {
+    "comingSoon": "Checkout functionality coming soon!",
+    "total": "Total:",
+    "yourCart": "Your cart:"
+  },
+  "filters": {
+    "categories": "Categories",
+    "of": "of",
+    "search": "Search services...",
+    "services": "services",
+    "showing": "Showing"
+  },
+  "hero": {
+    "subtitle": "Browse and purchase our professional web development services",
+    "title": "Service Shop"
+  },
+  "loading": "Loading products...",
+  "noResults": {
+    "clearFilters": "Clear Filters",
+    "message": "Try adjusting your filters or search query",
+    "title": "No services found"
+  },
+  "notifications": {
+    "addedToCart": "{{productName}} added to cart!",
+    "quantityUpdated": "Quantity updated",
+    "removedFromCart": "{{productName}} removed from cart"
+  },
+  "product": {
+    "addToCart": "Add to Cart",
+    "deliveryTime": "Delivery Time",
+    "inCart": "In Cart",
+    "oneTime": "one-time payment",
+    "perMonth": "per month",
+    "perYear": "per year"
+  },
+  "products": {
+    "api-development": {
+      "deliveryTime": "3-4 weeks",
+      "description": "Custom RESTful API backend",
+      "features": [
+        "Custom endpoints",
+        "Authentication & authorization",
+        "Database design",
+        "Documentation",
+        "Testing suite",
+        "Deployment setup",
+        "1 month support"
+      ],
+      "name": "REST API Development"
+    },
+    "business-website": {
+      "deliveryTime": "3-4 weeks",
+      "description": "Full-featured multi-page website for your business",
+      "features": [
+        "Up to 10 pages",
+        "Custom CMS integration",
+        "Blog functionality",
+        "Contact forms",
+        "Image gallery",
+        "SEO optimization",
+        "Analytics setup",
+        "5 revision rounds"
+      ],
+      "name": "Business Website"
+    },
+    "content-marketing": {
+      "deliveryTime": "Ongoing",
+      "description": "Monthly content creation and distribution",
+      "features": [
+        "4 blog posts per month",
+        "Social media content",
+        "Email newsletter",
+        "Content calendar",
+        "Performance tracking"
+      ],
+      "name": "Content Marketing Package"
+    },
+    "conversion-optimization": {
+      "deliveryTime": "Ongoing",
+      "description": "Increase your website conversions",
+      "features": [
+        "Conversion audit",
+        "Heatmap analysis",
+        "A/B test setup",
+        "Landing page optimization",
+        "Form optimization",
+        "Monthly reporting"
+      ],
+      "name": "Conversion Rate Optimization"
+    },
+    "custom-integration": {
+      "deliveryTime": "2-3 weeks",
+      "description": "Connect your systems with third-party APIs",
+      "features": [
+        "API integration",
+        "Data synchronization",
+        "Error handling",
+        "Documentation",
+        "Testing",
+        "1 month support"
+      ],
+      "name": "Custom Integration"
+    },
+    "ecommerce-store": {
+      "deliveryTime": "6-8 weeks",
+      "description": "Complete online store with payment integration",
+      "features": [
+        "Product catalog (up to 100 items)",
+        "Shopping cart & checkout",
+        "Payment gateway integration",
+        "Inventory management",
+        "Order tracking",
+        "Customer accounts",
+        "Email notifications",
+        "Mobile app ready"
+      ],
+      "name": "E-Commerce Store"
+    },
+    "email-marketing": {
+      "deliveryTime": "Ongoing",
+      "description": "Complete email campaign management",
+      "features": [
+        "4 email campaigns/month",
+        "List management",
+        "Template design",
+        "A/B testing",
+        "Analytics & reporting",
+        "Automation setup"
+      ],
+      "name": "Email Marketing Service"
+    },
+    "landing-page": {
+      "deliveryTime": "1-2 weeks",
+      "description": "Professional single-page website optimized for conversions",
+      "features": [
+        "Custom responsive design",
+        "Mobile-first approach",
+        "SEO optimization",
+        "Contact form integration",
+        "3 revision rounds",
+        "Source files included"
+      ],
+      "name": "Landing Page Design"
+    },
+    "local-seo": {
+      "deliveryTime": "Ongoing",
+      "description": "Dominate local search results",
+      "features": [
+        "Google Business Profile optimization",
+        "Local citation building",
+        "Review management setup",
+        "Local keyword optimization",
+        "Monthly reporting"
+      ],
+      "name": "Local SEO Optimization"
+    },
+    "mobile-app-design": {
+      "deliveryTime": "4-6 weeks",
+      "description": "iOS and Android app design",
+      "features": [
+        "iOS & Android designs",
+        "App icon design",
+        "Onboarding screens",
+        "All main screens",
+        "Component library",
+        "Interactive prototype",
+        "Design guidelines"
+      ],
+      "name": "Mobile App Design"
+    },
+    "ppc-management": {
+      "deliveryTime": "Ongoing",
+      "description": "Google Ads & Facebook Ads management",
+      "features": [
+        "Campaign setup",
+        "Ad copywriting",
+        "A/B testing",
+        "Budget optimization",
+        "Monthly reporting",
+        "Landing page optimization"
+      ],
+      "name": "PPC Campaign Management"
+    },
+    "premium-support": {
+      "deliveryTime": "Ongoing",
+      "description": "24/7 priority support for your website",
+      "features": [
+        "24/7 support access",
+        "2-hour response time",
+        "Unlimited minor updates",
+        "5 hours development/month",
+        "Emergency fixes",
+        "Dedicated account manager"
+      ],
+      "name": "Premium Support Plan"
+    },
+    "seo-audit": {
+      "deliveryTime": "1 week",
+      "description": "Comprehensive SEO analysis with action plan",
+      "features": [
+        "Technical SEO audit",
+        "Keyword research",
+        "Competitor analysis",
+        "Content recommendations",
+        "Backlink analysis",
+        "Detailed report"
+      ],
+      "name": "SEO Audit & Strategy"
+    },
+    "social-media-management": {
+      "deliveryTime": "Ongoing",
+      "description": "Complete social media presence management",
+      "features": [
+        "Daily posting (3 platforms)",
+        "Content creation",
+        "Community management",
+        "Analytics & reporting",
+        "Paid ads management",
+        "Strategy consulting"
+      ],
+      "name": "Social Media Management"
+    },
+    "strategy-consultation": {
+      "deliveryTime": "3-5 days",
+      "description": "Expert guidance for your digital strategy",
+      "features": [
+        "2-hour consultation call",
+        "Industry analysis",
+        "Technology recommendations",
+        "Roadmap planning",
+        "Follow-up report"
+      ],
+      "name": "Strategy Consultation"
+    },
+    "technical-review": {
+      "deliveryTime": "1 week",
+      "description": "Professional review of your codebase",
+      "features": [
+        "Complete code audit",
+        "Security assessment",
+        "Performance analysis",
+        "Best practices review",
+        "Detailed recommendations",
+        "Video walkthrough"
+      ],
+      "name": "Technical Code Review"
+    },
+    "technical-seo": {
+      "deliveryTime": "2-3 weeks",
+      "description": "Advanced technical SEO improvements",
+      "features": [
+        "Site speed optimization",
+        "Mobile optimization",
+        "Schema markup",
+        "XML sitemap optimization",
+        "Robots.txt configuration",
+        "Core Web Vitals improvement",
+        "Technical audit report"
+      ],
+      "name": "Technical SEO Optimization"
+    },
+    "ui-ux-design": {
+      "deliveryTime": "3-4 weeks",
+      "description": "Complete user interface and experience design",
+      "features": [
+        "User research & personas",
+        "Wireframes & prototypes",
+        "High-fidelity mockups",
+        "Interactive prototypes",
+        "Design system creation",
+        "Usability testing",
+        "Handoff to developers"
+      ],
+      "name": "UI/UX Design Package"
+    },
+    "web-app-mvp": {
+      "deliveryTime": "8-12 weeks",
+      "description": "Minimum viable product for your web application",
+      "features": [
+        "Custom functionality",
+        "User authentication",
+        "Database design",
+        "API development",
+        "Admin dashboard",
+        "Testing & QA",
+        "3 months support"
+      ],
+      "name": "Web App MVP"
+    },
+    "website-maintenance": {
+      "deliveryTime": "Ongoing",
+      "description": "Keep your website secure and up-to-date",
+      "features": [
+        "Weekly backups",
+        "Security monitoring",
+        "Software updates",
+        "Performance optimization",
+        "Priority support",
+        "Monthly reports"
+      ],
+      "name": "Website Maintenance"
+    },
+    "wordpress-development": {
+      "deliveryTime": "2-3 weeks",
+      "description": "Custom WordPress site with theme",
+      "features": [
+        "Custom theme development",
+        "Plugin integration",
+        "Responsive design",
+        "SEO optimization",
+        "Contact forms",
+        "Blog setup",
+        "Training included"
+      ],
+      "name": "WordPress Website"
+    }
+  },
+  "sort": {
+    "highToLow": "High to Low",
+    "lowToHigh": "Low to High",
+    "popular": "Popular"
+  },
+  "subtitle": "Browse and purchase our professional web development services",
+  "title": "Service Shop"
+}

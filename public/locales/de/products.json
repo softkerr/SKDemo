@@ -1,0 +1,282 @@
+{
+  "api-development": {
+    "deliveryTime": "3-4 Wochen",
+    "description": "Individuelles RESTful API-Backend",
+    "features": [
+      "Individuelle Endpunkte",
+      "Authentifizierung & Autorisierung",
+      "Datenbankdesign",
+      "Dokumentation",
+      "Test-Suite",
+      "Deployment-Setup",
+      "1 Monat Support"
+    ],
+    "name": "REST-API-Entwicklung"
+  },
+  "business-website": {
+    "deliveryTime": "3-4 Wochen",
+    "description": "Voll ausgestattete mehrseitige Website für Ihr Unternehmen",
+    "features": [
+      "Bis zu 10 Seiten",
+      "Individuelle CMS-Integration",
+      "Blog-Funktionalität",
+      "Kontaktformulare",
+      "Bildergalerie",
+      "SEO-Optimierung",
+      "Analytics-Einrichtung",
+      "5 Überarbeitungsrunden"
+    ],
+    "name": "Unternehmenswebsite"
+  },
+  "content-marketing": {
+    "deliveryTime": "Laufend",
+    "description": "Monatliche Content-Erstellung und -Verteilung",
+    "features": [
+      "4 Blogbeiträge pro Monat",
+      "Social-Media-Content",
+      "E-Mail-Newsletter",
+      "Content-Kalender",
+      "Performance-Tracking"
+    ],
+    "name": "Content-Marketing-Paket"
+  },
+  "conversion-optimization": {
+    "deliveryTime": "Laufend",
+    "description": "Erhöhen Sie Ihre Website-Konversionen",
+    "features": [
+      "Conversion-Audit",
+      "Heatmap-Analyse",
+      "A/B-Test-Setup",
+      "Landing-Page-Optimierung",
+      "Formular-Optimierung",
+      "Monatliches Reporting"
+    ],
+    "name": "Conversion-Rate-Optimierung"
+  },
+  "custom-integration": {
+    "deliveryTime": "2-3 Wochen",
+    "description": "Verbinden Sie Ihre Systeme mit Drittanbieter-APIs",
+    "features": [
+      "API-Integration",
+      "Datensynchronisation",
+      "Fehlerbehandlung",
+      "Dokumentation",
+      "Testing",
+      "1 Monat Support"
+    ],
+    "name": "Individuelle Integration"
+  },
+  "ecommerce-store": {
+    "deliveryTime": "6-8 Wochen",
+    "description": "Kompletter Online-Shop mit Zahlungsintegration",
+    "features": [
+      "Produktkatalog (bis zu 100 Artikel)",
+      "Warenkorb & Checkout",
+      "Zahlungsgateway-Integration",
+      "Bestandsverwaltung",
+      "Bestellverfolgung",
+      "Kundenkonten",
+      "E-Mail-Benachrichtigungen",
+      "Mobile-App-ready"
+    ],
+    "name": "E-Commerce-Shop"
+  },
+  "email-marketing": {
+    "deliveryTime": "Laufend",
+    "description": "Komplettes E-Mail-Kampagnen-Management",
+    "features": [
+      "4 E-Mail-Kampagnen/Monat",
+      "Listen-Management",
+      "Template-Design",
+      "A/B-Testing",
+      "Analytics & Reporting",
+      "Automatisierungs-Setup"
+    ],
+    "name": "E-Mail-Marketing-Service"
+  },
+  "landing-page": {
+    "deliveryTime": "1-2 Wochen",
+    "description": "Professionelle einseitige Website optimiert für Konversionen",
+    "features": [
+      "Individuelles responsives Design",
+      "Mobile-First-Ansatz",
+      "SEO-Optimierung",
+      "Kontaktformular-Integration",
+      "3 Überarbeitungsrunden",
+      "Quelldateien inklusive"
+    ],
+    "name": "Landing Page Design"
+  },
+  "local-seo": {
+    "deliveryTime": "Laufend",
+    "description": "Dominieren Sie lokale Suchergebnisse",
+    "features": [
+      "Google Business Profile-Optimierung",
+      "Lokaler Brancheneintrag-Aufbau",
+      "Einrichtung des Bewertungsmanagements",
+      "Lokale Keyword-Optimierung",
+      "Monatliches Reporting"
+    ],
+    "name": "Lokale SEO-Optimierung"
+  },
+  "mobile-app-design": {
+    "deliveryTime": "4-6 Wochen",
+    "description": "iOS- und Android-App-Design",
+    "features": [
+      "iOS- & Android-Designs",
+      "App-Icon-Design",
+      "Onboarding-Screens",
+      "Alle Hauptbildschirme",
+      "Komponenten-Bibliothek",
+      "Interaktiver Prototyp",
+      "Design-Richtlinien"
+    ],
+    "name": "Mobile-App-Design"
+  },
+  "ppc-management": {
+    "deliveryTime": "Laufend",
+    "description": "Google Ads & Facebook Ads Management",
+    "features": [
+      "Kampagnen-Setup",
+      "Anzeigentexterstellung",
+      "A/B-Testing",
+      "Budget-Optimierung",
+      "Monatliches Reporting",
+      "Landing-Page-Optimierung"
+    ],
+    "name": "PPC-Kampagnen-Management"
+  },
+  "premium-support": {
+    "deliveryTime": "Laufend",
+    "description": "24/7 Prioritäts-Support für Ihre Website",
+    "features": [
+      "24/7 Support-Zugang",
+      "2 Stunden Reaktionszeit",
+      "Unbegrenzte kleinere Updates",
+      "5 Stunden Entwicklung/Monat",
+      "Notfall-Fixes",
+      "Dedizierter Account Manager"
+    ],
+    "name": "Premium-Support-Plan"
+  },
+  "seo-audit": {
+    "deliveryTime": "1 Woche",
+    "description": "Umfassende SEO-Analyse mit Aktionsplan",
+    "features": [
+      "Technisches SEO-Audit",
+      "Keyword-Recherche",
+      "Konkurrenzanalyse",
+      "Content-Empfehlungen",
+      "Backlink-Analyse",
+      "Detaillierter Bericht"
+    ],
+    "name": "SEO-Audit & Strategie"
+  },
+  "social-media-management": {
+    "deliveryTime": "Laufend",
+    "description": "Komplette Verwaltung der Social-Media-Präsenz",
+    "features": [
+      "Tägliche Beiträge (3 Plattformen)",
+      "Content-Erstellung",
+      "Community-Management",
+      "Analytics & Reporting",
+      "Verwaltung bezahlter Anzeigen",
+      "Strategieberatung"
+    ],
+    "name": "Social-Media-Management"
+  },
+  "strategy-consultation": {
+    "deliveryTime": "3-5 Tage",
+    "description": "Expertenberatung für Ihre digitale Strategie",
+    "features": [
+      "2-Stunden-Beratungsgespräch",
+      "Branchenanalyse",
+      "Technologie-Empfehlungen",
+      "Roadmap-Planung",
+      "Follow-up-Bericht"
+    ],
+    "name": "Strategieberatung"
+  },
+  "technical-review": {
+    "deliveryTime": "1 Woche",
+    "description": "Professionelle Überprüfung Ihrer Codebasis",
+    "features": [
+      "Vollständiges Code-Audit",
+      "Sicherheitsbewertung",
+      "Performance-Analyse",
+      "Best-Practices-Review",
+      "Detaillierte Empfehlungen",
+      "Video-Walkthrough"
+    ],
+    "name": "Technisches Code-Review"
+  },
+  "technical-seo": {
+    "deliveryTime": "2-3 Wochen",
+    "description": "Erweiterte technische SEO-Verbesserungen",
+    "features": [
+      "Website-Geschwindigkeitsoptimierung",
+      "Mobile-Optimierung",
+      "Schema-Markup",
+      "XML-Sitemap-Optimierung",
+      "Robots.txt-Konfiguration",
+      "Core Web Vitals-Verbesserung",
+      "Technischer Audit-Bericht"
+    ],
+    "name": "Technische SEO-Optimierung"
+  },
+  "ui-ux-design": {
+    "deliveryTime": "3-4 Wochen",
+    "description": "Komplettes User-Interface- und Experience-Design",
+    "features": [
+      "User-Research & Personas",
+      "Wireframes & Prototypen",
+      "High-Fidelity-Mockups",
+      "Interaktive Prototypen",
+      "Design-System-Erstellung",
+      "Usability-Testing",
+      "Übergabe an Entwickler"
+    ],
+    "name": "UI/UX-Design-Paket"
+  },
+  "web-app-mvp": {
+    "deliveryTime": "8-12 Wochen",
+    "description": "Minimal lebensfähiges Produkt für Ihre Webanwendung",
+    "features": [
+      "Individuelle Funktionalität",
+      "Benutzerauthentifizierung",
+      "Datenbankdesign",
+      "API-Entwicklung",
+      "Admin-Dashboard",
+      "Testing & QA",
+      "3 Monate Support"
+    ],
+    "name": "Web-App MVP"
+  },
+  "website-maintenance": {
+    "deliveryTime": "Laufend",
+    "description": "Halten Sie Ihre Website sicher und aktuell",
+    "features": [
+      "Wöchentliche Backups",
+      "Sicherheitsüberwachung",
+      "Software-Updates",
+      "Performance-Optimierung",
+      "Prioritäts-Support",
+      "Monatliche Berichte"
+    ],
+    "name": "Website-Wartung"
+  },
+  "wordpress-development": {
+    "deliveryTime": "2-3 Wochen",
+    "description": "Individuelle WordPress-Site mit Theme",
+    "features": [
+      "Individuelle Theme-Entwicklung",
+      "Plugin-Integration",
+      "Responsives Design",
+      "SEO-Optimierung",
+      "Kontaktformulare",
+      "Blog-Einrichtung",
+      "Schulung inklusive"
+    ],
+    "name": "WordPress-Website"
+  }
+}

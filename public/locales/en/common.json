@@ -1,0 +1,136 @@
+{
+  "about": "About",
+  "buttons": {
+    "contactUs": "Contact Us",
+    "getStarted": "Get Started",
+    "learnMore": "Learn More",
+    "send": "Send Message",
+    "submit": "Submit"
+  },
+  "common": {
+    "about": "About",
+    "contact": "Contact",
+    "home": "Home",
+    "learnMore": "Learn More",
+    "services": "Services",
+    "welcome": "Welcome"
+  },
+  "contact": "Contact",
+  "currency": "USD",
+  "errors": {
+    "generic": "Something went wrong. Please try again.",
+    "invalidEmail": "Please enter a valid email address",
+    "invalidPhone": "Please enter a valid phone number",
+    "required": "This field is required"
+  },
+  "footer": {
+    "company": "Your Company",
+    "copyright": "© {{year}} {{company}}. All rights reserved.",
+    "links": {
+      "privacy": "Privacy Policy",
+      "sitemap": "Sitemap",
+      "terms": "Terms of Service"
+    },
+    "social": {
+      "followUs": "Follow Us"
+    }
+  },
+  "home": "Home",
+  "language": {
+    "english": "English",
+    "french": "French",
+    "german": "German",
+    "label": "Language",
+    "spanish": "Spanish"
+  },
+  "learnMore": "Learn More",
+  "navigation": {
+    "about": "About",
+    "contact": "Contact",
+    "home": "Home",
+    "pricing": "Pricing",
+    "services": "Services"
+  },
+  "services": "Services",
+  "shop": {
+    "banner": {
+      "sanityCommand": "npm run seed:products",
+      "sanityDisabled": "Using static product data. To enable Sanity CMS, run:"
+    },
+    "cart": {
+      "apply": "Apply",
+      "checkout": "Checkout",
+      "empty": "Your cart is empty",
+      "emptyMessage": "Start adding services to your cart",
+      "promoCode": "Enter promo code",
+      "quantity": "Quantity",
+      "remove": "Remove",
+      "subtotal": "Subtotal",
+      "tax": "Tax",
+      "title": "Shopping Cart",
+      "total": "Total"
+    },
+    "categories": {
+      "all": "All Services",
+      "consulting": "Consulting",
+      "development": "Development",
+      "maintenance": "Maintenance",
+      "marketing": "Marketing",
+      "seo": "SEO",
+      "webDesign": "Web Design"
+    },
+    "checkout": {
+      "comingSoon": "Checkout functionality coming soon!",
+      "total": "Total:",
+      "yourCart": "Your cart:"
+    },
+    "filters": {
+      "categories": "Categories",
+      "of": "of",
+      "search": "Search services...",
+      "services": "services",
+      "showing": "Showing"
+    },
+    "hero": {
+      "subtitle": "Browse and purchase our professional web development services",
+      "title": "Service Shop"
+    },
+    "loading": "Loading products...",
+    "noResults": {
+      "clearFilters": "Clear Filters",
+      "message": "Try adjusting your filters or search query",
+      "title": "No services found"
+    },
+    "notifications": {
+      "addedToCart": "{{productName}} added to cart!",
+      "quantityUpdated": "Quantity updated",
+      "removedFromCart": "{{productName}} removed from cart"
+    },
+    "product": {
+      "addToCart": "Add to Cart",
+      "deliveryTime": "Delivery Time",
+      "inCart": "In Cart",
+      "oneTime": "one-time payment",
+      "perMonth": "per month",
+      "perYear": "per year"
+    },
+    "sort": {
+      "highToLow": "High to Low",
+      "lowToHigh": "Low to High",
+      "popular": "Popular"
+    },
+    "subtitle": "Browse and purchase our professional web development services",
+    "title": "Service Shop"
+  },
+  "status": {
+    "error": "Error",
+    "loading": "Loading...",
+    "success": "Success!"
+  },
+  "theme": {
+    "dark": "Dark",
+    "label": "Theme",
+    "light": "Light"
+  },
+  "welcome": "Welcome"
+}

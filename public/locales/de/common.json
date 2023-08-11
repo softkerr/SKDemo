@@ -1,0 +1,90 @@
+{
+  "about": "Über uns",
+  "common": {
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "home": "Startseite",
+    "learnMore": "Mehr erfahren",
+    "services": "Dienstleistungen",
+    "welcome": "Willkommen"
+  },
+  "contact": "Kontakt",
+  "currency": "EUR",
+  "home": "Startseite",
+  "learnMore": "Mehr erfahren",
+  "navigation": {
+    "services": "Dienstleistungen"
+  },
+  "services": "Dienstleistungen",
+  "shop": {
+    "banner": {
+      "sanityCommand": "npm run seed:products",
+      "sanityDisabled": "Statische Produktdaten werden verwendet. Um Sanity CMS zu aktivieren, führen Sie aus:"
+    },
+    "cart": {
+      "apply": "Anwenden",
+      "checkout": "Zur Kasse",
+      "empty": "Ihr Warenkorb ist leer",
+      "emptyMessage": "Fügen Sie Dienstleistungen zu Ihrem Warenkorb hinzu",
+      "promoCode": "Gutscheincode eingeben",
+      "quantity": "Menge",
+      "remove": "Entfernen",
+      "subtotal": "Zwischensumme",
+      "tax": "Steuer",
+      "title": "Warenkorb",
+      "total": "Gesamt"
+    },
+    "categories": {
+      "all": "Alle Dienstleistungen",
+      "consulting": "Beratung",
+      "development": "Entwicklung",
+      "maintenance": "Wartung",
+      "marketing": "Marketing",
+      "seo": "SEO",
+      "webDesign": "Webdesign"
+    },
+    "checkout": {
+      "comingSoon": "Checkout-Funktion kommt bald!",
+      "total": "Gesamt:",
+      "yourCart": "Ihr Warenkorb:"
+    },
+    "filters": {
+      "categories": "Kategorien",
+      "of": "von",
+      "search": "Dienstleistungen suchen...",
+      "services": "Dienstleistungen",
+      "showing": "Anzeige"
+    },
+    "hero": {
+      "subtitle": "Durchsuchen und kaufen Sie unsere professionellen Webentwicklungsdienstleistungen",
+      "title": "Service-Shop"
+    },
+    "loading": "Produkte werden geladen...",
+    "noResults": {
+      "clearFilters": "Filter löschen",
+      "message": "Versuchen Sie, Ihre Filter oder Suchanfrage anzupassen",
+      "title": "Keine Dienstleistungen gefunden"
+    },
+    "notifications": {
+      "addedToCart": "{{productName}} zum Warenkorb hinzugefügt!",
+      "quantityUpdated": "Menge aktualisiert",
+      "removedFromCart": "{{productName}} aus dem Warenkorb entfernt"
+    },
+    "product": {
+      "addToCart": "In den Warenkorb",
+      "deliveryTime": "Lieferzeit",
+      "inCart": "Im Warenkorb",
+      "oneTime": "einmalige Zahlung",
+      "perMonth": "pro Monat",
+      "perYear": "pro Jahr"
+    },
+    "sort": {
+      "highToLow": "Hoch zu Niedrig",
+      "lowToHigh": "Niedrig zu Hoch",
+      "popular": "Beliebt"
+    },
+    "subtitle": "Durchsuchen und kaufen Sie unsere professionellen Webentwicklungsdienstleistungen",
+    "title": "Service-Shop"
+  },
+  "welcome": "Willkommen"
+}

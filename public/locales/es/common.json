@@ -1,0 +1,20 @@
+{
+  "about": "Nosotros",
+  "common": {
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "home": "Inicio",
+    "learnMore": "Más información",
+    "services": "Servicios",
+    "welcome": "Bienvenido"
+  },
+  "contact": "Contacto",
+  "currency": "EUR",
+  "home": "Inicio",
+  "learnMore": "Más información",
+  "navigation": {
+    "services": "Servicios"
+  },
+  "services": "Servicios",
+  "welcome": "Bienvenido"
+}

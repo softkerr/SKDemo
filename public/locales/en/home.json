@@ -1,0 +1,49 @@
+{
+  "cta": {
+    "button": "Contact Us",
+    "subtitle": "Let's build something amazing together",
+    "title": "Ready to Start Your Project?"
+  },
+  "feature1Description": "Delivering top-quality services with attention to detail and commitment to excellence.",
+  "feature1Title": "Professional Excellence",
+  "feature2Description": "Operating across multiple countries and serving clients worldwide.",
+  "feature2Title": "Global Reach",
+  "feature3Description": "Round-the-clock customer support to ensure your business never stops.",
+  "feature3Title": "24/7 Support",
+  "features": {
+    "feature1": {
+      "description": "Using the latest frameworks and tools",
+      "title": "Modern Technology"
+    },
+    "feature2": {
+      "description": "Beautiful on all devices and screen sizes",
+      "title": "Responsive Design"
+    },
+    "feature3": {
+      "description": "Lightning-fast load times and smooth interactions",
+      "title": "Performance First"
+    },
+    "feature4": {
+      "description": "Built with search engine optimization in mind",
+      "title": "SEO Optimized"
+    },
+    "subtitle": "We deliver excellence in every project",
+    "title": "Why Choose Us"
+  },
+  "featuresTitle": "Our Key Features",
+  "hero": {
+    "cta": "Get Started",
+    "learnMore": "Learn More",
+    "subtitle": "Professional web development services with cutting-edge technology",
+    "title": "Build Amazing Web Experiences"
+  },
+  "heroDescription": "We provide cutting-edge technology solutions that drive growth and success for businesses worldwide.",
+  "heroTitle": "Innovative Solutions for Your Business",
+  "services": {
+    "subtitle": "Comprehensive web development solutions",
+    "title": "Our Services",
+    "viewAll": "View All Services"
+  },
+  "subtitle": "Welcome to Our Company",
+  "title": "Home"
+}

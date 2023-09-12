@@ -1,0 +1,25 @@
+{
+  "categories": {
+    "all": "All Services",
+    "consulting": "Consulting",
+    "design": "Design",
+    "development": "Development",
+    "maintenance": "Maintenance"
+  },
+  "cta": {
+    "button": "Contact Us",
+    "description": "We can tailor our services to meet your specific requirements",
+    "title": "Need a Custom Solution?"
+  },
+  "service1Description": "Custom web applications built with modern technologies and best practices.",
+  "service1Price": "Starting at $5,000",
+  "service1Title": "Web Development",
+  "service2Description": "Native and cross-platform mobile applications for iOS and Android.",
+  "service2Price": "Starting at $7,500",
+  "service2Title": "Mobile Development",
+  "service3Description": "Scalable cloud infrastructure and migration services for your enterprise.",
+  "service3Price": "Starting at $10,000",
+  "service3Title": "Cloud Solutions",
+  "subtitle": "Comprehensive Solutions for Your Business Needs",
+  "title": "Our Services"
+}

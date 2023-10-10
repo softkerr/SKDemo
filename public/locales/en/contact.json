@@ -1,0 +1,50 @@
+{
+  "address": "123 Business Street, Suite 100, New York, NY 10001",
+  "addressTitle": "Address",
+  "email": "info@company.com",
+  "emailLabel": "Email",
+  "emailTitle": "Email",
+  "form": {
+    "email": {
+      "label": "Email Address",
+      "placeholder": "john@example.com"
+    },
+    "error": "Something went wrong. Please try again.",
+    "message": {
+      "label": "Message",
+      "placeholder": "Tell us about your project..."
+    },
+    "name": {
+      "label": "Your Name",
+      "placeholder": "John Doe"
+    },
+    "phone": {
+      "label": "Phone Number",
+      "placeholder": "+1 (555) 123-4567"
+    },
+    "submit": "Send Message",
+    "success": "Thank you! We'll get back to you soon."
+  },
+  "info": {
+    "address": "Address",
+    "email": "Email",
+    "hours": {
+      "title": "Business Hours",
+      "weekdays": "Monday - Friday: 9:00 AM - 6:00 PM",
+      "weekend": "Saturday - Sunday: Closed"
+    },
+    "phone": "Phone",
+    "title": "Contact Information"
+  },
+  "messageLabel": "Message",
+  "nameLabel": "Name",
+  "phone": "+1 (555) 123-4567",
+  "phoneTitle": "Phone",
+  "social": {
+    "description": "Stay connected with us on social media",
+    "title": "Follow Us"
+  },
+  "submitButton": "Send Message",
+  "subtitle": "Get in Touch with Our Team",
+  "title": "Contact Us"
+}

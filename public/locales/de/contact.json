@@ -1,0 +1,14 @@
+{
+  "address": "Geschäftsstraße 123, Suite 100, Berlin, 10115",
+  "addressTitle": "Adresse",
+  "email": "info@unternehmen.de",
+  "emailLabel": "E-Mail",
+  "emailTitle": "E-Mail",
+  "messageLabel": "Nachricht",
+  "nameLabel": "Name",
+  "phone": "+49 (30) 123-4567",
+  "phoneTitle": "Telefon",
+  "submitButton": "Nachricht senden",
+  "subtitle": "Nehmen Sie Kontakt mit unserem Team auf",
+  "title": "Kontaktieren Sie uns"
+}

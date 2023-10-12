@@ -1,0 +1,14 @@
+{
+  "address": "Calle Empresarial 123, Suite 100, Madrid, 28001",
+  "addressTitle": "Dirección",
+  "email": "info@empresa.es",
+  "emailLabel": "Correo electrónico",
+  "emailTitle": "Correo electrónico",
+  "messageLabel": "Mensaje",
+  "nameLabel": "Nombre",
+  "phone": "+34 (91) 123-4567",
+  "phoneTitle": "Teléfono",
+  "submitButton": "Enviar mensaje",
+  "subtitle": "Póngase en Contacto con Nuestro Equipo",
+  "title": "Contáctenos"
+}

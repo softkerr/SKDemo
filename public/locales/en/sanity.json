@@ -1,0 +1,128 @@
+{
+  "navigation": {
+    "main-menu": {
+      "about": {
+        "label": "About"
+      },
+      "contact": {
+        "label": "Contact"
+      },
+      "home": {
+        "label": "Home"
+      },
+      "pricing": {
+        "label": "Pricing"
+      },
+      "services": {
+        "children": {
+          "cloud-solutions": "Cloud Solutions",
+          "mobile-apps": "Mobile Apps",
+          "web-development": "Web Development"
+        },
+        "label": "Services"
+      }
+    }
+  },
+  "pricing": {
+    "enterprise": {
+      "buttonText": "Contact Sales",
+      "description": "For large-scale projects and organizations",
+      "features": {
+        "feature0": "Unlimited pages",
+        "feature1": "Premium custom design",
+        "feature2": "Enterprise SEO strategy",
+        "feature3": "Custom API integrations",
+        "feature4": "Advanced security",
+        "feature5": "Load balancing & CDN",
+        "feature6": "Dedicated account manager",
+        "feature7": "1 year premium support",
+        "feature8": "24/7 phone support"
+      },
+      "name": "Enterprise"
+    },
+    "professional": {
+      "buttonText": "Get Started",
+      "description": "For growing businesses with advanced needs",
+      "features": {
+        "feature0": "Up to 15 pages",
+        "feature1": "Custom design system",
+        "feature2": "Advanced SEO & analytics",
+        "feature3": "CMS integration",
+        "feature4": "E-commerce ready",
+        "feature5": "Performance optimization",
+        "feature6": "90 days support",
+        "feature7": "Priority email support"
+      },
+      "name": "Professional"
+    },
+    "starter": {
+      "buttonText": "Get Started",
+      "description": "Perfect for small projects and startups",
+      "features": {
+        "feature0": "Up to 5 pages",
+        "feature1": "Responsive design",
+        "feature2": "Basic SEO optimization",
+        "feature3": "Contact form integration",
+        "feature4": "30 days support",
+        "feature5": "Mobile-friendly"
+      },
+      "name": "Starter"
+    }
+  },
+  "services": {
+    "cloud-solutions": {
+      "description": "Scalable cloud infrastructure and deployment solutions on AWS, Azure, and Google Cloud Platform.",
+      "title": "Cloud Solutions"
+    },
+    "devops-ci-cd": {
+      "description": "Automated deployment pipelines and infrastructure as code for faster, safer releases.",
+      "title": "DevOps & CI/CD"
+    },
+    "mobile-app-development": {
+      "description": "Native and cross-platform mobile applications for iOS and Android using React Native and Flutter.",
+      "title": "Mobile App Development"
+    },
+    "technical-consulting": {
+      "description": "Expert guidance on architecture, technology selection, and development best practices.",
+      "title": "Technical Consulting"
+    },
+    "ui-ux-design": {
+      "description": "Beautiful, user-centered design that enhances user experience and drives engagement.",
+      "title": "UI/UX Design"
+    },
+    "web-development": {
+      "description": "Custom web applications built with modern technologies like Next.js, React, and TypeScript. We create fast, scalable, and maintainable web solutions.",
+      "title": "Web Development"
+    }
+  },
+  "siteSettings": {
+    "companyName": "WebDev Studio",
+    "seo": {
+      "metaDescription": "Custom web development solutions with Next.js, React, and modern technologies. We build fast, scalable, and beautiful web applications.",
+      "metaTitle": "WebDev Studio - Professional Web Development Services"
+    },
+    "tagline": "Building Tomorrow's Web Today"
+  },
+  "team": {
+    "david-kim": {
+      "bio": "Full-stack developer with expertise in React, Next.js, and Node.js. Passionate about clean code and best practices.",
+      "name": "David Kim",
+      "role": "Senior Developer"
+    },
+    "emily-rodriguez": {
+      "bio": "Award-winning designer creating beautiful, user-centered experiences. 10+ years in UX/UI design.",
+      "name": "Emily Rodriguez",
+      "role": "Lead Designer"
+    },
+    "michael-chen": {
+      "bio": "Technology expert specializing in scalable architecture and cloud solutions. Former principal engineer at major tech companies.",
+      "name": "Michael Chen",
+      "role": "CTO"
+    },
+    "sarah-johnson": {
+      "bio": "Visionary leader with 15+ years in the tech industry. Passionate about building products that make a difference.",
+      "name": "Sarah Johnson",
+      "role": "CEO & Founder"
+    }
+  }
+}

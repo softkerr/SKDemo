@@ -1,0 +1,126 @@
+{
+  "cta": {
+    "description": "Start your free 14-day trial and see how ProjectFlow can transform your web studio.",
+    "primary": "Start Free Trial",
+    "secondary": "Schedule Demo",
+    "title": "Ready to experience these features?"
+  },
+  "features": {
+    "accessibility": {
+      "cta": "Check Accessibility",
+      "description": "WCAG 2.1 AA compliant with keyboard navigation, screen reader support, and color contrast tools. Accessibility first.",
+      "tech": [
+        "ARIA",
+        "WCAG 2.1",
+        "a11y"
+      ],
+      "title": "Accessibility Showcase"
+    },
+    "admin": {
+      "cta": "View Admin",
+      "description": "Complete admin dashboard with user management, settings, analytics, and system configuration. Role-based access control.",
+      "tech": [
+        "RBAC",
+        "Admin UI",
+        "Settings"
+      ],
+      "title": "Admin Panel Demo"
+    },
+    "api": {
+      "cta": "View Integrations",
+      "description": "Connect with Stripe, SendGrid, Slack, and more through pre-built Next.js route handlers. Secure, typed, and production-ready.",
+      "tech": [
+        "Next.js API",
+        "TypeScript",
+        "Zod"
+      ],
+      "title": "API Integration Hub"
+    },
+    "calculator": {
+      "cta": "Try Calculator",
+      "description": "Let clients estimate project costs instantly. Customizable options, real-time calculations, and instant quote generation.",
+      "tech": [
+        "React Hook Form",
+        "Zod",
+        "Currency"
+      ],
+      "title": "Interactive Cost Calculator"
+    },
+    "chat": {
+      "cta": "Try Chat",
+      "description": "Built-in client messaging with real-time notifications, file sharing, and conversation history. Keep all communication in one place.",
+      "tech": [
+        "WebSocket",
+        "Real-time",
+        "Push"
+      ],
+      "title": "Live Chat Integration"
+    },
+    "email": {
+      "cta": "View Templates",
+      "description": "Beautiful, responsive email templates built with React Email. Preview, test, and send directly from the platform.",
+      "tech": [
+        "React Email",
+        "SendGrid",
+        "Templates"
+      ],
+      "title": "Email Templates (React Email)"
+    },
+    "forms": {
+      "cta": "Explore Forms",
+      "description": "Multi-step forms with real-time validation, file uploads, and conditional logic. Powered by React Hook Form + Zod.",
+      "tech": [
+        "React Hook Form",
+        "Zod",
+        "File Upload"
+      ],
+      "title": "Advanced Forms & Validation"
+    },
+    "kanban": {
+      "cta": "See Demo",
+      "description": "Visual project management with drag-and-drop kanban boards and Gantt-style timeline. Real-time updates keep everyone aligned.",
+      "tech": [
+        "React DnD",
+        "Real-time",
+        "Gantt"
+      ],
+      "title": "Kanban & Timeline View"
+    },
+    "performance": {
+      "cta": "View Dashboard",
+      "description": "Track project profitability, team utilization, and business metrics in real-time. Make data-driven decisions.",
+      "tech": [
+        "Charts.js",
+        "Analytics",
+        "Real-time"
+      ],
+      "title": "Performance Dashboard"
+    },
+    "seo": {
+      "cta": "Try SEO Editor",
+      "description": "Optimize every page with real-time SEO scoring, meta tag editor, and Google/Social preview. Built-in best practices ensure maximum visibility.",
+      "tech": [
+        "Next.js",
+        "React Helmet",
+        "SEO Tools"
+      ],
+      "title": "SEO Editor & Metadata Preview"
+    }
+  },
+  "filters": {
+    "all": "All Features",
+    "priority1": "Must-Have",
+    "priority2": "Should-Have",
+    "priority3": "Nice-to-Have"
+  },
+  "hero": {
+    "badge": "10 Powerful Features",
+    "description": "Everything you need to manage projects, collaborate with clients, and grow your business—all in one platform.",
+    "stats": {
+      "coverage": "Feature Complete",
+      "features": "Core Features",
+      "priorities": "Priority Levels"
+    },
+    "title": "Built for Modern Web Studios"
+  }
+}

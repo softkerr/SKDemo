@@ -1,0 +1,76 @@
+{
+  "badges": {
+    "bestValue": "Meilleur Rapport Qualité-Prix",
+    "essential": "Essentiel",
+    "new": "Nouveau",
+    "popular": "Populaire"
+  },
+  "banner": {
+    "sanityCommand": "npm run seed:products",
+    "sanityDisabled": "Utilisation de données produits statiques. Pour activer Sanity CMS, exécutez :"
+  },
+  "cart": {
+    "apply": "Appliquer",
+    "checkout": "Passer la commande",
+    "empty": "Votre panier est vide",
+    "emptyMessage": "Commencez à ajouter des services à votre panier",
+    "promoCode": "Entrez le code promo",
+    "quantity": "Quantité",
+    "remove": "Supprimer",
+    "subtotal": "Sous-total",
+    "tax": "Taxe",
+    "title": "Panier",
+    "total": "Total"
+  },
+  "categories": {
+    "all": "Tous les Services",
+    "consulting": "Conseil",
+    "development": "Développement",
+    "maintenance": "Maintenance",
+    "marketing": "Marketing",
+    "seo": "SEO",
+    "webDesign": "Design Web"
+  },
+  "checkout": {
+    "comingSoon": "Fonctionnalité de paiement bientôt disponible !",
+    "total": "Total :",
+    "yourCart": "Votre panier :"
+  },
+  "filters": {
+    "categories": "Catégories",
+    "of": "sur",
+    "search": "Rechercher des services...",
+    "services": "services",
+    "showing": "Affichage"
+  },
+  "hero": {
+    "subtitle": "Parcourez et achetez nos services professionnels de développement web",
+    "title": "Boutique de Services"
+  },
+  "loading": "Chargement des produits...",
+  "noResults": {
+    "clearFilters": "Effacer les Filtres",
+    "message": "Essayez d'ajuster vos filtres ou votre recherche",
+    "title": "Aucun service trouvé"
+  },
+  "notifications": {
+    "addedToCart": "{{productName}} ajouté au panier !",
+    "quantityUpdated": "Quantité mise à jour",
+    "removedFromCart": "{{productName}} retiré du panier"
+  },
+  "product": {
+    "addToCart": "Ajouter au Panier",
+    "deliveryTime": "Délai de Livraison",
+    "inCart": "Dans le Panier",
+    "oneTime": "paiement unique",
+    "perMonth": "par mois",
+    "perYear": "par an"
+  },
+  "sort": {
+    "highToLow": "Prix décroissant",
+    "lowToHigh": "Prix croissant",
+    "popular": "Populaire"
+  },
+  "subtitle": "Parcourez et achetez nos services professionnels de développement web",
+  "title": "Boutique de Services"
+}

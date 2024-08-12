@@ -1,0 +1,14 @@
+{
+  "address": "123 Rue des Affaires, Suite 100, Paris, 75001",
+  "addressTitle": "Adresse",
+  "email": "info@entreprise.fr",
+  "emailLabel": "E-mail",
+  "emailTitle": "E-mail",
+  "messageLabel": "Message",
+  "nameLabel": "Nom",
+  "phone": "+33 (1) 23-45-67-89",
+  "phoneTitle": "Téléphone",
+  "submitButton": "Envoyer le message",
+  "subtitle": "Entrez en Contact avec Notre Équipe",
+  "title": "Contactez-Nous"
+}

@@ -1,0 +1,158 @@
+{
+  "hero": {
+    "badge": "Precios Transparentes",
+    "title": "Elija el Plan Perfecto",
+    "description": "Escale su negocio con confianza. Sin tarifas ocultas, sin sorpresas. Cambie o cancele en cualquier momento.",
+    "monthly": "Mensual",
+    "yearly": "Anual",
+    "savePercent": "Ahorra {{percent}}%",
+    "perMonth": "/mes",
+    "perYear": "/año"
+  },
+  "plans": {
+    "featuresIncluded": "Todo incluido:",
+    "yearlyNote": "Facturado anualmente",
+    "starter": {
+      "name": "Starter",
+      "badge": "",
+      "description": "Perfecto para equipos pequeños y freelancers que comienzan",
+      "priceMonthlyUSD": "29",
+      "priceMonthlyEUR": "27",
+      "priceYearlyUSD": "290",
+      "priceYearlyEUR": "270",
+      "cta": "Comenzar Prueba Gratis",
+      "features": [
+        "Hasta 5 miembros del equipo",
+        "10 proyectos activos",
+        "10GB de almacenamiento",
+        "Seguimiento de tiempo básico",
+        "Acceso al portal del cliente",
+        "Soporte por correo electrónico",
+        "Aplicaciones móviles"
+      ]
+    },
+    "professional": {
+      "name": "Professional",
+      "badge": "Más Popular",
+      "description": "Mejor para equipos en crecimiento que necesitan funciones avanzadas",
+      "priceMonthlyUSD": "99",
+      "priceMonthlyEUR": "89",
+      "priceYearlyUSD": "990",
+      "priceYearlyEUR": "890",
+      "cta": "Comenzar Prueba Gratis",
+      "features": [
+        "Hasta 25 miembros del equipo",
+        "Proyectos ilimitados",
+        "100GB de almacenamiento",
+        "Seguimiento de tiempo avanzado",
+        "Tableros Kanban",
+        "Análisis avanzados",
+        "Acceso a la API",
+        "Soporte prioritario",
+        "Marca personalizada"
+      ]
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "badge": "",
+      "description": "Para grandes organizaciones con requisitos personalizados",
+      "customPrice": "Hablemos",
+      "cta": "Contactar Ventas",
+      "features": [
+        "Miembros ilimitados",
+        "Proyectos ilimitados",
+        "Almacenamiento ilimitado",
+        "Todo en Professional",
+        "Solución de marca blanca",
+        "Gerente de cuenta dedicado",
+        "Integraciones personalizadas",
+        "Garantía SLA",
+        "Implementación local",
+        "Seguridad avanzada"
+      ]
+    }
+  },
+  "comparison": {
+    "title": "Comparar Todas las Funciones",
+    "feature": "Función",
+    "features": {
+      "teamMembers": "Miembros del Equipo",
+      "projects": "Proyectos Activos",
+      "storage": "Almacenamiento",
+      "timeTracking": "Seguimiento de Tiempo",
+      "clientPortal": "Portal del Cliente",
+      "kanbanBoards": "Tableros Kanban",
+      "analytics": "Análisis e Informes",
+      "apiAccess": "Acceso API",
+      "customBranding": "Marca Personalizada",
+      "prioritySupport": "Soporte Prioritario",
+      "whiteLabel": "Marca Blanca",
+      "dedicatedManager": "Gerente Dedicado",
+      "sla": "Garantía SLA"
+    },
+    "values": {
+      "starter": {
+        "teamMembers": "5",
+        "projects": "10",
+        "storage": "10GB",
+        "timeTracking": "Básico",
+        "clientPortal": "true",
+        "kanbanBoards": "false",
+        "analytics": "Básico",
+        "apiAccess": "false",
+        "customBranding": "false",
+        "prioritySupport": "false",
+        "whiteLabel": "false",
+        "dedicatedManager": "false",
+        "sla": "false"
+      },
+      "professional": {
+        "teamMembers": "25",
+        "projects": "Ilimitados",
+        "storage": "100GB",
+        "timeTracking": "Avanzado",
+        "clientPortal": "true",
+        "kanbanBoards": "true",
+        "analytics": "Avanzado",
+        "apiAccess": "true",
+        "customBranding": "true",
+        "prioritySupport": "true",
+        "whiteLabel": "false",
+        "dedicatedManager": "false",
+        "sla": "false"
+      },
+      "enterprise": {
+        "teamMembers": "Ilimitados",
+        "projects": "Ilimitados",
+        "storage": "Ilimitado",
+        "timeTracking": "Avanzado",
+        "clientPortal": "true",
+        "kanbanBoards": "true",
+        "analytics": "Personalizado",
+        "apiAccess": "true",
+        "customBranding": "true",
+        "prioritySupport": "true",
+        "whiteLabel": "true",
+        "dedicatedManager": "true",
+        "sla": "true"
+      }
+    }
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "question1": "¿Puedo cambiar de plan en cualquier momento?",
+    "answer1": "Sí, puede actualizar o reducir su plan en cualquier momento. Al actualizar, se le cobrará la diferencia prorrateada. Al reducir, el cambio tendrá efecto al final de su período de facturación actual.",
+    "question2": "¿Qué métodos de pago aceptan?",
+    "answer2": "Aceptamos todas las principales tarjetas de crédito (Visa, Mastercard, American Express), PayPal y transferencias bancarias para planes anuales. Los clientes empresariales también pueden pagar por factura.",
+    "question3": "¿Hay una tarifa de configuración?",
+    "answer3": "No, no hay tarifas de configuración ni cargos ocultos. Solo paga la tarifa de suscripción mensual o anual según el plan elegido.",
+    "question4": "¿Qué sucede cuando excedo los límites de mi plan?",
+    "answer4": "Le notificaremos cuando se esté acercando a sus límites. Puede actualizar su plan o eliminar algunos datos. Proporcionamos un período de gracia de 7 días antes de aplicar restricciones."
+  },
+  "cta": {
+    "title": "¿Listo para Comenzar?",
+    "description": "Únase a miles de equipos que ya usan ProjectFlow para optimizar su flujo de trabajo",
+    "primary": "Comenzar Prueba Gratis",
+    "secondary": "Hablar con Ventas"
+  }
+}

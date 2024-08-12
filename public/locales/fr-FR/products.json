@@ -1,0 +1,282 @@
+{
+  "api-development": {
+    "deliveryTime": "3-4 semaines",
+    "description": "Backend API RESTful personnalisé",
+    "features": [
+      "Points de terminaison personnalisés",
+      "Authentification et autorisation",
+      "Conception de base de données",
+      "Documentation",
+      "Suite de tests",
+      "Configuration de déploiement",
+      "1 mois de support"
+    ],
+    "name": "Développement d'API REST"
+  },
+  "business-website": {
+    "deliveryTime": "3-4 semaines",
+    "description": "Site web multipages complet pour votre entreprise",
+    "features": [
+      "Jusqu'à 10 pages",
+      "Intégration CMS personnalisée",
+      "Fonctionnalité de blog",
+      "Formulaires de contact",
+      "Galerie d'images",
+      "Optimisation SEO",
+      "Configuration Analytics",
+      "5 cycles de révision"
+    ],
+    "name": "Site Web d'Entreprise"
+  },
+  "content-marketing": {
+    "deliveryTime": "En cours",
+    "description": "Création et distribution mensuelle de contenu",
+    "features": [
+      "4 articles de blog par mois",
+      "Contenu pour réseaux sociaux",
+      "Newsletter par email",
+      "Calendrier de contenu",
+      "Suivi des performances"
+    ],
+    "name": "Package Marketing de Contenu"
+  },
+  "conversion-optimization": {
+    "deliveryTime": "En cours",
+    "description": "Augmentez les conversions de votre site web",
+    "features": [
+      "Audit de conversion",
+      "Analyse de heatmap",
+      "Configuration de tests A/B",
+      "Optimisation de landing page",
+      "Optimisation de formulaires",
+      "Rapports mensuels"
+    ],
+    "name": "Optimisation du Taux de Conversion"
+  },
+  "custom-integration": {
+    "deliveryTime": "2-3 semaines",
+    "description": "Connectez vos systèmes avec des APIs tierces",
+    "features": [
+      "Intégration d'API",
+      "Synchronisation des données",
+      "Gestion des erreurs",
+      "Documentation",
+      "Tests",
+      "1 mois de support"
+    ],
+    "name": "Intégration Personnalisée"
+  },
+  "ecommerce-store": {
+    "deliveryTime": "6-8 semaines",
+    "description": "Boutique en ligne complète avec intégration de paiement",
+    "features": [
+      "Catalogue de produits (jusqu'à 100 articles)",
+      "Panier d'achat et paiement",
+      "Intégration de passerelle de paiement",
+      "Gestion des stocks",
+      "Suivi des commandes",
+      "Comptes clients",
+      "Notifications par email",
+      "Compatible application mobile"
+    ],
+    "name": "Boutique E-Commerce"
+  },
+  "email-marketing": {
+    "deliveryTime": "En cours",
+    "description": "Gestion complète de campagnes email",
+    "features": [
+      "4 campagnes email/mois",
+      "Gestion de listes",
+      "Design de templates",
+      "Tests A/B",
+      "Analytics et rapports",
+      "Configuration d'automatisation"
+    ],
+    "name": "Service d'Email Marketing"
+  },
+  "landing-page": {
+    "deliveryTime": "1-2 semaines",
+    "description": "Site web professionnel d'une seule page optimisé pour les conversions",
+    "features": [
+      "Design responsive personnalisé",
+      "Approche mobile-first",
+      "Optimisation SEO",
+      "Intégration de formulaire de contact",
+      "3 cycles de révision",
+      "Fichiers sources inclus"
+    ],
+    "name": "Design de Landing Page"
+  },
+  "local-seo": {
+    "deliveryTime": "En cours",
+    "description": "Dominez les résultats de recherche locale",
+    "features": [
+      "Optimisation du profil Google Business",
+      "Construction de citations locales",
+      "Configuration de la gestion des avis",
+      "Optimisation des mots-clés locaux",
+      "Rapports mensuels"
+    ],
+    "name": "Optimisation SEO Local"
+  },
+  "mobile-app-design": {
+    "deliveryTime": "4-6 semaines",
+    "description": "Design d'applications iOS et Android",
+    "features": [
+      "Designs iOS et Android",
+      "Design d'icône d'application",
+      "Écrans d'onboarding",
+      "Tous les écrans principaux",
+      "Bibliothèque de composants",
+      "Prototype interactif",
+      "Directives de design"
+    ],
+    "name": "Design d'Application Mobile"
+  },
+  "ppc-management": {
+    "deliveryTime": "En cours",
+    "description": "Gestion Google Ads et Facebook Ads",
+    "features": [
+      "Configuration de campagnes",
+      "Rédaction d'annonces",
+      "Tests A/B",
+      "Optimisation du budget",
+      "Rapports mensuels",
+      "Optimisation de landing page"
+    ],
+    "name": "Gestion de Campagnes PPC"
+  },
+  "premium-support": {
+    "deliveryTime": "En cours",
+    "description": "Support prioritaire 24/7 pour votre site web",
+    "features": [
+      "Accès au support 24/7",
+      "Temps de réponse de 2 heures",
+      "Mises à jour mineures illimitées",
+      "5 heures de développement/mois",
+      "Corrections d'urgence",
+      "Gestionnaire de compte dédié"
+    ],
+    "name": "Plan de Support Premium"
+  },
+  "seo-audit": {
+    "deliveryTime": "1 semaine",
+    "description": "Analyse SEO complète avec plan d'action",
+    "features": [
+      "Audit SEO technique",
+      "Recherche de mots-clés",
+      "Analyse de la concurrence",
+      "Recommandations de contenu",
+      "Analyse des backlinks",
+      "Rapport détaillé"
+    ],
+    "name": "Audit et Stratégie SEO"
+  },
+  "social-media-management": {
+    "deliveryTime": "En cours",
+    "description": "Gestion complète de la présence sur les réseaux sociaux",
+    "features": [
+      "Publications quotidiennes (3 plateformes)",
+      "Création de contenu",
+      "Gestion de communauté",
+      "Analytics et rapports",
+      "Gestion des publicités payantes",
+      "Consulting stratégique"
+    ],
+    "name": "Gestion des Réseaux Sociaux"
+  },
+  "strategy-consultation": {
+    "deliveryTime": "3-5 jours",
+    "description": "Conseils d'experts pour votre stratégie digitale",
+    "features": [
+      "Appel de consultation de 2 heures",
+      "Analyse de l'industrie",
+      "Recommandations technologiques",
+      "Planification de la feuille de route",
+      "Rapport de suivi"
+    ],
+    "name": "Consultation Stratégique"
+  },
+  "technical-review": {
+    "deliveryTime": "1 semaine",
+    "description": "Examen professionnel de votre base de code",
+    "features": [
+      "Audit complet du code",
+      "Évaluation de la sécurité",
+      "Analyse des performances",
+      "Revue des meilleures pratiques",
+      "Recommandations détaillées",
+      "Vidéo explicative"
+    ],
+    "name": "Revue Technique de Code"
+  },
+  "technical-seo": {
+    "deliveryTime": "2-3 semaines",
+    "description": "Améliorations SEO techniques avancées",
+    "features": [
+      "Optimisation de la vitesse du site",
+      "Optimisation mobile",
+      "Balisage Schema",
+      "Optimisation du sitemap XML",
+      "Configuration robots.txt",
+      "Amélioration des Core Web Vitals",
+      "Rapport d'audit technique"
+    ],
+    "name": "Optimisation SEO Technique"
+  },
+  "ui-ux-design": {
+    "deliveryTime": "3-4 semaines",
+    "description": "Conception complète d'interface et d'expérience utilisateur",
+    "features": [
+      "Recherche utilisateur et personas",
+      "Wireframes et prototypes",
+      "Maquettes haute fidélité",
+      "Prototypes interactifs",
+      "Création de système de design",
+      "Tests d'utilisabilité",
+      "Livraison aux développeurs"
+    ],
+    "name": "Package Design UI/UX"
+  },
+  "web-app-mvp": {
+    "deliveryTime": "8-12 semaines",
+    "description": "Produit minimum viable pour votre application web",
+    "features": [
+      "Fonctionnalité personnalisée",
+      "Authentification utilisateur",
+      "Conception de base de données",
+      "Développement d'API",
+      "Tableau de bord admin",
+      "Tests et QA",
+      "3 mois de support"
+    ],
+    "name": "MVP d'Application Web"
+  },
+  "website-maintenance": {
+    "deliveryTime": "En cours",
+    "description": "Gardez votre site web sécurisé et à jour",
+    "features": [
+      "Sauvegardes hebdomadaires",
+      "Surveillance de la sécurité",
+      "Mises à jour logicielles",
+      "Optimisation des performances",
+      "Support prioritaire",
+      "Rapports mensuels"
+    ],
+    "name": "Maintenance de Site Web"
+  },
+  "wordpress-development": {
+    "deliveryTime": "2-3 semaines",
+    "description": "Site WordPress personnalisé avec thème",
+    "features": [
+      "Développement de thème personnalisé",
+      "Intégration de plugins",
+      "Design responsive",
+      "Optimisation SEO",
+      "Formulaires de contact",
+      "Configuration du blog",
+      "Formation incluse"
+    ],
+    "name": "Site Web WordPress"
+  }
+}

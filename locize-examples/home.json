@@ -1,0 +1,41 @@
+{
+  "hero": {
+    "title": "Building Tomorrow's Web Today",
+    "subtitle": "Transform your digital presence with cutting-edge web solutions powered by Next.js, React, and modern technologies",
+    "cta1": "Start Your Project",
+    "cta2": "View Our Work"
+  },
+  "features": {
+    "title": "Why Choose Us",
+    "subtitle": "We deliver exceptional web solutions with attention to every detail",
+    "feature1": {
+      "title": "Modern Technologies",
+      "description": "Built with Next.js 15, React 18, TypeScript, and MUI for peak performance"
+    },
+    "feature2": {
+      "title": "Fully Responsive",
+      "description": "Perfect experience on desktop, tablet, and mobile devices"
+    },
+    "feature3": {
+      "title": "Multilingual Support",
+      "description": "Reach global audiences with full i18n integration via Locize"
+    },
+    "feature4": {
+      "title": "Dark Mode",
+      "description": "Beautiful light and dark themes with smooth transitions"
+    },
+    "feature5": {
+      "title": "SEO Optimized",
+      "description": "Built-in SEO best practices for maximum visibility"
+    },
+    "feature6": {
+      "title": "Production Ready",
+      "description": "Clean, scalable code following industry best practices"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Explore our comprehensive web development offerings",
+    "viewAll": "View All Services"
+  }
+}

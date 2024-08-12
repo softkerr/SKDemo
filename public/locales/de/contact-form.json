@@ -1,0 +1,199 @@
+{
+  "title": "Erweitertes Kontaktformular",
+  "subtitle": "Mehrstufiges Formular mit Validierung und automatischem Speichern",
+  "progress": {
+    "step": "Schritt {{current}} von {{total}}",
+    "complete": "{{percent}}% Abgeschlossen"
+  },
+  "alerts": {
+    "dataLoaded": "Vorherige Formulardaten aus dem lokalen Speicher geladen"
+  },
+  "steps": {
+    "personalInfo": {
+      "label": "Persönliche Informationen",
+      "fields": {
+        "firstName": {
+          "label": "Vorname",
+          "placeholder": "Max",
+          "error": {
+            "required": "Vorname ist erforderlich",
+            "minLength": "Vorname muss mindestens 2 Zeichen lang sein"
+          }
+        },
+        "lastName": {
+          "label": "Nachname",
+          "placeholder": "Mustermann",
+          "error": {
+            "required": "Nachname ist erforderlich",
+            "minLength": "Nachname muss mindestens 2 Zeichen lang sein"
+          }
+        },
+        "email": {
+          "label": "E-Mail-Adresse",
+          "placeholder": "max.mustermann@beispiel.de",
+          "error": {
+            "required": "E-Mail ist erforderlich",
+            "invalid": "Ungültige E-Mail-Adresse"
+          }
+        },
+        "phone": {
+          "label": "Telefonnummer",
+          "placeholder": "+49 123 456789",
+          "error": {
+            "invalid": "Ungültige Telefonnummer"
+          }
+        },
+        "dateOfBirth": {
+          "label": "Geburtsdatum",
+          "placeholder": "TT.MM.JJJJ"
+        }
+      }
+    },
+    "businessInfo": {
+      "label": "Geschäftsinformationen",
+      "fields": {
+        "companyName": {
+          "label": "Firmenname",
+          "placeholder": "Musterfirma GmbH",
+          "error": {
+            "required": "Firmenname ist erforderlich",
+            "minLength": "Firmenname muss mindestens 2 Zeichen lang sein"
+          }
+        },
+        "position": {
+          "label": "Position/Titel",
+          "placeholder": "Softwareentwickler",
+          "error": {
+            "required": "Position ist erforderlich",
+            "minLength": "Position muss mindestens 2 Zeichen lang sein"
+          }
+        },
+        "industry": {
+          "label": "Branche",
+          "placeholder": "Branche auswählen",
+          "options": {
+            "select": "Auswählen...",
+            "technology": "Technologie",
+            "finance": "Finanzen",
+            "healthcare": "Gesundheitswesen",
+            "education": "Bildung",
+            "retail": "Einzelhandel",
+            "manufacturing": "Fertigung",
+            "other": "Sonstiges"
+          },
+          "error": {
+            "required": "Bitte wählen Sie eine Branche aus"
+          }
+        },
+        "companySize": {
+          "label": "Unternehmensgröße",
+          "placeholder": "Unternehmensgröße auswählen",
+          "options": {
+            "select": "Auswählen...",
+            "1-10": "1-10 Mitarbeiter",
+            "11-50": "11-50 Mitarbeiter",
+            "51-200": "51-200 Mitarbeiter",
+            "201-500": "201-500 Mitarbeiter",
+            "501+": "501+ Mitarbeiter"
+          },
+          "error": {
+            "required": "Bitte wählen Sie die Unternehmensgröße aus"
+          }
+        },
+        "website": {
+          "label": "Firmenwebsite",
+          "placeholder": "https://beispiel.de",
+          "error": {
+            "invalid": "Ungültige URL"
+          }
+        }
+      }
+    },
+    "message": {
+      "label": "Nachricht",
+      "fields": {
+        "subject": {
+          "label": "Betreff",
+          "placeholder": "Projektanfrage",
+          "error": {
+            "required": "Betreff ist erforderlich",
+            "minLength": "Betreff muss mindestens 5 Zeichen lang sein"
+          }
+        },
+        "category": {
+          "label": "Kategorie",
+          "placeholder": "Kategorie auswählen",
+          "options": {
+            "select": "Auswählen...",
+            "general": "Allgemeine Anfrage",
+            "support": "Technischer Support",
+            "sales": "Vertrieb",
+            "partnership": "Partnerschaft",
+            "feedback": "Feedback"
+          },
+          "error": {
+            "required": "Bitte wählen Sie eine Kategorie aus"
+          }
+        },
+        "priority": {
+          "label": "Priorität",
+          "options": {
+            "low": "Niedrig",
+            "medium": "Mittel",
+            "high": "Hoch"
+          }
+        },
+        "message": {
+          "label": "Nachricht",
+          "placeholder": "Bitte geben Sie Details zu Ihrer Anfrage an...",
+          "error": {
+            "required": "Nachricht ist erforderlich",
+            "minLength": "Nachricht muss mindestens 20 Zeichen lang sein"
+          }
+        },
+        "attachments": {
+          "label": "Ich habe Anhänge zu senden (werden per E-Mail angefordert)"
+        }
+      }
+    },
+    "preferences": {
+      "label": "Einstellungen",
+      "fields": {
+        "contactMethod": {
+          "label": "Bevorzugte Kontaktmethode",
+          "options": {
+            "email": "E-Mail",
+            "phone": "Telefon",
+            "both": "Beides"
+          }
+        },
+        "newsletterSubscribe": {
+          "label": "Abonnieren Sie unseren Newsletter für Updates und Angebote"
+        },
+        "marketingConsent": {
+          "label": "Ich stimme dem Erhalt von Marketing-Mitteilungen zu"
+        },
+        "termsAccepted": {
+          "label": "Ich akzeptiere die {{terms}} und die {{privacy}}",
+          "terms": "Allgemeinen Geschäftsbedingungen",
+          "privacy": "Datenschutzerklärung",
+          "error": {
+            "required": "Sie müssen die Allgemeinen Geschäftsbedingungen akzeptieren"
+          }
+        }
+      }
+    }
+  },
+  "buttons": {
+    "prev": "Zurück",
+    "next": "Weiter",
+    "submit": "Absenden",
+    "reset": "Zurücksetzen"
+  },
+  "success": {
+    "title": "Vielen Dank!",
+    "message": "Ihr Formular wurde erfolgreich übermittelt.",
+    "description": "Wir werden uns innerhalb von 24-48 Stunden bei Ihnen melden.",
+    "action": "Weiteres Formular absenden"
+  }
+}

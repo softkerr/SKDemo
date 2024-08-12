@@ -1,0 +1,199 @@
+{
+  "alerts": {
+    "dataLoaded": "Previous form data loaded from local storage"
+  },
+  "buttons": {
+    "next": "Next",
+    "prev": "Prev",
+    "reset": "Reset",
+    "submit": "Submit"
+  },
+  "progress": {
+    "complete": "{{percent}}% Complete",
+    "step": "Step {{current}} of {{total}}"
+  },
+  "steps": {
+    "businessInfo": {
+      "fields": {
+        "companyName": {
+          "error": {
+            "minLength": "Company name must be at least 2 characters",
+            "required": "Company name is required"
+          },
+          "label": "Company Name",
+          "placeholder": "Acme Corporation"
+        },
+        "companySize": {
+          "error": {
+            "required": "Please select company size"
+          },
+          "label": "Company Size",
+          "options": {
+            "1-10": "1-10 employees",
+            "11-50": "11-50 employees",
+            "201-500": "201-500 employees",
+            "501+": "501+ employees",
+            "51-200": "51-200 employees",
+            "select": "Select..."
+          },
+          "placeholder": "Select company size"
+        },
+        "industry": {
+          "error": {
+            "required": "Please select an industry"
+          },
+          "label": "Industry",
+          "options": {
+            "education": "Education",
+            "finance": "Finance",
+            "healthcare": "Healthcare",
+            "manufacturing": "Manufacturing",
+            "other": "Other",
+            "retail": "Retail",
+            "select": "Select...",
+            "technology": "Technology"
+          },
+          "placeholder": "Select industry"
+        },
+        "position": {
+          "error": {
+            "minLength": "Position must be at least 2 characters",
+            "required": "Position is required"
+          },
+          "label": "Position/Title",
+          "placeholder": "Software Developer"
+        },
+        "website": {
+          "error": {
+            "invalid": "Invalid URL"
+          },
+          "label": "Company Website",
+          "placeholder": "https://example.com"
+        }
+      },
+      "label": "Business Info"
+    },
+    "message": {
+      "fields": {
+        "attachments": {
+          "label": "I have attachments to send (will be requested via email)"
+        },
+        "category": {
+          "error": {
+            "required": "Please select a category"
+          },
+          "label": "Category",
+          "options": {
+            "feedback": "Feedback",
+            "general": "General Inquiry",
+            "partnership": "Partnership",
+            "sales": "Sales",
+            "select": "Select...",
+            "support": "Technical Support"
+          },
+          "placeholder": "Select category"
+        },
+        "message": {
+          "error": {
+            "minLength": "Message must be at least 20 characters",
+            "required": "Message is required"
+          },
+          "label": "Message",
+          "placeholder": "Please provide details about your inquiry..."
+        },
+        "priority": {
+          "label": "Priority",
+          "options": {
+            "high": "High",
+            "low": "Low",
+            "medium": "Medium"
+          }
+        },
+        "subject": {
+          "error": {
+            "minLength": "Subject must be at least 5 characters",
+            "required": "Subject is required"
+          },
+          "label": "Subject",
+          "placeholder": "Project Inquiry"
+        }
+      },
+      "label": "Message"
+    },
+    "personalInfo": {
+      "fields": {
+        "dateOfBirth": {
+          "label": "Date of Birth",
+          "placeholder": "MM/DD/YYYY"
+        },
+        "email": {
+          "error": {
+            "invalid": "Invalid email address",
+            "required": "Email is required"
+          },
+          "label": "Email Address",
+          "placeholder": "john.doe@example.com"
+        },
+        "firstName": {
+          "error": {
+            "minLength": "First name must be at least 2 characters",
+            "required": "First name is required"
+          },
+          "label": "First Name",
+          "placeholder": "John"
+        },
+        "lastName": {
+          "error": {
+            "minLength": "Last name must be at least 2 characters",
+            "required": "Last name is required"
+          },
+          "label": "Last Name",
+          "placeholder": "Doe"
+        },
+        "phone": {
+          "error": {
+            "invalid": "Invalid phone number"
+          },
+          "label": "Phone Number",
+          "placeholder": "+1 (555) 123-4567"
+        }
+      },
+      "label": "Personal Info"
+    },
+    "preferences": {
+      "fields": {
+        "contactMethod": {
+          "label": "Preferred Contact Method",
+          "options": {
+            "both": "Both",
+            "email": "Email",
+            "phone": "Phone"
+          }
+        },
+        "marketingConsent": {
+          "label": "I agree to receive marketing communications"
+        },
+        "newsletterSubscribe": {
+          "label": "Subscribe to our newsletter for updates and offers"
+        },
+        "termsAccepted": {
+          "error": {
+            "required": "You must accept the terms and conditions"
+          },
+          "label": "I accept the {{terms}} and {{privacy}}",
+          "privacy": "privacy policy",
+          "terms": "terms and conditions"
+        }
+      },
+      "label": "Preferences"
+    }
+  },
+  "subtitle": "Multi-step form with validation and auto-save",
+  "success": {
+    "action": "Submit Another Form",
+    "description": "We'll get back to you within 24-48 hours.",
+    "message": "Your form has been submitted successfully.",
+    "title": "Thank You!"
+  },
+  "title": "Advanced Contact Form"
+}

@@ -1,0 +1,48 @@
+{
+  "title": "Our Services",
+  "subtitle": "Comprehensive web development solutions tailored to your needs",
+  "categories": {
+    "development": "Development",
+    "design": "Design",
+    "consulting": "Consulting",
+    "maintenance": "Maintenance"
+  },
+  "services": {
+    "webDevelopment": {
+      "title": "Web Development",
+      "description": "Custom websites and web applications built with modern frameworks and best practices"
+    },
+    "mobileDevelopment": {
+      "title": "Mobile Development",
+      "description": "Responsive mobile-first designs that work beautifully on all devices"
+    },
+    "ecommerce": {
+      "title": "E-Commerce Solutions",
+      "description": "Full-featured online stores with secure payment processing and inventory management"
+    },
+    "cms": {
+      "title": "Content Management",
+      "description": "Easy-to-use CMS solutions for managing your website content"
+    },
+    "api": {
+      "title": "API Development",
+      "description": "Robust RESTful and GraphQL APIs for seamless integrations"
+    },
+    "consulting": {
+      "title": "Technical Consulting",
+      "description": "Expert guidance on technology stack, architecture, and best practices"
+    },
+    "uiux": {
+      "title": "UI/UX Design",
+      "description": "Beautiful, intuitive interfaces that delight users and drive conversions"
+    },
+    "seo": {
+      "title": "SEO Optimization",
+      "description": "Improve your search rankings and organic traffic with proven strategies"
+    },
+    "maintenance": {
+      "title": "Website Maintenance",
+      "description": "Ongoing support, updates, and security monitoring for your website"
+    }
+  }
+}

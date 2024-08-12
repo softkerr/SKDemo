@@ -1,0 +1,19 @@
+{
+  "billing": {
+    "annually": "Annually",
+    "monthly": "Monthly",
+    "save": "Save {{amount}}%"
+  },
+  "cta": {
+    "button": "Contact Sales",
+    "description": "Contact us for custom pricing and enterprise features",
+    "title": "Need Enterprise Solution?"
+  },
+  "features": {
+    "allFeatures": "All Features",
+    "included": "What's Included"
+  },
+  "popular": "Most Popular",
+  "subtitle": "Choose the perfect plan for your project",
+  "title": "Pricing Plans"
+}

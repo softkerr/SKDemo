@@ -1,0 +1,86 @@
+{
+  "hero": {
+    "badge": "10 leistungsstarke Funktionen",
+    "title": "Entwickelt für moderne Web-Studios",
+    "description": "Alles, was Sie brauchen, um Projekte zu verwalten, mit Kunden zusammenzuarbeiten und Ihr Geschäft auszubauen – alles auf einer Plattform.",
+    "stats": {
+      "features": "Kernfunktionen",
+      "priorities": "Prioritätsstufen",
+      "coverage": "Vollständig ausgestattet"
+    }
+  },
+  "filters": {
+    "all": "Alle Funktionen",
+    "priority1": "Unverzichtbar",
+    "priority2": "Wichtig",
+    "priority3": "Nützlich"
+  },
+  "features": {
+    "seo": {
+      "title": "SEO Editor & Metadaten-Vorschau",
+      "description": "Optimieren Sie jede Seite mit Echtzeit-SEO-Bewertung, Meta-Tag-Editor und Google/Social-Vorschau. Integrierte Best Practices sorgen für maximale Sichtbarkeit.",
+      "tech": ["Next.js", "React Helmet", "SEO Tools"],
+      "cta": "SEO Editor testen"
+    },
+    "api": {
+      "title": "API-Integrations-Hub",
+      "description": "Verbinden Sie sich mit Stripe, SendGrid, Slack und mehr durch vorgefertigte Next.js Route Handler. Sicher, typisiert und produktionsreif.",
+      "tech": ["Next.js API", "TypeScript", "Zod"],
+      "cta": "Integrationen ansehen"
+    },
+    "kanban": {
+      "title": "Kanban & Zeitstrahl-Ansicht",
+      "description": "Visuelles Projektmanagement mit Drag-and-Drop Kanban-Boards und Gantt-Zeitstrahl. Echtzeit-Updates halten alle auf dem Laufenden.",
+      "tech": ["React DnD", "Echtzeit", "Gantt"],
+      "cta": "Demo ansehen"
+    },
+    "calculator": {
+      "title": "Interaktiver Kostenrechner",
+      "description": "Lassen Sie Kunden Projektkosten sofort schätzen. Anpassbare Optionen, Echtzeit-Berechnungen und sofortige Angebotserstellung.",
+      "tech": ["React Hook Form", "Zod", "Währung"],
+      "cta": "Rechner testen"
+    },
+    "forms": {
+      "title": "Erweiterte Formulare & Validierung",
+      "description": "Mehrstufige Formulare mit Echtzeit-Validierung, Datei-Uploads und bedingter Logik. Angetrieben von React Hook Form + Zod.",
+      "tech": ["React Hook Form", "Zod", "Datei-Upload"],
+      "cta": "Formulare erkunden"
+    },
+    "performance": {
+      "title": "Performance-Dashboard",
+      "description": "Verfolgen Sie Projektrentabilität, Teamauslastung und Geschäftsmetriken in Echtzeit. Treffen Sie datengestützte Entscheidungen.",
+      "tech": ["Charts.js", "Analytics", "Echtzeit"],
+      "cta": "Dashboard ansehen"
+    },
+    "chat": {
+      "title": "Live-Chat-Integration",
+      "description": "Integriertes Kundenmessaging mit Echtzeit-Benachrichtigungen, Dateifreigabe und Gesprächsverlauf. Behalten Sie alle Kommunikation an einem Ort.",
+      "tech": ["WebSocket", "Echtzeit", "Push"],
+      "cta": "Chat testen"
+    },
+    "accessibility": {
+      "title": "Barrierefreiheits-Showcase",
+      "description": "WCAG 2.1 AA-konform mit Tastaturnavigation, Screenreader-Unterstützung und Farbkontrast-Tools. Barrierefreiheit zuerst.",
+      "tech": ["ARIA", "WCAG 2.1", "a11y"],
+      "cta": "Barrierefreiheit prüfen"
+    },
+    "email": {
+      "title": "E-Mail-Vorlagen (React Email)",
+      "description": "Schöne, responsive E-Mail-Vorlagen mit React Email erstellt. Vorschau, Test und Versand direkt von der Plattform.",
+      "tech": ["React Email", "SendGrid", "Vorlagen"],
+      "cta": "Vorlagen ansehen"
+    },
+    "admin": {
+      "title": "Admin-Panel-Demo",
+      "description": "Komplettes Admin-Dashboard mit Benutzerverwaltung, Einstellungen, Analytics und Systemkonfiguration. Rollenbasierte Zugriffskontrolle.",
+      "tech": ["RBAC", "Admin UI", "Einstellungen"],
+      "cta": "Admin ansehen"
+    }
+  },
+  "cta": {
+    "title": "Bereit, diese Funktionen zu erleben?",
+    "description": "Starten Sie Ihre kostenlose 14-tägige Testversion und sehen Sie, wie ProjectFlow Ihr Web-Studio transformieren kann.",
+    "primary": "Kostenlose Testversion starten",
+    "secondary": "Demo planen"
+  }
+}

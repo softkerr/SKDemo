@@ -1,0 +1,86 @@
+{
+  "hero": {
+    "badge": "10 funciones poderosas",
+    "title": "Diseñado para estudios web modernos",
+    "description": "Todo lo que necesitas para gestionar proyectos, colaborar con clientes y hacer crecer tu negocio, todo en una plataforma.",
+    "stats": {
+      "features": "Funciones principales",
+      "priorities": "Niveles de prioridad",
+      "coverage": "Funcionalidad completa"
+    }
+  },
+  "filters": {
+    "all": "Todas las funciones",
+    "priority1": "Imprescindible",
+    "priority2": "Importante",
+    "priority3": "Útil"
+  },
+  "features": {
+    "seo": {
+      "title": "Editor SEO y vista previa de metadatos",
+      "description": "Optimiza cada página con puntuación SEO en tiempo real, editor de meta tags y vista previa de Google/Redes Sociales. Las mejores prácticas integradas garantizan máxima visibilidad.",
+      "tech": ["Next.js", "React Helmet", "SEO Tools"],
+      "cta": "Probar editor SEO"
+    },
+    "api": {
+      "title": "Centro de integración API",
+      "description": "Conéctate con Stripe, SendGrid, Slack y más a través de route handlers pre-construidos de Next.js. Seguro, tipado y listo para producción.",
+      "tech": ["Next.js API", "TypeScript", "Zod"],
+      "cta": "Ver integraciones"
+    },
+    "kanban": {
+      "title": "Vista Kanban y línea de tiempo",
+      "description": "Gestión visual de proyectos con tableros kanban de arrastrar y soltar y línea de tiempo estilo Gantt. Las actualizaciones en tiempo real mantienen a todos alineados.",
+      "tech": ["React DnD", "Tiempo real", "Gantt"],
+      "cta": "Ver demo"
+    },
+    "calculator": {
+      "title": "Calculadora de costos interactiva",
+      "description": "Permite a los clientes estimar los costos del proyecto al instante. Opciones personalizables, cálculos en tiempo real y generación instantánea de presupuestos.",
+      "tech": ["React Hook Form", "Zod", "Moneda"],
+      "cta": "Probar calculadora"
+    },
+    "forms": {
+      "title": "Formularios avanzados y validación",
+      "description": "Formularios de múltiples pasos con validación en tiempo real, carga de archivos y lógica condicional. Powered by React Hook Form + Zod.",
+      "tech": ["React Hook Form", "Zod", "Carga de archivos"],
+      "cta": "Explorar formularios"
+    },
+    "performance": {
+      "title": "Panel de rendimiento",
+      "description": "Rastrea la rentabilidad del proyecto, la utilización del equipo y las métricas empresariales en tiempo real. Toma decisiones basadas en datos.",
+      "tech": ["Charts.js", "Analytics", "Tiempo real"],
+      "cta": "Ver panel"
+    },
+    "chat": {
+      "title": "Integración de chat en vivo",
+      "description": "Mensajería de cliente integrada con notificaciones en tiempo real, compartir archivos e historial de conversaciones. Mantén toda la comunicación en un solo lugar.",
+      "tech": ["WebSocket", "Tiempo real", "Push"],
+      "cta": "Probar chat"
+    },
+    "accessibility": {
+      "title": "Showcase de accesibilidad",
+      "description": "Cumple con WCAG 2.1 AA con navegación por teclado, soporte para lectores de pantalla y herramientas de contraste de color. Accesibilidad primero.",
+      "tech": ["ARIA", "WCAG 2.1", "a11y"],
+      "cta": "Verificar accesibilidad"
+    },
+    "email": {
+      "title": "Plantillas de email (React Email)",
+      "description": "Hermosas plantillas de email responsivas construidas con React Email. Previsualiza, prueba y envía directamente desde la plataforma.",
+      "tech": ["React Email", "SendGrid", "Plantillas"],
+      "cta": "Ver plantillas"
+    },
+    "admin": {
+      "title": "Demo de panel de administración",
+      "description": "Panel de administración completo con gestión de usuarios, configuración, analytics y configuración del sistema. Control de acceso basado en roles.",
+      "tech": ["RBAC", "Admin UI", "Configuración"],
+      "cta": "Ver admin"
+    }
+  },
+  "cta": {
+    "title": "¿Listo para experimentar estas funciones?",
+    "description": "Comienza tu prueba gratuita de 14 días y descubre cómo ProjectFlow puede transformar tu estudio web.",
+    "primary": "Comenzar prueba gratuita",
+    "secondary": "Programar demo"
+  }
+}

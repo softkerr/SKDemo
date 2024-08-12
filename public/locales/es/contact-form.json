@@ -1,0 +1,199 @@
+{
+  "title": "Formulario de Contacto Avanzado",
+  "subtitle": "Formulario de múltiples pasos con validación y guardado automático",
+  "progress": {
+    "step": "Paso {{current}} de {{total}}",
+    "complete": "{{percent}}% Completado"
+  },
+  "alerts": {
+    "dataLoaded": "Datos de formulario anteriores cargados desde el almacenamiento local"
+  },
+  "steps": {
+    "personalInfo": {
+      "label": "Información Personal",
+      "fields": {
+        "firstName": {
+          "label": "Nombre",
+          "placeholder": "Juan",
+          "error": {
+            "required": "El nombre es obligatorio",
+            "minLength": "El nombre debe tener al menos 2 caracteres"
+          }
+        },
+        "lastName": {
+          "label": "Apellido",
+          "placeholder": "García",
+          "error": {
+            "required": "El apellido es obligatorio",
+            "minLength": "El apellido debe tener al menos 2 caracteres"
+          }
+        },
+        "email": {
+          "label": "Correo Electrónico",
+          "placeholder": "juan.garcia@ejemplo.com",
+          "error": {
+            "required": "El correo electrónico es obligatorio",
+            "invalid": "Correo electrónico no válido"
+          }
+        },
+        "phone": {
+          "label": "Número de Teléfono",
+          "placeholder": "+34 123 456 789",
+          "error": {
+            "invalid": "Número de teléfono no válido"
+          }
+        },
+        "dateOfBirth": {
+          "label": "Fecha de Nacimiento",
+          "placeholder": "DD/MM/AAAA"
+        }
+      }
+    },
+    "businessInfo": {
+      "label": "Información Empresarial",
+      "fields": {
+        "companyName": {
+          "label": "Nombre de la Empresa",
+          "placeholder": "Corporación Acme",
+          "error": {
+            "required": "El nombre de la empresa es obligatorio",
+            "minLength": "El nombre de la empresa debe tener al menos 2 caracteres"
+          }
+        },
+        "position": {
+          "label": "Posición/Título",
+          "placeholder": "Desarrollador de Software",
+          "error": {
+            "required": "La posición es obligatoria",
+            "minLength": "La posición debe tener al menos 2 caracteres"
+          }
+        },
+        "industry": {
+          "label": "Industria",
+          "placeholder": "Seleccionar industria",
+          "options": {
+            "select": "Seleccionar...",
+            "technology": "Tecnología",
+            "finance": "Finanzas",
+            "healthcare": "Salud",
+            "education": "Educación",
+            "retail": "Comercio minorista",
+            "manufacturing": "Manufactura",
+            "other": "Otro"
+          },
+          "error": {
+            "required": "Por favor seleccione una industria"
+          }
+        },
+        "companySize": {
+          "label": "Tamaño de la Empresa",
+          "placeholder": "Seleccionar tamaño de empresa",
+          "options": {
+            "select": "Seleccionar...",
+            "1-10": "1-10 empleados",
+            "11-50": "11-50 empleados",
+            "51-200": "51-200 empleados",
+            "201-500": "201-500 empleados",
+            "501+": "501+ empleados"
+          },
+          "error": {
+            "required": "Por favor seleccione el tamaño de la empresa"
+          }
+        },
+        "website": {
+          "label": "Sitio Web de la Empresa",
+          "placeholder": "https://ejemplo.com",
+          "error": {
+            "invalid": "URL no válida"
+          }
+        }
+      }
+    },
+    "message": {
+      "label": "Mensaje",
+      "fields": {
+        "subject": {
+          "label": "Asunto",
+          "placeholder": "Consulta de Proyecto",
+          "error": {
+            "required": "El asunto es obligatorio",
+            "minLength": "El asunto debe tener al menos 5 caracteres"
+          }
+        },
+        "category": {
+          "label": "Categoría",
+          "placeholder": "Seleccionar categoría",
+          "options": {
+            "select": "Seleccionar...",
+            "general": "Consulta General",
+            "support": "Soporte Técnico",
+            "sales": "Ventas",
+            "partnership": "Asociación",
+            "feedback": "Comentarios"
+          },
+          "error": {
+            "required": "Por favor seleccione una categoría"
+          }
+        },
+        "priority": {
+          "label": "Prioridad",
+          "options": {
+            "low": "Baja",
+            "medium": "Media",
+            "high": "Alta"
+          }
+        },
+        "message": {
+          "label": "Mensaje",
+          "placeholder": "Por favor proporcione detalles sobre su consulta...",
+          "error": {
+            "required": "El mensaje es obligatorio",
+            "minLength": "El mensaje debe tener al menos 20 caracteres"
+          }
+        },
+        "attachments": {
+          "label": "Tengo archivos adjuntos para enviar (se solicitarán por correo electrónico)"
+        }
+      }
+    },
+    "preferences": {
+      "label": "Preferencias",
+      "fields": {
+        "contactMethod": {
+          "label": "Método de Contacto Preferido",
+          "options": {
+            "email": "Correo Electrónico",
+            "phone": "Teléfono",
+            "both": "Ambos"
+          }
+        },
+        "newsletterSubscribe": {
+          "label": "Suscribirse a nuestro boletín para actualizaciones y ofertas"
+        },
+        "marketingConsent": {
+          "label": "Acepto recibir comunicaciones de marketing"
+        },
+        "termsAccepted": {
+          "label": "Acepto los {{terms}} y la {{privacy}}",
+          "terms": "términos y condiciones",
+          "privacy": "política de privacidad",
+          "error": {
+            "required": "Debe aceptar los términos y condiciones"
+          }
+        }
+      }
+    }
+  },
+  "buttons": {
+    "prev": "Anterior",
+    "next": "Siguiente",
+    "submit": "Enviar",
+    "reset": "Restablecer"
+  },
+  "success": {
+    "title": "¡Gracias!",
+    "message": "Su formulario ha sido enviado exitosamente.",
+    "description": "Nos pondremos en contacto con usted dentro de 24-48 horas.",
+    "action": "Enviar Otro Formulario"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "title": "Get In Touch",
+  "subtitle": "Have a project in mind? Let's talk about how we can help bring your vision to life.",
+  "form": {
+    "name": {
+      "label": "Your Name",
+      "placeholder": "John Doe",
+      "error": "Please enter your name"
+    },
+    "email": {
+      "label": "Email Address",
+      "placeholder": "john@example.com",
+      "error": "Please enter a valid email address"
+    },
+    "subject": {
+      "label": "Subject",
+      "placeholder": "Project Inquiry",
+      "error": "Please enter a subject"
+    },
+    "message": {
+      "label": "Message",
+      "placeholder": "Tell us about your project...",
+      "error": "Please enter your message"
+    },
+    "submit": "Send Message",
+    "sending": "Sending...",
+    "success": "Thank you! We'll get back to you soon.",
+    "error": "Oops! Something went wrong. Please try again."
+  },
+  "info": {
+    "title": "Contact Information",
+    "email": {
+      "label": "Email",
+      "value": "hello@webdevstudio.com"
+    },
+    "phone": {
+      "label": "Phone",
+      "value": "+1 (555) 123-4567"
+    },
+    "address": {
+      "label": "Address",
+      "value": "123 Tech Street, San Francisco, CA 94105"
+    },
+    "hours": {
+      "label": "Business Hours",
+      "value": "Monday - Friday: 9:00 AM - 6:00 PM PST"
+    }
+  }
+}

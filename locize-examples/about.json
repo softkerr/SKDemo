@@ -1,0 +1,72 @@
+{
+  "title": "About WebDev Studio",
+  "subtitle": "Building exceptional web experiences since 2020",
+  "mission": {
+    "title": "Our Mission",
+    "description": "To empower businesses with cutting-edge web technologies that drive growth, enhance user experience, and deliver measurable results."
+  },
+  "values": {
+    "title": "Our Values",
+    "innovation": {
+      "title": "Innovation",
+      "description": "We stay ahead of the curve, adopting the latest technologies and best practices"
+    },
+    "quality": {
+      "title": "Quality",
+      "description": "We deliver exceptional work that exceeds expectations every time"
+    },
+    "transparency": {
+      "title": "Transparency",
+      "description": "We maintain clear communication and honest pricing with all our clients"
+    },
+    "collaboration": {
+      "title": "Collaboration",
+      "description": "We work closely with clients as partners in their success"
+    }
+  },
+  "team": {
+    "title": "Meet Our Team",
+    "subtitle": "Talented professionals passionate about web development",
+    "members": {
+      "john": {
+        "name": "John Anderson",
+        "role": "Founder & CEO",
+        "bio": "15+ years of experience in web development and digital strategy"
+      },
+      "sarah": {
+        "name": "Sarah Chen",
+        "role": "Lead Frontend Developer",
+        "bio": "React expert specializing in performance optimization and UI/UX"
+      },
+      "michael": {
+        "name": "Michael Rodriguez",
+        "role": "Backend Architect",
+        "bio": "Specializes in scalable Node.js and cloud infrastructure"
+      },
+      "emma": {
+        "name": "Emma Thompson",
+        "role": "UX Designer",
+        "bio": "Creating intuitive, beautiful interfaces that users love"
+      }
+    }
+  },
+  "stats": {
+    "title": "Our Impact",
+    "projects": {
+      "value": "500+",
+      "label": "Projects Completed"
+    },
+    "clients": {
+      "value": "200+",
+      "label": "Happy Clients"
+    },
+    "experience": {
+      "value": "5+",
+      "label": "Years Experience"
+    },
+    "satisfaction": {
+      "value": "99%",
+      "label": "Client Satisfaction"
+    }
+  }
+}

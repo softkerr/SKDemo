@@ -318,215 +318,219 @@ export default function ChatWidget() {
 
           {/* Tabs Navigation */}
 
-            <Box sx={{ display: 'flex', flexDirection: 'column', height: 'calc(100% - 60px)' }}>
-              <Tabs
-                value={currentTab}
-                onChange={(_, newValue) => setCurrentTab(newValue)}
-                variant="fullWidth"
-                sx={{
-                  borderBottom: 1,
-                  borderColor: 'divider',
-                  background: alpha(theme.palette.background.default, 0.3),
-                  '& .MuiTab-root': {
-                    minHeight: 48,
-                  },
-                }}
-              >
-                <Tab
-                  icon={<Chat fontSize="small" />}
-                  label="Chat"
-                  iconPosition="start"
-                  sx={{ textTransform: 'none', fontWeight: 600 }}
-                />
-                <Tab
-                  icon={
-                    <Badge badgeContent={conversations.length} color="primary">
-                      <History fontSize="small" />
-                    </Badge>
-                  }
-                  label="History"
-                  iconPosition="start"
-                  sx={{ textTransform: 'none', fontWeight: 600 }}
-                />
-              </Tabs>
+          <Box sx={{ display: 'flex', flexDirection: 'column', height: 'calc(100% - 60px)' }}>
+            <Tabs
+              value={currentTab}
+              onChange={(_, newValue) => setCurrentTab(newValue)}
+              variant="fullWidth"
+              sx={{
+                borderBottom: 1,
+                borderColor: 'divider',
+                background: alpha(theme.palette.background.default, 0.3),
+                '& .MuiTab-root': {
+                  minHeight: 48,
+                },
+              }}
+            >
+              <Tab
+                icon={<Chat fontSize="small" />}
+                label="Chat"
+                iconPosition="start"
+                sx={{ textTransform: 'none', fontWeight: 600 }}
+              />
+              <Tab
+                icon={
+                  <Badge badgeContent={conversations.length} color="primary">
+                    <History fontSize="small" />
+                  </Badge>
+                }
+                label="History"
+                iconPosition="start"
+                sx={{ textTransform: 'none', fontWeight: 600 }}
+              />
+            </Tabs>
 
-              {/* Tab Panel 0: Chat View */}
-              {currentTab === 0 && (
-                <Box sx={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
-                  <MessageList messages={messages} isLoading={isLoading} error={error} />
+            {/* Tab Panel 0: Chat View */}
+            {currentTab === 0 && (
+              <Box sx={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
+                <MessageList messages={messages} isLoading={isLoading} error={error} />
 
-                  <Box
-                    sx={{
-                      p: 2,
-                      borderTop: 1,
-                      borderColor: 'divider',
-                      background: alpha(theme.palette.background.paper, 0.5),
-                    }}
-                  >
-                    <MessageInput onSendMessage={handleSendMessage} disabled={isLoading} />
-                  </Box>
+                <Box
+                  sx={{
+                    p: 2,
+                    borderTop: 1,
+                    borderColor: 'divider',
+                    background: alpha(theme.palette.background.paper, 0.5),
+                  }}
+                >
+                  <MessageInput onSendMessage={handleSendMessage} disabled={isLoading} />
                 </Box>
-              )}
+              </Box>
+            )}
 
-              {/* Tab Panel 1: Conversations View */}
-              {currentTab === 1 && (
-                <Box sx={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
-                  {/* New Conversation Button */}
-                  <Box sx={{ p: 2 }}>
-                    <Button
-                      fullWidth
-                      variant="contained"
-                      startIcon={<Add />}
-                      onClick={handleNewConversation}
-                      sx={{
-                        background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
-                        '&:hover': {
-                          background: 'linear-gradient(135deg, #5568d3 0%, #6a3f91 100%)',
-                        },
-                      }}
-                    >
-                      New Conversation
-                    </Button>
-                  </Box>
-
-                  {/* Search */}
-                  <Box sx={{ px: 2, pb: 2 }}>
-                    <TextField
-                      fullWidth
-                      size="small"
-                      placeholder="Search conversations..."
-                      value={searchQuery}
-                      onChange={(e) => setSearchQuery(e.target.value)}
-                      InputProps={{
-                        startAdornment: (
-                          <InputAdornment position="start">
-                            <Search fontSize="small" />
-                          </InputAdornment>
-                        ),
-                      }}
-                    />
-                  </Box>
-
-                  {/* Conversations List */}
-                  <List
+            {/* Tab Panel 1: Conversations View */}
+            {currentTab === 1 && (
+              <Box sx={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
+                {/* New Conversation Button */}
+                <Box sx={{ p: 2 }}>
+                  <Button
+                    fullWidth
+                    variant="contained"
+                    startIcon={<Add />}
+                    onClick={handleNewConversation}
                     sx={{
-                      flexGrow: 1,
-                      overflowY: 'auto',
-                      px: 1,
-                      '&::-webkit-scrollbar': { width: '6px' },
-                      '&::-webkit-scrollbar-thumb': {
-                        background: alpha(theme.palette.primary.main, 0.3),
-                        borderRadius: '4px',
+                      background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+                      '&:hover': {
+                        background: 'linear-gradient(135deg, #5568d3 0%, #6a3f91 100%)',
                       },
                     }}
                   >
-                    {filteredConversations.length === 0 ? (
-                      <Box sx={{ p: 3, textAlign: 'center', color: 'text.secondary' }}>
-                        <History sx={{ fontSize: 48, mb: 1, opacity: 0.5 }} />
-                        <Typography variant="body2">No conversations yet</Typography>
-                        <Typography variant="caption">Start chatting to create history</Typography>
-                      </Box>
-                    ) : (
-                      filteredConversations.map((conv) => (
-                        <ListItemButton
-                          key={conv.id}
-                          selected={activeConversationId === conv.id}
-                          onClick={() => handleSelectConversation(conv.id)}
-                          sx={{
-                            mb: 1,
-                            borderRadius: 2,
-                            border: 1,
-                            borderColor:
-                              activeConversationId === conv.id
-                                ? 'primary.main'
-                                : alpha(theme.palette.divider, 0.3),
-                            '&.Mui-selected': {
-                              background: alpha(theme.palette.primary.main, 0.1),
-                            },
-                          }}
-                        >
-                          <ListItemText
-                            primary={
-                              editingId === conv.id ? (
-                                <Box sx={{ display: 'flex', gap: 0.5, alignItems: 'center' }}>
-                                  <TextField
-                                    size="small"
-                                    value={editTitle}
-                                    onChange={(e) => setEditTitle(e.target.value)}
-                                    onClick={(e) => e.stopPropagation()}
-                                    sx={{ flex: 1 }}
-                                  />
-                                  <IconButton
-                                    size="small"
-                                    onClick={(e) => {
-                                      e.stopPropagation();
-                                      handleRenameConversation(conv.id, editTitle);
-                                    }}
-                                  >
-                                    <Check fontSize="small" />
-                                  </IconButton>
-                                  <IconButton
-                                    size="small"
-                                    onClick={(e) => {
-                                      e.stopPropagation();
-                                      handleCancelEdit();
-                                    }}
-                                  >
-                                    <Cancel fontSize="small" />
-                                  </IconButton>
-                                </Box>
-                              ) : (
-                                <Box
-                                  sx={{
-                                    display: 'flex',
-                                    justifyContent: 'space-between',
-                                    alignItems: 'center',
+                    New Conversation
+                  </Button>
+                </Box>
+
+                {/* Search */}
+                <Box sx={{ px: 2, pb: 2 }}>
+                  <TextField
+                    fullWidth
+                    size="small"
+                    placeholder="Search conversations..."
+                    value={searchQuery}
+                    onChange={(e) => setSearchQuery(e.target.value)}
+                    InputProps={{
+                      startAdornment: (
+                        <InputAdornment position="start">
+                          <Search fontSize="small" />
+                        </InputAdornment>
+                      ),
+                    }}
+                  />
+                </Box>
+
+                {/* Conversations List */}
+                <List
+                  sx={{
+                    flexGrow: 1,
+                    overflowY: 'auto',
+                    px: 1,
+                    '&::-webkit-scrollbar': { width: '6px' },
+                    '&::-webkit-scrollbar-thumb': {
+                      background: alpha(theme.palette.primary.main, 0.3),
+                      borderRadius: '4px',
+                    },
+                  }}
+                >
+                  {filteredConversations.length === 0 ? (
+                    <Box sx={{ p: 3, textAlign: 'center', color: 'text.secondary' }}>
+                      <History sx={{ fontSize: 48, mb: 1, opacity: 0.5 }} />
+                      <Typography variant="body2">No conversations yet</Typography>
+                      <Typography variant="caption">Start chatting to create history</Typography>
+                    </Box>
+                  ) : (
+                    filteredConversations.map((conv) => (
+                      <ListItemButton
+                        key={conv.id}
+                        selected={activeConversationId === conv.id}
+                        onClick={() => handleSelectConversation(conv.id)}
+                        sx={{
+                          mb: 1,
+                          borderRadius: 2,
+                          border: 1,
+                          borderColor:
+                            activeConversationId === conv.id
+                              ? 'primary.main'
+                              : alpha(theme.palette.divider, 0.3),
+                          '&.Mui-selected': {
+                            background: alpha(theme.palette.primary.main, 0.1),
+                          },
+                        }}
+                      >
+                        <ListItemText
+                          primary={
+                            editingId === conv.id ? (
+                              <Box sx={{ display: 'flex', gap: 0.5, alignItems: 'center' }}>
+                                <TextField
+                                  size="small"
+                                  value={editTitle}
+                                  onChange={(e) => setEditTitle(e.target.value)}
+                                  onClick={(e) => e.stopPropagation()}
+                                  sx={{ flex: 1 }}
+                                />
+                                <IconButton
+                                  size="small"
+                                  onClick={(e) => {
+                                    e.stopPropagation();
+                                    handleRenameConversation(conv.id, editTitle);
                                   }}
                                 >
-                                  <Typography variant="body2" noWrap sx={{ fontWeight: 600, flex: 1 }}>
-                                    {conv.title}
-                                  </Typography>
-                                  <Box>
-                                    <IconButton
-                                      size="small"
-                                      onClick={(e) => {
-                                        e.stopPropagation();
-                                        handleStartEdit(conv.id, conv.title);
-                                      }}
-                                    >
-                                      <Edit fontSize="small" />
-                                    </IconButton>
-                                    <IconButton
-                                      size="small"
-                                      onClick={(e) => {
-                                        e.stopPropagation();
-                                        handleDeleteConversation(conv.id);
-                                      }}
-                                    >
-                                      <DeleteOutline fontSize="small" />
-                                    </IconButton>
-                                  </Box>
+                                  <Check fontSize="small" />
+                                </IconButton>
+                                <IconButton
+                                  size="small"
+                                  onClick={(e) => {
+                                    e.stopPropagation();
+                                    handleCancelEdit();
+                                  }}
+                                >
+                                  <Cancel fontSize="small" />
+                                </IconButton>
+                              </Box>
+                            ) : (
+                              <Box
+                                sx={{
+                                  display: 'flex',
+                                  justifyContent: 'space-between',
+                                  alignItems: 'center',
+                                }}
+                              >
+                                <Typography
+                                  variant="body2"
+                                  noWrap
+                                  sx={{ fontWeight: 600, flex: 1 }}
+                                >
+                                  {conv.title}
+                                </Typography>
+                                <Box>
+                                  <IconButton
+                                    size="small"
+                                    onClick={(e) => {
+                                      e.stopPropagation();
+                                      handleStartEdit(conv.id, conv.title);
+                                    }}
+                                  >
+                                    <Edit fontSize="small" />
+                                  </IconButton>
+                                  <IconButton
+                                    size="small"
+                                    onClick={(e) => {
+                                      e.stopPropagation();
+                                      handleDeleteConversation(conv.id);
+                                    }}
+                                  >
+                                    <DeleteOutline fontSize="small" />
+                                  </IconButton>
                                 </Box>
-                              )
-                            }
-                            secondary={
-                              <>
-                                <Typography variant="caption" noWrap display="block">
-                                  {conv.preview}
-                                </Typography>
-                                <Typography variant="caption" color="text.secondary">
-                                  {formatTimestamp(conv.timestamp)} • {conv.messageCount} messages
-                                </Typography>
-                              </>
-                            }
-                          />
-                        </ListItemButton>
-                      ))
-                    )}
-                  </List>
-                </Box>
-              )}
-            </Box>
+                              </Box>
+                            )
+                          }
+                          secondary={
+                            <>
+                              <Typography variant="caption" noWrap display="block">
+                                {conv.preview}
+                              </Typography>
+                              <Typography variant="caption" color="text.secondary">
+                                {formatTimestamp(conv.timestamp)} • {conv.messageCount} messages
+                              </Typography>
+                            </>
+                          }
+                        />
+                      </ListItemButton>
+                    ))
+                  )}
+                </List>
+              </Box>
+            )}
+          </Box>
         </Paper>
       </Zoom>
 

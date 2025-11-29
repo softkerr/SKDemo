@@ -7,13 +7,15 @@ import FormControl from '@mui/material/FormControl';
 import Box from '@mui/material/Box';
 import { useTranslation } from 'react-i18next';
 import { LANGUAGES } from '@/constants';
-import type { Language } from '@/types';
 
 export const LanguageSwitcher: React.FC = () => {
   const { i18n } = useTranslation();
 
   const handleChange = (event: { target: { value: string } }) => {
-    i18n.changeLanguage(event.target.value);
+    const newLanguage = event.target.value;
+    i18n.changeLanguage(newLanguage);
+    // Save selected language to localStorage
+    localStorage.setItem('language', newLanguage);
   };
 
   return (

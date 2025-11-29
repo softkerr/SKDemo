@@ -20,10 +20,10 @@ export const Footer: React.FC = () => {
 
   const footerLinks = {
     company: [
-      { label: t('navigation.about'), href: ROUTES.ABOUT },
-      { label: t('navigation.services'), href: ROUTES.SERVICES },
-      { label: t('navigation.pricing'), href: ROUTES.PRICING },
-      { label: t('navigation.contact'), href: ROUTES.CONTACT },
+      { label: t('common.shop'), href: ROUTES.SHOP },
+      { label: t('common.studio'), href: ROUTES.STUDIO },
+      { label: t('common.admin'), href: ROUTES.ADMIN },
+      { label: t('common.contacts'), href: ROUTES.CONTACTS },
     ],
     legal: [
       { label: t('footer.links.privacy'), href: '#' },

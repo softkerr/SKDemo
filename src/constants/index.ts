@@ -5,7 +5,7 @@ export const LANGUAGES: Record<Language, LanguageConfig> = {
   en: {
     code: 'en',
     label: 'English',
-    flag: '��',
+    flag: '🇬🇧',
   },
   de: {
     code: 'de',
@@ -37,11 +37,10 @@ export const THEME_MODES = {
 // Navigation routes
 export const ROUTES = {
   HOME: '/',
-  SERVICES: '/services',
-  PRICING: '/pricing',
-  ABOUT: '/about',
-  CONTACT: '/contact',
-  LOCALIZATION_DEMO: '/localization-demo',
+  SHOP: '/shop',
+  STUDIO: '/studio',
+  ADMIN: '/admin',
+  CONTACTS: '/contacts',
 } as const;
 
 // Company information
@@ -52,9 +51,9 @@ export const COMPANY_INFO = {
   phone: '+1 (555) 123-4567',
   address: '123 Tech Street, San Francisco, CA 94105',
   social: {
-    github: 'https://github.com/webdevstudio',
-    linkedin: 'https://linkedin.com/company/webdevstudio',
-    twitter: 'https://twitter.com/webdevstudio',
+    github: 'https://github.com/softkerr',
+    linkedin: 'https://www.linkedin.com/company/softkerr/',
+    twitter: '#',
   },
 };
 

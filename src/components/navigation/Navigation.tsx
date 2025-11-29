@@ -32,10 +32,10 @@ export const Navigation: React.FC = () => {
 
   const navItems = [
     { label: t('navigation.home'), href: ROUTES.HOME },
-    { label: t('navigation.services'), href: ROUTES.SERVICES },
-    { label: t('navigation.pricing'), href: ROUTES.PRICING },
-    { label: t('navigation.about'), href: ROUTES.ABOUT },
-    { label: t('navigation.contact'), href: ROUTES.CONTACT },
+    { label: t('navigation.shop'), href: ROUTES.SHOP },
+    { label: t('navigation.studio'), href: ROUTES.STUDIO },
+    { label: t('navigation.admin'), href: ROUTES.ADMIN },
+    { label: t('navigation.contacts'), href: ROUTES.CONTACTS },
   ];
 
   const handleDrawerToggle = () => {
@@ -46,8 +46,8 @@ export const Navigation: React.FC = () => {
 
   return (
     <>
-      <AppBar 
-        position="sticky" 
+      <AppBar
+        position="sticky"
         color="default"
         elevation={0}
         sx={{
@@ -113,9 +113,9 @@ export const Navigation: React.FC = () => {
             </Box>
 
             {/* Desktop Controls */}
-            <Stack 
-              direction="row" 
-              spacing={2} 
+            <Stack
+              direction="row"
+              spacing={2}
               alignItems="center"
               sx={{ display: { xs: 'none', md: 'flex' } }}
             >
@@ -127,12 +127,7 @@ export const Navigation: React.FC = () => {
             {/* Mobile Menu Button */}
             <Box sx={{ display: { xs: 'flex', md: 'none' }, ml: 'auto', gap: 1 }}>
               <ThemeToggle />
-              <IconButton
-                onClick={handleDrawerToggle}
-                size="large"
-                edge="end"
-                color="inherit"
-              >
+              <IconButton onClick={handleDrawerToggle} size="large" edge="end" color="inherit">
                 <MenuIcon />
               </IconButton>
             </Box>
@@ -154,7 +149,9 @@ export const Navigation: React.FC = () => {
         }}
       >
         <Box sx={{ p: 2 }}>
-          <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 2 }}>
+          <Box
+            sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 2 }}
+          >
             <Typography variant="h6" fontWeight={700}>
               Menu
             </Typography>
@@ -162,7 +159,7 @@ export const Navigation: React.FC = () => {
               <CloseIcon />
             </IconButton>
           </Box>
-          
+
           <Divider sx={{ mb: 2 }} />
 
           <List>
@@ -185,10 +182,7 @@ export const Navigation: React.FC = () => {
                     },
                   }}
                 >
-                  <ListItemText 
-                    primary={item.label}
-                    primaryTypographyProps={{ fontWeight: 600 }}
-                  />
+                  <ListItemText primary={item.label} primaryTypographyProps={{ fontWeight: 600 }} />
                 </ListItemButton>
               </ListItem>
             ))}

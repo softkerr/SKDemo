@@ -4,6 +4,19 @@ import HttpBackend from 'i18next-http-backend';
 
 const isDevelopment = process.env.NODE_ENV === 'development';
 
+// Get saved language from localStorage or use browser language
+const getSavedLanguage = (): string => {
+  if (typeof window === 'undefined') return 'en';
+  
+  const savedLanguage = localStorage.getItem('language');
+  if (savedLanguage) return savedLanguage;
+  
+  // Fallback to browser language
+  const browserLanguage = navigator.language.split('-')[0];
+  const supportedLanguages = ['en', 'de', 'es', 'fr'];
+  return supportedLanguages.includes(browserLanguage) ? browserLanguage : 'en';
+};
+
 // Initialize i18next with local translation files
 // Translations are downloaded from Locize during dev/build via npm scripts
 if (typeof window !== 'undefined') {
@@ -14,6 +27,7 @@ if (typeof window !== 'undefined') {
     .use(initReactI18next)
     // Initialize
     .init({
+      lng: getSavedLanguage(), // Use saved language or browser default
       fallbackLng: 'en',
       supportedLngs: ['en', 'de', 'es', 'fr'],
       load: 'languageOnly',

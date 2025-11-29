@@ -39,26 +39,6 @@ function convertPrice(usdPrice: number) {
   };
 }
 
-// Translation helpers - Multi-language support
-// TODO: Replace with actual translations
-function translateText(text: string) {
-  return {
-    en: text,
-    de: text, // TODO: Add German translation
-    fr: text, // TODO: Add French translation
-    es: text, // TODO: Add Spanish translation
-  };
-}
-
-function translateArray(items: string[]) {
-  return {
-    en: items,
-    de: items, // TODO: Add German translation
-    fr: items, // TODO: Add French translation
-    es: items, // TODO: Add Spanish translation
-  };
-}
-
 // Convert static products to Sanity format
 const products = staticProducts.map((product, index) => ({
   _type: 'product',
@@ -294,76 +274,47 @@ const navigation = {
       openInNewTab: false,
     },
     {
-      _key: 'nav-services',
-      label: 'Services',
-      translationKey: 'nav.services',
+      _key: 'nav-shop',
+      label: 'Shop',
+      translationKey: 'nav.shop',
       linkType: 'internal',
-      internalLink: '/services',
+      internalLink: '/shop',
       icon: 'Build',
       order: 10,
       showInHeader: true,
       showInFooter: false,
       openInNewTab: false,
-      children: [
-        {
-          _key: 'nav-services-web',
-          label: 'Web Development',
-          translationKey: 'nav.services.web',
-          linkType: 'internal',
-          internalLink: '/services/web-development',
-          icon: 'Code',
-          order: 0,
-        },
-        {
-          _key: 'nav-services-mobile',
-          label: 'Mobile Apps',
-          translationKey: 'nav.services.mobile',
-          linkType: 'internal',
-          internalLink: '/services/mobile-app-development',
-          icon: 'PhoneIphone',
-          order: 1,
-        },
-        {
-          _key: 'nav-services-cloud',
-          label: 'Cloud Solutions',
-          translationKey: 'nav.services.cloud',
-          linkType: 'internal',
-          internalLink: '/services/cloud-solutions',
-          icon: 'Cloud',
-          order: 2,
-        },
-      ],
     },
     {
-      _key: 'nav-pricing',
-      label: 'Pricing',
-      translationKey: 'nav.pricing',
+      _key: 'nav-studio',
+      label: 'Studio',
+      translationKey: 'nav.studio',
       linkType: 'internal',
-      internalLink: '/pricing',
-      icon: 'AttachMoney',
+      internalLink: '/studio',
+      icon: 'Palette',
       order: 20,
       showInHeader: true,
       showInFooter: false,
       openInNewTab: false,
     },
     {
-      _key: 'nav-about',
-      label: 'About',
-      translationKey: 'nav.about',
+      _key: 'nav-admin',
+      label: 'Admin',
+      translationKey: 'nav.admin',
       linkType: 'internal',
-      internalLink: '/about',
-      icon: 'Info',
+      internalLink: '/admin',
+      icon: 'AdminPanelSettings',
       order: 30,
       showInHeader: true,
       showInFooter: true,
       openInNewTab: false,
     },
     {
-      _key: 'nav-contact',
-      label: 'Contact',
-      translationKey: 'nav.contact',
+      _key: 'nav-contacts',
+      label: 'Contacts',
+      translationKey: 'nav.contacts',
       linkType: 'internal',
-      internalLink: '/contact',
+      internalLink: '/contacts',
       icon: 'ContactMail',
       order: 40,
       showInHeader: true,

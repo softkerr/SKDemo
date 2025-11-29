@@ -1,11 +1,12 @@
 {
   "common": {
-    "home": "Inicio",
-    "services": "Servicios",
-    "about": "Nosotros",
-    "contact": "Contacto",
-    "welcome": "Bienvenido",
-    "learnMore": "Más información"
+    "navigation": {
+      "home": "Startseite",
+      "shop": "Dienstleistungen",
+      "studio": "Über uns",
+      "contacts": "Kontakt",
+      "admin": "Willkommen"
+    }
   },
   "home": {
     "title": "Inicio",

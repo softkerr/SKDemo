@@ -1,25 +1,20 @@
 {
   "navigation": {
     "main-menu": {
-      "about": {
-        "label": "About"
+      "admin": {
+        "label": "Admin"
       },
-      "contact": {
-        "label": "Contact"
+      "contacts": {
+        "label": "Contacts"
       },
       "home": {
         "label": "Home"
       },
-      "pricing": {
-        "label": "Pricing"
+      "shop": {
+        "label": "Shop"
       },
-      "services": {
-        "children": {
-          "cloud-solutions": "Cloud Solutions",
-          "mobile-apps": "Mobile Apps",
-          "web-development": "Web Development"
-        },
-        "label": "Services"
+      "studio": {
+        "label": "Studio"
       }
     }
   },

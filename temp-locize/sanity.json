@@ -98,22 +98,17 @@
       "home": {
         "label": "Home"
       },
-      "services": {
-        "label": "Services",
-        "children": {
-          "web-development": "Web Development",
-          "mobile-apps": "Mobile Apps",
-          "cloud-solutions": "Cloud Solutions"
-        }
+      "shop": {
+        "label": "Shop"
       },
-      "pricing": {
-        "label": "Pricing"
+      "studio": {
+        "label": "Studio"
       },
-      "about": {
-        "label": "About"
+      "admin": {
+        "label": "Admin"
       },
-      "contact": {
-        "label": "Contact"
+      "contacts": {
+        "label": "Contacts"
       }
     }
   },

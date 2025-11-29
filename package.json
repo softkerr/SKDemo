@@ -16,7 +16,6 @@
     "seed:all": "npm run seed:sanity && npm run download-translations",
     "verify:setup": "node scripts/verify-setup.js",
     "sync:sanity-to-locize": "tsx scripts/sync-sanity-to-locize.ts",
-    "sync:all": "npm run sync:sanity-to-locize && npm run download-translations",
     "push:local-to-locize": "tsx scripts/push-local-to-locize.ts",
     "push:and-download": "npm run push:local-to-locize && npm run download-translations"
   },

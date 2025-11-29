@@ -1,10 +1,14 @@
 {
   "about": "À propos",
   "contact": "Contact",
-  "home": "Accueil",
+  "home": "Startseite",
   "learnMore": "En savoir plus",
   "navigation": {
-    "services": "Services"
+    "admin": "Admin",
+    "contacts": "Contacts",
+    "home": "Accueil",
+    "shop": "Boutique",
+    "studio": "Studio"
   },
   "services": "Services",
   "welcome": "Bienvenue"

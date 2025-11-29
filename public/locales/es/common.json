@@ -10,10 +10,14 @@
   },
   "contact": "Contacto",
   "currency": "EUR",
-  "home": "Inicio",
+  "home": "Startseite",
   "learnMore": "Más información",
   "navigation": {
-    "services": "Servicios"
+    "admin": "Admin",
+    "contacts": "Contactos",
+    "home": "Inicio",
+    "shop": "Tienda",
+    "studio": "Estudio"
   },
   "services": "Servicios",
   "welcome": "Bienvenido"

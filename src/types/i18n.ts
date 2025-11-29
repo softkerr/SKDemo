@@ -33,7 +33,7 @@ export interface TranslationResource {
     service3Description: string;
     service3Price: string;
   };
-  about: {
+  shop: {
     title: string;
     subtitle: string;
     mission: string;
@@ -43,7 +43,7 @@ export interface TranslationResource {
     values: string;
     valuesText: string;
   };
-  contact: {
+  contacts: {
     title: string;
     subtitle: string;
     nameLabel: string;

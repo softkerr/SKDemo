@@ -13,7 +13,11 @@
   "home": "Startseite",
   "learnMore": "Mehr erfahren",
   "navigation": {
-    "services": "Dienstleistungen"
+    "admin": "Admin",
+    "contacts": "Kontakte",
+    "home": "Startseite",
+    "shop": "Geschäft",
+    "studio": "Studio"
   },
   "services": "Dienstleistungen",
   "shop": {

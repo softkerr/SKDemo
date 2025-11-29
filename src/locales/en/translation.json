@@ -1,11 +1,12 @@
 {
   "common": {
-    "home": "Home",
-    "services": "Services",
-    "about": "About",
-    "contact": "Contact",
-    "welcome": "Welcome",
-    "learnMore": "Learn More"
+    "navigation": {
+      "home": "Startseite",
+      "shop": "Dienstleistungen",
+      "studio": "Über uns",
+      "contacts": "Kontakt",
+      "admin": "Willkommen"
+    }
   },
   "home": {
     "title": "Home",

@@ -35,7 +35,7 @@
       "followUs": "Follow Us"
     }
   },
-  "home": "Home",
+  "home": "Startseite",
   "language": {
     "english": "English",
     "french": "French",
@@ -45,11 +45,11 @@
   },
   "learnMore": "Learn More",
   "navigation": {
-    "about": "About",
-    "contact": "Contact",
+    "admin": "Admin",
+    "contacts": "Contacts",
     "home": "Home",
-    "pricing": "Pricing",
-    "services": "Services"
+    "shop": "Shop",
+    "studio": "Studio"
   },
   "services": "Services",
   "shop": {

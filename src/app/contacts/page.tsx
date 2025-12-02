@@ -1,198 +1,46 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { Box, Container, Typography, Card, CardContent, Alert, Paper } from '@mui/material';
 import { useTheme } from '@mui/material/styles';
-import { useForm } from 'react-hook-form';
-import { zodResolver } from '@hookform/resolvers/zod';
 import { useTranslation } from 'react-i18next';
 import '../../i18n/config';
 
-import { FormData, formSchema, StepId } from './schemas/formSchemas';
-import { availableSteps } from './components/FormProgress';
-import PersonalInfoStep from './components/PersonalInfoStep';
-import BusinessInfoStep from './components/BusinessInfoStep';
-import MessageStep from './components/MessageStep';
-import PreferencesStep from './components/PreferencesStep';
-import FormProgress from './components/FormProgress';
-import FormNavigation from './components/FormNavigation';
-import SuccessScreen from './components/SuccessScreen';
-
-const STORAGE_KEY = 'contact-form-data';
+import { StepId } from '../../zod/schemas/formSchemas';
+import PersonalInfoStep from '../../components/contacts/PersonalInfoStep';
+import BusinessInfoStep from '../../components/contacts/BusinessInfoStep';
+import MessageStep from '../../components/contacts/MessageStep';
+import PreferencesStep from '../../components/contacts/PreferencesStep';
+import FormProgress from '../../components/contacts/FormProgress';
+import FormNavigation from '../../components/contacts/FormNavigation';
+import SuccessScreen from '../../components/contacts/SuccessScreen';
+import { useContactForm } from '../../hooks/useContactForm';
 
 export default function AdvancedContactForm() {
   const theme = useTheme();
   const { t } = useTranslation('contact-form');
-  const [activeStep, setActiveStep] = useState(0);
-  const [completedSteps, setCompletedSteps] = useState<Set<number>>(new Set());
-  const [submitted, setSubmitted] = useState(false);
-  const [savedData, setSavedData] = useState<Partial<FormData> | null>(null);
-
-  // Load saved data from localStorage before initializing form
-  const getDefaultValues = (): FormData => {
-    if (typeof window !== 'undefined') {
-      const saved = localStorage.getItem(STORAGE_KEY);
-      if (saved) {
-        try {
-          const parsedData = JSON.parse(saved);
-          return parsedData;
-        } catch (error) {
-          console.error('Error loading saved form data:', error);
-        }
-      }
-    }
-
-    return {
-      personalInfo: {
-        firstName: '',
-        lastName: '',
-        email: '',
-        phone: '',
-        dateOfBirth: '',
-      },
-      businessInfo: {
-        companyName: '',
-        position: '',
-        industry: '',
-        companySize: '',
-        website: '',
-      },
-      message: {
-        subject: '',
-        message: '',
-        priority: 'medium',
-        category: '',
-        attachments: false,
-      },
-      preferences: {
-        contactMethod: 'email',
-        newsletterSubscribe: false,
-        termsAccepted: false,
-        marketingConsent: false,
-      },
-    };
-  };
 
   const {
-    control,
-    handleSubmit,
-    formState: { errors },
-    watch,
-    getValues,
-    trigger,
-    reset,
-  } = useForm<FormData>({
-    resolver: zodResolver(formSchema),
-    mode: 'onBlur',
-    reValidateMode: 'onChange',
-    criteriaMode: 'all',
-    shouldUnregister: false,
-    defaultValues: getDefaultValues(),
-  });
-
-  // Check if there was saved data and show alert
-  useEffect(() => {
-    const saved = localStorage.getItem(STORAGE_KEY);
-    if (saved) {
-      try {
-        const parsedData = JSON.parse(saved);
-        setSavedData(parsedData);
-      } catch (error) {
-        console.error('Error loading saved form data:', error);
-      }
-    }
-  }, []);
-
-  // Persist form values to localStorage
-  useEffect(() => {
-    if (submitted) return;
-
-    const subscription = watch(() => {
-      try {
-        const values = getValues();
-        console.log('💾 Saving to localStorage:', values);
-
-        const existingData = localStorage.getItem(STORAGE_KEY);
-        let mergedData = values;
-
-        if (existingData) {
-          try {
-            const existing = JSON.parse(existingData);
-            mergedData = {
-              personalInfo: { ...existing.personalInfo, ...values.personalInfo },
-              businessInfo: { ...existing.businessInfo, ...values.businessInfo },
-              message: { ...existing.message, ...values.message },
-              preferences: { ...existing.preferences, ...values.preferences },
-            };
-            console.log('🔄 Merged with existing data:', mergedData);
-          } catch (e) {
-            console.warn('Could not merge with existing data, using current values');
-          }
-        }
-
-        localStorage.setItem(STORAGE_KEY, JSON.stringify(mergedData));
-      } catch (err) {
-        console.error('Error saving form data to localStorage:', err);
-      }
-    });
-
-    return () => subscription.unsubscribe();
-  }, [watch, getValues, submitted]);
-
-  const handleNext = async () => {
-    const currentStepId = availableSteps[activeStep].id;
-
-    const currentValues = getValues();
-    console.log('📝 Current form values before Next:', currentValues);
-    console.log('🔍 Validating step:', currentStepId);
-
-    const isValid = await trigger(currentStepId);
-    console.log('✅ Validation result:', isValid);
-
-    if (isValid) {
-      const valuesAfterValidation = getValues();
-      console.log('🔎 Values after validation:', valuesAfterValidation);
-
-      const finalValues = getValues();
-      console.log('💾 Saving before step change:', finalValues);
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(finalValues));
-
-      setCompletedSteps((prev) => new Set(prev).add(activeStep));
-      setActiveStep((prev) => prev + 1);
-
-      setTimeout(() => {
-        const valuesAfterStepChange = getValues();
-        console.log('💾 Values after step change:', valuesAfterStepChange);
-        localStorage.setItem(STORAGE_KEY, JSON.stringify(valuesAfterStepChange));
-      }, 100);
-    }
-  };
-
-  const handleBack = () => {
-    setActiveStep((prev) => prev - 1);
-  };
-
-  const handleStepClick = (stepIndex: number) => {
-    if (stepIndex <= activeStep || completedSteps.has(stepIndex)) {
-      setActiveStep(stepIndex);
-    }
-  };
-
-  const onSubmit = async (data: FormData) => {
-    console.log('Form submitted:', data);
-    await new Promise((resolve) => setTimeout(resolve, 1500));
-    setSubmitted(true);
-    localStorage.removeItem(STORAGE_KEY);
-  };
-
-  const handleReset = () => {
-    reset();
-    setActiveStep(0);
-    setCompletedSteps(new Set());
-    setSubmitted(false);
-    localStorage.removeItem(STORAGE_KEY);
-    setSavedData(null);
-  };
+    form: {
+      control,
+      handleSubmit,
+      formState: { errors },
+      watch,
+    },
+    activeStep,
+    completedSteps,
+    submitted,
+    savedData,
+    handleNext,
+    handleBack,
+    handleStepClick,
+    handleReset,
+    onSubmit,
+    currentStepId,
+    isFirstStep,
+    isLastStep,
+    totalSteps,
+  } = useContactForm();
 
   const renderStepContent = (stepId: StepId) => {
     switch (stepId) {
@@ -212,8 +60,6 @@ export default function AdvancedContactForm() {
   if (submitted) {
     return <SuccessScreen onReset={handleReset} />;
   }
-
-  const currentStep = availableSteps[activeStep];
 
   return (
     <Box
@@ -263,17 +109,17 @@ export default function AdvancedContactForm() {
 
             {/* Form Content */}
             <form onSubmit={handleSubmit(onSubmit)}>
-              <Box sx={{ mb: 4 }}>{renderStepContent(currentStep.id)}</Box>
+              <Box sx={{ mb: 4 }}>{renderStepContent(currentStepId)}</Box>
 
               <FormNavigation
                 activeStep={activeStep}
-                totalSteps={availableSteps.length}
+                totalSteps={totalSteps}
                 onBack={handleBack}
                 onNext={handleNext}
                 onReset={handleReset}
                 onSubmit={() => handleSubmit(onSubmit)()}
-                isFirstStep={activeStep === 0}
-                isLastStep={activeStep === availableSteps.length - 1}
+                isFirstStep={isFirstStep}
+                isLastStep={isLastStep}
               />
             </form>
           </CardContent>

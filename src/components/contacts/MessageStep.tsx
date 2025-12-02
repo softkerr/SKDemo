@@ -15,7 +15,7 @@ import {
 } from '@mui/material';
 import { Control, FieldErrors, Controller } from 'react-hook-form';
 import { useTranslation } from 'react-i18next';
-import { FormData } from '../schemas/formSchemas';
+import { FormData } from '../../zod/schemas/formSchemas';
 
 interface MessageStepProps {
   control: Control<FormData>;

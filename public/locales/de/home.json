@@ -1,13 +1,191 @@
 {
+  "cta": {
+    "button": "Jetzt Starten",
+    "description": "Lassen Sie uns über Ihr Projekt sprechen und sehen, wie wir helfen können, Ihre Vision zum Leben zu erwecken.",
+    "title": "Bereit, etwas Erstaunliches zu bauen?"
+  },
+  "featureSection": {
+    "keyBenefits": "Hauptvorteile",
+    "explore": "Erkunden",
+    "previewDescription": "Erleben Sie leistungsstarke Funktionen, die für moderne Webanwendungen entwickelt wurden. Mit Fokus auf Skalierbarkeit und Benutzererfahrung."
+  },
   "feature1Description": "Lieferung hochwertiger Dienstleistungen mit Liebe zum Detail und Engagement für Exzellenz.",
   "feature1Title": "Professionelle Exzellenz",
   "feature2Description": "Tätig in mehreren Ländern und Betreuung von Kunden weltweit.",
   "feature2Title": "Globale Reichweite",
   "feature3Description": "Rund um die Uhr Kundensupport, damit Ihr Geschäft nie stillsteht.",
   "feature3Title": "24/7 Support",
+  "features": {
+    "admin": {
+      "badge": "Admin-Panel",
+      "benefits": {
+        "analytics": {
+          "desc": "Detaillierte Analysen mit interaktiven Diagrammen und Datenvisualisierung",
+          "title": "Analytics & Berichte"
+        },
+        "dashboard": {
+          "desc": "Echtzeit-Metriken, Diagramme und Einblicke auf einen Blick",
+          "title": "Umfassendes Dashboard"
+        },
+        "security": {
+          "desc": "Granulare Berechtigungen und Zugriffskontrolle für erhöhte Sicherheit",
+          "title": "Rollenbasierte Sicherheit"
+        },
+        "settings": {
+          "desc": "Passen Sie Einstellungen, Benachrichtigungen und Systemeinstellungen an",
+          "title": "Systemkonfiguration"
+        },
+        "users": {
+          "desc": "Vollständige CRUD-Operationen zur Verwaltung von Teammitgliedern und Rollen",
+          "title": "Benutzerverwaltung"
+        }
+      },
+      "description": "Leistungsstarkes Verwaltungspanel mit Echtzeit-Analysen, Benutzerverwaltung und umfassenden Systemsteuerungen. Überwachen Sie Ihre Plattform mit detaillierten Einblicken und verwalten Sie alle Aspekte von einem Ort aus.",
+      "previewDescription": "Komplettes Admin-Kontrollzentrum mit Echtzeit-Überwachung, Benutzerverwaltung und fortgeschrittener Analytik. Alles was Sie brauchen, um Ihre Plattform effizient zu verwalten.",
+      "link": "Mehr über Admin-Panel erfahren",
+      "previewTags": ["Dashboard", "Benutzer", "Analytics"],
+      "title": "Admin-Dashboard"
+    },
+    "contact": {
+      "badge": "Kontaktieren Sie uns",
+      "benefits": {
+        "details": {
+          "desc": "Telefon-, E-Mail- und Adressinformationen leicht verfügbar",
+          "title": "Kontaktdetails"
+        },
+        "form": {
+          "desc": "Validiertes Formular mit Echtzeit-Feedback und Fehlerbehandlung",
+          "title": "Kontaktformular"
+        },
+        "map": {
+          "desc": "Interaktive Karte mit Geschäftsstandort und Wegbeschreibung",
+          "title": "Standortkarte"
+        },
+        "notifications": {
+          "desc": "Erhalten Sie sofortige E-Mail-Benachrichtigungen für neue Anfragen",
+          "title": "Sofortige Benachrichtigungen"
+        },
+        "validation": {
+          "desc": "Intelligente Validierung sorgt für qualitativ hochwertige Übermittlungen",
+          "title": "Formularvalidierung"
+        }
+      },
+      "description": "Professionelle Kontaktseite mit Formularvalidierung, Standortinformationen und interaktiver Karte. Nehmen Sie einfach Kontakt auf und erhalten Sie schnelle Antworten.",
+      "previewDescription": "Professionelles Kontaktsystem mit validierten Formularen, interaktiven Karten und sofortigen Benachrichtigungen. Machen Sie es Kunden leicht, Sie zu erreichen.",
+      "link": "Mehr über Kontaktieren Sie uns erfahren",
+      "previewTags": ["Formular", "Karte", "Info"],
+      "title": "Kontaktsystem"
+    },
+    "shop": {
+      "badge": "E-Commerce",
+      "benefits": {
+        "cart": {
+          "desc": "Artikel hinzufügen, Mengen verwalten und nahtlos zur Kasse gehen",
+          "title": "Warenkorb"
+        },
+        "catalog": {
+          "desc": "Durchsuchen Sie Dienstleistungen mit detaillierten Beschreibungen und Preisen",
+          "title": "Produktkatalog"
+        },
+        "currency": {
+          "desc": "Unterstützung für USD, EUR, GBP mit Echtzeit-Umrechnung",
+          "title": "Multi-Währung"
+        },
+        "filters": {
+          "desc": "Filtern Sie nach Kategorie, Preis, Funktionen und mehr",
+          "title": "Erweiterte Filter"
+        },
+        "orders": {
+          "desc": "Verfolgen Sie Bestellungen und verwalten Sie Lieferpräferenzen",
+          "title": "Bestellverwaltung"
+        }
+      },
+      "description": "Voll ausgestatteter Online-Shop mit Produktkatalog, Warenkorb und sicherer Kaufabwicklung. Durchsuchen Sie Dienstleistungen, verwalten Sie Bestellungen und genießen Sie ein nahtloses Einkaufserlebnis.",
+      "previewDescription": "Moderne E-Commerce-Plattform mit Produktkatalog, Warenkorbverwaltung und sicherer Kaufabwicklung. Multi-Währungsunterstützung und erweiterte Filterung inklusive.",
+      "link": "Mehr über E-Commerce erfahren",
+      "previewTags": ["Produkte", "Warenkorb", "Kasse"],
+      "title": "E-Commerce-Shop"
+    },
+    "studio": {
+      "badge": "Content Studio",
+      "benefits": {
+        "cloud": {
+          "desc": "Greifen Sie von überall auf Ihre Inhalte zu mit automatischen Backups",
+          "title": "Cloud-basiert"
+        },
+        "content": {
+          "desc": "Erstellen Sie Blog-Posts, Artikel und Seiten mit benutzerdefinierten Schemas",
+          "title": "Strukturierte Inhalte"
+        },
+        "editor": {
+          "desc": "Rich-Text-Bearbeitung mit Echtzeit-Vorschau und Formatierung",
+          "title": "Visueller Content-Editor"
+        },
+        "media": {
+          "desc": "Laden Sie Bilder und Dokumente hoch, organisieren und optimieren Sie sie",
+          "title": "Medienverwaltung"
+        },
+        "versions": {
+          "desc": "Verfolgen Sie Änderungen und kehren Sie einfach zu früheren Versionen zurück",
+          "title": "Versionskontrolle"
+        }
+      },
+      "description": "Headless CMS powered by Sanity.io zum Erstellen, Verwalten und Veröffentlichen strukturierter Inhalte. Reichhaltige Bearbeitungserfahrung mit Echtzeit-Zusammenarbeit und Versionskontrolle.",
+      "previewDescription": "Professionelles Content-Management-System mit intuitiver Bearbeitung, Medienbibliothek und Versionskontrolle. Erstellen und veröffentlichen Sie Inhalte mit Leichtigkeit.",
+      "link": "Mehr über Content Studio erfahren",
+      "previewTags": ["Editor", "Medien", "Inhalt"],
+      "title": "Sanity Studio"
+    }
+  },
   "featuresTitle": "Unsere Hauptmerkmale",
+  "hero": {
+    "badge": "SOFTKERR WEB STUDIO",
+    "businessCards": {
+      "analytics": {
+        "label": "Analytics & BI",
+        "value": "Dashboards, Reporting-Tools"
+      },
+      "ecommerce": {
+        "label": "E-Commerce",
+        "value": "Online-Shops, Marktplätze"
+      },
+      "enterprise": {
+        "label": "Unternehmenssysteme",
+        "value": "Benutzerdefinierte CRM, ERP, Admin-Panels"
+      }
+    },
+    "buttons": {
+      "primary": "Admin Erkunden",
+      "secondary": "Shop Durchsuchen"
+    },
+    "description": "Wir verwandeln Ihre Geschäftsvision in leistungsstarke Webanwendungen. Von Unternehmenssystemen bis zu kundenorientierten Plattformen — maßgeschneidert für Ihre individuellen Bedürfnisse.",
+    "title": {
+      "line1": "Digitale ",
+      "line2": "Lösungen, ",
+      "line3": "die Wachstum ",
+      "line4": "fördern. "
+    }
+  },
   "heroDescription": "Wir bieten modernste Technologielösungen, die das Wachstum und den Erfolg von Unternehmen weltweit vorantreiben.",
   "heroTitle": "Innovative Lösungen für Ihr Unternehmen",
   "subtitle": "Willkommen bei unserem Unternehmen",
+  "tech": {
+    "features": {
+      "fast": {
+        "desc": "Next.js 15 mit App Router und React Server Components",
+        "title": "Blitzschnell"
+      },
+      "i18n": {
+        "desc": "Volle i18n-Unterstützung mit 4 Sprachen (EN, DE, ES, FR)",
+        "title": "Internationalisiert"
+      },
+      "secure": {
+        "desc": "Sicherheit auf Unternehmensebene mit rollenbasierter Zugriffskontrolle",
+        "title": "Sicher & Zuverlässig"
+      }
+    },
+    "subtitle": "Nutzung modernster Tools und Frameworks für optimale Leistung",
+    "title": "Gebaut mit moderner Technologie"
+  },
   "title": "Startseite"
 }

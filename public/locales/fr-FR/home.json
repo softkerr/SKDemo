@@ -1,13 +1,191 @@
 {
+  "cta": {
+    "button": "Commencer Maintenant",
+    "description": "Discutons de votre projet et voyons comment nous pouvons aider à concrétiser votre vision.",
+    "title": "Prêt à Construire Quelque Chose d'Incroyable ?"
+  },
+  "featureSection": {
+    "keyBenefits": "Avantages Clés",
+    "explore": "Explorer",
+    "previewDescription": "Découvrez des fonctionnalités puissantes conçues pour les applications web modernes. Conçu avec évolutivité et expérience utilisateur à l'esprit."
+  },
   "feature1Description": "Fournir des services de qualité supérieure avec une attention aux détails et un engagement envers l'excellence.",
   "feature1Title": "Excellence Professionnelle",
   "feature2Description": "Opérant dans plusieurs pays et servant des clients dans le monde entier.",
   "feature2Title": "Portée Mondiale",
   "feature3Description": "Support client 24 heures sur 24 pour que votre entreprise ne s'arrête jamais.",
   "feature3Title": "Support 24/7",
+  "features": {
+    "admin": {
+      "badge": "Panneau d'Administration",
+      "benefits": {
+        "analytics": {
+          "desc": "Analyses détaillées avec graphiques interactifs et visualisation de données",
+          "title": "Analytics & Rapports"
+        },
+        "dashboard": {
+          "desc": "Métriques en temps réel, graphiques et insights en un coup d'œil",
+          "title": "Tableau de Bord Complet"
+        },
+        "security": {
+          "desc": "Permissions granulaires et contrôle d'accès pour une sécurité renforcée",
+          "title": "Sécurité Basée sur les Rôles"
+        },
+        "settings": {
+          "desc": "Personnalisez les paramètres, notifications et préférences système",
+          "title": "Configuration du Système"
+        },
+        "users": {
+          "desc": "Opérations CRUD complètes pour gérer les membres de l'équipe et les rôles",
+          "title": "Gestion des Utilisateurs"
+        }
+      },
+      "description": "Puissant panneau d'administration avec analyses en temps réel, gestion des utilisateurs et contrôles système complets. Surveillez votre plateforme avec des insights détaillés et gérez tous les aspects depuis un seul endroit.",
+      "previewDescription": "Centre de contrôle administratif complet avec surveillance en temps réel, gestion des utilisateurs et analytique avancée. Tout ce dont vous avez besoin pour gérer votre plateforme efficacement.",
+      "link": "En savoir plus sur le Panneau d'Administration",
+      "previewTags": ["Tableau de Bord", "Utilisateurs", "Analytics"],
+      "title": "Tableau de Bord Admin"
+    },
+    "contact": {
+      "badge": "Nous Contacter",
+      "benefits": {
+        "details": {
+          "desc": "Téléphone, email et adresse facilement disponibles",
+          "title": "Coordonnées"
+        },
+        "form": {
+          "desc": "Formulaire validé avec retour en temps réel et gestion des erreurs",
+          "title": "Formulaire de Contact"
+        },
+        "map": {
+          "desc": "Carte interactive montrant l'emplacement de l'entreprise et les directions",
+          "title": "Carte de Localisation"
+        },
+        "notifications": {
+          "desc": "Recevez des notifications email immédiates pour les nouvelles demandes",
+          "title": "Notifications Instantanées"
+        },
+        "validation": {
+          "desc": "Validation intelligente garantit des soumissions de qualité",
+          "title": "Validation de Formulaire"
+        }
+      },
+      "description": "Page de contact professionnelle avec validation de formulaire, informations de localisation et carte interactive. Contactez-nous facilement et recevez des réponses rapides.",
+      "previewDescription": "Système de contact professionnel avec formulaires validés, cartes interactives et notifications instantanées. Facilitez la prise de contact de vos clients.",
+      "link": "En savoir plus sur Nous Contacter",
+      "previewTags": ["Formulaire", "Carte", "Info"],
+      "title": "Système de Contact"
+    },
+    "shop": {
+      "badge": "E-commerce",
+      "benefits": {
+        "cart": {
+          "desc": "Ajoutez des articles, gérez les quantités et finalisez sans effort",
+          "title": "Panier d'Achat"
+        },
+        "catalog": {
+          "desc": "Parcourez les services avec descriptions détaillées et tarifs",
+          "title": "Catalogue de Produits"
+        },
+        "currency": {
+          "desc": "Support pour USD, EUR, GBP avec conversion en temps réel",
+          "title": "Multi-Devises"
+        },
+        "filters": {
+          "desc": "Filtrez par catégorie, prix, fonctionnalités et plus",
+          "title": "Filtres Avancés"
+        },
+        "orders": {
+          "desc": "Suivez les commandes et gérez les préférences de livraison",
+          "title": "Gestion des Commandes"
+        }
+      },
+      "description": "Boutique en ligne complète avec catalogue de produits, panier d'achat et paiement sécurisé. Parcourez les services, gérez les commandes et profitez d'une expérience d'achat fluide.",
+      "previewDescription": "Plateforme e-commerce moderne avec catalogue de produits, gestion de panier et paiement sécurisé. Support multi-devises et filtrage avancé inclus.",
+      "link": "En savoir plus sur E-commerce",
+      "previewTags": ["Produits", "Panier", "Paiement"],
+      "title": "Boutique E-commerce"
+    },
+    "studio": {
+      "badge": "Studio de Contenu",
+      "benefits": {
+        "cloud": {
+          "desc": "Accédez à votre contenu de n'importe où avec sauvegardes automatiques",
+          "title": "Basé sur le Cloud"
+        },
+        "content": {
+          "desc": "Créez des articles de blog, articles et pages avec des schémas personnalisés",
+          "title": "Contenu Structuré"
+        },
+        "editor": {
+          "desc": "Édition de texte enrichi avec aperçu en temps réel et formatage",
+          "title": "Éditeur de Contenu Visuel"
+        },
+        "media": {
+          "desc": "Téléchargez, organisez et optimisez images et documents",
+          "title": "Gestion des Médias"
+        },
+        "versions": {
+          "desc": "Suivez les modifications et revenez facilement aux versions précédentes",
+          "title": "Contrôle de Version"
+        }
+      },
+      "description": "CMS headless alimenté par Sanity.io pour créer, gérer et publier du contenu structuré. Expérience d'édition enrichie avec collaboration en temps réel et contrôle de version.",
+      "previewDescription": "Système de gestion de contenu professionnel avec édition intuitive, bibliothèque de médias et contrôle de version. Créez et publiez du contenu en toute simplicité.",
+      "link": "En savoir plus sur le Studio de Contenu",
+      "previewTags": ["Éditeur", "Médias", "Contenu"],
+      "title": "Sanity Studio"
+    }
+  },
   "featuresTitle": "Nos Caractéristiques Clés",
+  "hero": {
+    "badge": "SOFTKERR WEB STUDIO",
+    "businessCards": {
+      "analytics": {
+        "label": "Analytics & BI",
+        "value": "Tableaux de Bord, Outils de Reporting"
+      },
+      "ecommerce": {
+        "label": "E-Commerce",
+        "value": "Boutiques en Ligne, Marketplaces"
+      },
+      "enterprise": {
+        "label": "Systèmes d'Entreprise",
+        "value": "CRM, ERP, Panneaux d'Administration Personnalisés"
+      }
+    },
+    "buttons": {
+      "primary": "Explorer Admin",
+      "secondary": "Parcourir la Boutique"
+    },
+    "description": "Nous transformons votre vision d'entreprise en applications web puissantes. Des systèmes d'entreprise aux plateformes orientées client — adaptées à vos besoins uniques.",
+    "title": {
+      "line1": "Solutions ",
+      "line2": "numériques ",
+      "line3": "qui stimulent ",
+      "line4": "la croissance. "
+    }
+  },
   "heroDescription": "Nous fournissons des solutions technologiques de pointe qui stimulent la croissance et le succès des entreprises du monde entier.",
   "heroTitle": "Solutions Innovantes pour Votre Entreprise",
   "subtitle": "Bienvenue dans Notre Entreprise",
+  "tech": {
+    "features": {
+      "fast": {
+        "desc": "Next.js 15 avec App Router et React Server Components",
+        "title": "Ultra Rapide"
+      },
+      "i18n": {
+        "desc": "Support complet i18n avec 4 langues (EN, DE, ES, FR)",
+        "title": "Internationalisé"
+      },
+      "secure": {
+        "desc": "Sécurité de niveau entreprise avec contrôle d'accès basé sur les rôles",
+        "title": "Sécurisé & Fiable"
+      }
+    },
+    "subtitle": "Exploitant des outils et frameworks de pointe pour des performances optimales",
+    "title": "Construit avec la Technologie Moderne"
+  },
   "title": "Accueil"
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import { Box, Typography, LinearProgress, Stepper, Step, StepLabel } from '@mui/material';
 import { Person, Business, Message, Settings } from '@mui/icons-material';
 import { useTranslation } from 'react-i18next';
-import { StepId } from '../schemas/formSchemas';
+import { StepId } from '../../zod/schemas/formSchemas';
 
 interface StepConfig {
   id: StepId;
@@ -16,7 +16,7 @@ interface FormProgressProps {
   onStepClick: (index: number) => void;
 }
 
-const availableSteps: StepConfig[] = [
+export const availableSteps: StepConfig[] = [
   { id: 'personalInfo', label: 'Personal Info', icon: <Person /> },
   { id: 'businessInfo', label: 'Business Info', icon: <Business /> },
   { id: 'message', label: 'Message', icon: <Message /> },
@@ -43,7 +43,11 @@ export default function FormProgress({
             {t('progress.complete', { percent: Math.round(progress) })}
           </Typography>
         </Box>
-        <LinearProgress variant="determinate" value={progress} sx={{ height: 8, borderRadius: 4 }} />
+        <LinearProgress
+          variant="determinate"
+          value={progress}
+          sx={{ height: 8, borderRadius: 4 }}
+        />
       </Box>
 
       {/* Stepper - Clickable */}
@@ -53,7 +57,8 @@ export default function FormProgress({
             <StepLabel
               onClick={() => onStepClick(index)}
               sx={{
-                cursor: completedSteps.has(index) || index === activeStep ? 'pointer' : 'not-allowed',
+                cursor:
+                  completedSteps.has(index) || index === activeStep ? 'pointer' : 'not-allowed',
                 opacity: completedSteps.has(index) || index === activeStep ? 1 : 0.5,
               }}
             >
@@ -65,5 +70,3 @@ export default function FormProgress({
     </>
   );
 }
-
-export { availableSteps };

@@ -54,6 +54,7 @@ export interface FeatureSection {
   badge: string;
   title: string;
   description: string;
+  previewDescription: string;
   benefits: Benefit[];
   route: string;
   colorScheme: keyof ColorPalette;
@@ -107,6 +108,8 @@ export const featureSections: FeatureSection[] = [
     title: 'Admin Dashboard',
     description:
       'Powerful administration panel with real-time analytics, user management, and comprehensive system controls. Monitor your platform with detailed insights and manage all aspects from one place.',
+    previewDescription:
+      'Complete admin control center with real-time monitoring, user management, and advanced analytics. Everything you need to manage your platform efficiently.',
     benefits: [
       {
         icon: <Dashboard />,
@@ -145,6 +148,8 @@ export const featureSections: FeatureSection[] = [
     title: 'Sanity Studio',
     description:
       'Headless CMS powered by Sanity.io for creating, managing, and publishing structured content. Rich editing experience with real-time collaboration and version control.',
+    previewDescription:
+      'Professional content management system with intuitive editing, media library, and version control. Create and publish content with ease.',
     benefits: [
       {
         icon: <Edit />,
@@ -183,6 +188,8 @@ export const featureSections: FeatureSection[] = [
     title: 'E-commerce Shop',
     description:
       'Full-featured online shop with product catalog, shopping cart, and secure checkout. Browse services, manage orders, and enjoy a seamless shopping experience.',
+    previewDescription:
+      'Modern e-commerce platform with product catalog, cart management, and secure checkout. Multi-currency support and advanced filtering included.',
     benefits: [
       {
         icon: <Store />,
@@ -221,6 +228,8 @@ export const featureSections: FeatureSection[] = [
     title: 'Contact System',
     description:
       'Professional contact page with form validation, location information, and interactive map. Get in touch easily and receive prompt responses.',
+    previewDescription:
+      'Professional contact system with validated forms, interactive maps, and instant notifications. Make it easy for customers to reach you.',
     benefits: [
       {
         icon: <Email />,

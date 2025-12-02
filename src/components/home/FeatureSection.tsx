@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { ArrowForward } from '@mui/icons-material';
 import { BenefitGrid } from './BenefitGrid';
 import { colors, type FeatureSection as FeatureSectionData } from '@/data/homepage';
+import { useTranslation } from 'react-i18next';
 
 interface FeatureSectionProps {
   section: FeatureSectionData;
@@ -13,6 +14,7 @@ interface FeatureSectionProps {
 
 export const FeatureSection: React.FC<FeatureSectionProps> = ({ section, index }) => {
   const theme = useTheme();
+  const { t } = useTranslation();
   const isEven = index % 2 === 0;
   const colorScheme = colors[section.colorScheme];
 
@@ -56,21 +58,6 @@ export const FeatureSection: React.FC<FeatureSectionProps> = ({ section, index }
           <Grid item xs={12} md={6} order={{ xs: 2, md: isEven ? 1 : 2 }}>
             <Stack spacing={4}>
               <Box>
-                <Chip
-                  icon={React.cloneElement(section.icon, { sx: { color: 'white' } })}
-                  label={section.badge}
-                  sx={{
-                    background: colorScheme.gradient,
-                    color: 'white',
-                    fontWeight: 600,
-                    px: 2,
-                    py: 2.5,
-                    mb: 3,
-                    '& .MuiChip-icon': {
-                      color: 'white',
-                    },
-                  }}
-                />
                 <Typography
                   variant="h2"
                   sx={{
@@ -96,7 +83,7 @@ export const FeatureSection: React.FC<FeatureSectionProps> = ({ section, index }
                   variant="h5"
                   sx={{ fontWeight: 700, mb: 3, color: colorScheme.primary }}
                 >
-                  Key Benefits
+                  {t('home.featureSection.keyBenefits')}
                 </Typography>
                 <BenefitGrid benefits={section.benefits} color={colorScheme.primary} />
               </Box>
@@ -105,21 +92,25 @@ export const FeatureSection: React.FC<FeatureSectionProps> = ({ section, index }
                 <Button
                   component={Link}
                   href={section.route}
-                  variant="contained"
+                  variant="outlined"
                   size="large"
                   endIcon={<ArrowForward />}
                   sx={{
                     px: 4,
                     py: 1.5,
-                    borderRadius: 2,
-                    background: colorScheme.gradient,
-                    boxShadow: `0 8px 24px ${colorScheme.glow}`,
+                    borderRadius: 50,
+                    borderWidth: 2,
+                    borderColor: colorScheme.primary,
+                    color: colorScheme.primary,
                     '&:hover': {
-                      boxShadow: `0 12px 32px ${colorScheme.glow}`,
+                      borderWidth: 2,
+                      background: alpha(colorScheme.primary, 0.05),
+                      borderColor: colorScheme.secondary,
+                      color: colorScheme.secondary,
                     },
                   }}
                 >
-                  Explore {section.badge}
+                  {t('home.featureSection.explore')} {section.badge}
                 </Button>
               </Box>
             </Stack>
@@ -168,8 +159,7 @@ export const FeatureSection: React.FC<FeatureSectionProps> = ({ section, index }
                   {section.title}
                 </Typography>
                 <Typography variant="body1" color="text.secondary" sx={{ lineHeight: 1.8 }}>
-                  Experience powerful features designed for modern web applications. Built with
-                  scalability and user experience in mind.
+                  {section.previewDescription}
                 </Typography>
                 <Stack direction="row" spacing={1} flexWrap="wrap" useFlexGap>
                   {section.previewTags.map((tag, idx) => (

@@ -1,8 +1,14 @@
 {
   "cta": {
-    "button": "Contact Us",
+    "button": "Get Started Now",
+    "description": "Let's discuss your project and see how we can help bring your vision to life.",
     "subtitle": "Let's build something amazing together",
-    "title": "Ready to Start Your Project?"
+    "title": "Ready to Build Something Amazing?"
+  },
+  "featureSection": {
+    "keyBenefits": "Key Benefits",
+    "explore": "Explore",
+    "previewDescription": "Experience powerful features designed for modern web applications. Built with scalability and user experience in mind."
   },
   "feature1Description": "Delivering top-quality services with attention to detail and commitment to excellence.",
   "feature1Title": "Professional Excellence",
@@ -11,6 +17,66 @@
   "feature3Description": "Round-the-clock customer support to ensure your business never stops.",
   "feature3Title": "24/7 Support",
   "features": {
+    "admin": {
+      "badge": "Admin Panel",
+      "benefits": {
+        "analytics": {
+          "desc": "Detailed analytics with interactive charts and data visualization",
+          "title": "Analytics & Reports"
+        },
+        "dashboard": {
+          "desc": "Real-time metrics, charts, and insights at a glance",
+          "title": "Comprehensive Dashboard"
+        },
+        "security": {
+          "desc": "Granular permissions and access control for enhanced security",
+          "title": "Role-Based Security"
+        },
+        "settings": {
+          "desc": "Customize settings, notifications, and system preferences",
+          "title": "System Configuration"
+        },
+        "users": {
+          "desc": "Full CRUD operations for managing team members and roles",
+          "title": "User Management"
+        }
+      },
+      "description": "Powerful administration panel with real-time analytics, user management, and comprehensive system controls. Monitor your platform with detailed insights and manage all aspects from one place.",
+      "previewDescription": "Complete admin control center with real-time monitoring, user management, and advanced analytics. Everything you need to manage your platform efficiently.",
+      "link": "Learn more about Admin Panel",
+      "previewTags": ["Dashboard", "Users", "Analytics"],
+      "title": "Admin Dashboard"
+    },
+    "contact": {
+      "badge": "Get in Touch",
+      "benefits": {
+        "details": {
+          "desc": "Phone, email, and address information readily available",
+          "title": "Contact Details"
+        },
+        "form": {
+          "desc": "Validated form with real-time feedback and error handling",
+          "title": "Contact Form"
+        },
+        "map": {
+          "desc": "Interactive map showing business location and directions",
+          "title": "Location Map"
+        },
+        "notifications": {
+          "desc": "Receive immediate email notifications for new inquiries",
+          "title": "Instant Notifications"
+        },
+        "validation": {
+          "desc": "Smart validation ensures quality submissions",
+          "title": "Form Validation"
+        }
+      },
+      "description": "Professional contact page with form validation, location information, and interactive map. Get in touch easily and receive prompt responses.",
+      "previewDescription": "Professional contact system with validated forms, interactive maps, and instant notifications. Make it easy for customers to reach you.",
+      "link": "Learn more about Get in Touch",
+      "previewTags": ["Form", "Map", "Info"],
+      "title": "Contact System"
+    },
     "feature1": {
       "description": "Using the latest frameworks and tools",
       "title": "Modern Technology"
@@ -27,15 +93,182 @@
       "description": "Built with search engine optimization in mind",
       "title": "SEO Optimized"
     },
+    "shop": {
+      "badge": "E-commerce",
+      "benefits": {
+        "cart": {
+          "desc": "Add items, manage quantities, and checkout seamlessly",
+          "title": "Shopping Cart"
+        },
+        "catalog": {
+          "desc": "Browse services with detailed descriptions and pricing",
+          "title": "Product Catalog"
+        },
+        "currency": {
+          "desc": "Support for USD, EUR, GBP with real-time conversion",
+          "title": "Multi-Currency"
+        },
+        "filters": {
+          "desc": "Filter by category, price, features, and more",
+          "title": "Advanced Filters"
+        },
+        "orders": {
+          "desc": "Track orders and manage delivery preferences",
+          "title": "Order Management"
+        }
+      },
+      "description": "Full-featured online shop with product catalog, shopping cart, and secure checkout. Browse services, manage orders, and enjoy a seamless shopping experience.",
+      "previewDescription": "Modern e-commerce platform with product catalog, cart management, and secure checkout. Multi-currency support and advanced filtering included.",
+      "link": "Learn more about E-commerce",
+      "previewTags": ["Products", "Cart", "Checkout"],
+      "title": "E-commerce Shop"
+    },
+    "studio": {
+      "badge": "Content Studio",
+      "benefits": {
+        "cloud": {
+          "desc": "Access your content from anywhere with automatic backups",
+          "title": "Cloud-Based"
+        },
+        "content": {
+          "desc": "Create blog posts, articles, and pages with custom schemas",
+          "title": "Structured Content"
+        },
+        "editor": {
+          "desc": "Rich text editing with real-time preview and formatting",
+          "title": "Visual Content Editor"
+        },
+        "media": {
+          "desc": "Upload, organize, and optimize images and documents",
+          "title": "Media Management"
+        },
+        "versions": {
+          "desc": "Track changes and revert to previous versions easily",
+          "title": "Version Control"
+        }
+      },
+      "description": "Headless CMS powered by Sanity.io for creating, managing, and publishing structured content. Rich editing experience with real-time collaboration and version control.",
+      "previewDescription": "Professional content management system with intuitive editing, media library, and version control. Create and publish content with ease.",
+      "link": "Learn more about Content Studio",
+      "previewTags": ["Editor", "Media", "Content"],
+      "title": "Sanity Studio"
+    },
     "subtitle": "We deliver excellence in every project",
     "title": "Why Choose Us"
   },
   "featuresTitle": "Our Key Features",
   "hero": {
+    "badge": "SOFTKERR WEB STUDIO",
+    "businessCards": {
+      "analytics": {
+        "label": "Analytics & BI",
+        "value": "Dashboards, Reporting Tools"
+      },
+      "ecommerce": {
+        "label": "E-Commerce",
+        "value": "Online Stores, Marketplaces"
+      },
+      "enterprise": {
+        "label": "Enterprise Systems",
+        "value": "Custom CRM, ERP, Admin Panels"
+      }
+    },
+    "buttons": {
+      "primary": "Explore Admin",
+      "secondary": "Browse Shop"
+    },
     "cta": "Get Started",
+    "description": "We transform your business vision into powerful web applications. From enterprise systems to customer-facing platforms — tailored to your unique needs.",
     "learnMore": "Learn More",
     "subtitle": "Professional web development services with cutting-edge technology",
-    "title": "Build Amazing Web Experiences"
+    "title": {
+      "line1": "Digital ",
+      "line2": "solutions ",
+      "line3": "that drive ",
+      "line4": "growth. "
+    }
+  },
+  "heroAlt1": {
+    "badge": "SOFTKERR WEB STUDIO",
+    "businessCards": {
+      "analytics": {
+        "label": "Analytics & Reporting",
+        "value": "Dashboards, data visualization, BI tools"
+      },
+      "ecommerce": {
+        "label": "E-Commerce Platforms",
+        "value": "Online stores, catalogs, payment systems"
+      },
+      "enterprise": {
+        "label": "Enterprise Solutions",
+        "value": "Admin panels, CRM systems, internal tools"
+      }
+    },
+    "buttons": {
+      "primary": "Explore Admin",
+      "secondary": "Browse Shop"
+    },
+    "description": "We transform your business vision into powerful web applications. From enterprise systems to customer-facing platforms — tailored to your unique needs.",
+    "title": {
+      "line1": "Digital",
+      "line2": "solutions",
+      "line3": "that drive",
+      "line4": "growth."
+    }
+  },
+  "heroAlt2": {
+    "badge": "Your Trusted Development Partner",
+    "benefits": {
+      "business": "Business-driven approach",
+      "fullCycle": "Full-cycle development",
+      "scalable": "Scalable architecture",
+      "support": "Ongoing support"
+    },
+    "buttons": {
+      "primary": "Start Your Project",
+      "secondary": "View Demo"
+    },
+    "description": "From initial concept to production deployment, we deliver custom web solutions that solve real business challenges and create competitive advantages.",
+    "stats": {
+      "satisfaction": {
+        "label": "Client Satisfaction",
+        "value": "100%"
+      },
+      "solutions": {
+        "label": "Solutions Delivered",
+        "value": "50+"
+      }
+    },
+    "title": "We build the software your business needs"
+  },
+  "heroAlt3": {
+    "badge": "WEB STUDIO SERVICES",
+    "buttons": {
+      "primary": "Discuss Your Project",
+      "secondary": "View Case Studies"
+    },
+    "description": "From concept to launch, we deliver end-to-end web applications. Choose the right solution or let us build exactly what you need.",
+    "services": {
+      "cloud": "Cloud Solutions",
+      "customDev": "Custom Development",
+      "integrations": "Integrations",
+      "support": "Support"
+    },
+    "solutionCards": {
+      "analytics": {
+        "desc": "Dashboards, data visualization, BI tools",
+        "title": "Analytics & Reporting"
+      },
+      "ecommerce": {
+        "desc": "Online stores, catalogs, payment systems",
+        "title": "E-Commerce Platforms"
+      },
+      "enterprise": {
+        "desc": "Admin panels, CRM systems, internal tools",
+        "title": "Enterprise Solutions"
+      }
+    },
+    "title": "Complete solutions for every business need"
   },
   "heroDescription": "We provide cutting-edge technology solutions that drive growth and success for businesses worldwide.",
   "heroTitle": "Innovative Solutions for Your Business",
@@ -45,5 +278,23 @@
     "viewAll": "View All Services"
   },
   "subtitle": "Welcome to Our Company",
+  "tech": {
+    "features": {
+      "fast": {
+        "desc": "Next.js 15 with App Router and React Server Components",
+        "title": "Lightning Fast"
+      },
+      "i18n": {
+        "desc": "Full i18n support with 4 languages (EN, DE, ES, FR)",
+        "title": "Internationalized"
+      },
+      "secure": {
+        "desc": "Enterprise-grade security with role-based access control",
+        "title": "Secure & Reliable"
+      }
+    },
+    "subtitle": "Leveraging cutting-edge tools and frameworks for optimal performance",
+    "title": "Built with Modern Technology"
+  },
   "title": "Home"
 }

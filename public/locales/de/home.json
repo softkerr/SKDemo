@@ -4,17 +4,16 @@
     "description": "Lassen Sie uns über Ihr Projekt sprechen und sehen, wie wir helfen können, Ihre Vision zum Leben zu erwecken.",
     "title": "Bereit, etwas Erstaunliches zu bauen?"
   },
-  "featureSection": {
-    "keyBenefits": "Hauptvorteile",
-    "explore": "Erkunden",
-    "previewDescription": "Erleben Sie leistungsstarke Funktionen, die für moderne Webanwendungen entwickelt wurden. Mit Fokus auf Skalierbarkeit und Benutzererfahrung."
-  },
   "feature1Description": "Lieferung hochwertiger Dienstleistungen mit Liebe zum Detail und Engagement für Exzellenz.",
   "feature1Title": "Professionelle Exzellenz",
   "feature2Description": "Tätig in mehreren Ländern und Betreuung von Kunden weltweit.",
   "feature2Title": "Globale Reichweite",
   "feature3Description": "Rund um die Uhr Kundensupport, damit Ihr Geschäft nie stillsteht.",
   "feature3Title": "24/7 Support",
+  "featureSection": {
+    "explore": "Erkunden",
+    "keyBenefits": "Hauptvorteile"
+  },
   "features": {
     "admin": {
       "badge": "Admin-Panel",
@@ -41,9 +40,13 @@
         }
       },
       "description": "Leistungsstarkes Verwaltungspanel mit Echtzeit-Analysen, Benutzerverwaltung und umfassenden Systemsteuerungen. Überwachen Sie Ihre Plattform mit detaillierten Einblicken und verwalten Sie alle Aspekte von einem Ort aus.",
-      "previewDescription": "Komplettes Admin-Kontrollzentrum mit Echtzeit-Überwachung, Benutzerverwaltung und fortgeschrittener Analytik. Alles was Sie brauchen, um Ihre Plattform effizient zu verwalten.",
       "link": "Mehr über Admin-Panel erfahren",
-      "previewTags": ["Dashboard", "Benutzer", "Analytics"],
+      "previewDescription": "Komplettes Admin-Kontrollzentrum mit Echtzeit-Überwachung, Benutzerverwaltung und fortgeschrittener Analytik. Alles was Sie brauchen, um Ihre Plattform effizient zu verwalten.",
+      "previewTags": [
+        "Dashboard",
+        "Benutzer",
+        "Analytics"
+      ],
       "title": "Admin-Dashboard"
     },
     "contact": {
@@ -71,9 +74,13 @@
         }
       },
       "description": "Professionelle Kontaktseite mit Formularvalidierung, Standortinformationen und interaktiver Karte. Nehmen Sie einfach Kontakt auf und erhalten Sie schnelle Antworten.",
-      "previewDescription": "Professionelles Kontaktsystem mit validierten Formularen, interaktiven Karten und sofortigen Benachrichtigungen. Machen Sie es Kunden leicht, Sie zu erreichen.",
       "link": "Mehr über Kontaktieren Sie uns erfahren",
-      "previewTags": ["Formular", "Karte", "Info"],
+      "previewDescription": "Professionelles Kontaktsystem mit validierten Formularen, interaktiven Karten und sofortigen Benachrichtigungen. Machen Sie es Kunden leicht, Sie zu erreichen.",
+      "previewTags": [
+        "Formular",
+        "Karte",
+        "Info"
+      ],
       "title": "Kontaktsystem"
     },
     "shop": {
@@ -101,9 +108,13 @@
         }
       },
       "description": "Voll ausgestatteter Online-Shop mit Produktkatalog, Warenkorb und sicherer Kaufabwicklung. Durchsuchen Sie Dienstleistungen, verwalten Sie Bestellungen und genießen Sie ein nahtloses Einkaufserlebnis.",
-      "previewDescription": "Moderne E-Commerce-Plattform mit Produktkatalog, Warenkorbverwaltung und sicherer Kaufabwicklung. Multi-Währungsunterstützung und erweiterte Filterung inklusive.",
       "link": "Mehr über E-Commerce erfahren",
-      "previewTags": ["Produkte", "Warenkorb", "Kasse"],
+      "previewDescription": "Moderne E-Commerce-Plattform mit Produktkatalog, Warenkorbverwaltung und sicherer Kaufabwicklung. Multi-Währungsunterstützung und erweiterte Filterung inklusive.",
+      "previewTags": [
+        "Produkte",
+        "Warenkorb",
+        "Kasse"
+      ],
       "title": "E-Commerce-Shop"
     },
     "studio": {
@@ -131,9 +142,13 @@
         }
       },
       "description": "Headless CMS powered by Sanity.io zum Erstellen, Verwalten und Veröffentlichen strukturierter Inhalte. Reichhaltige Bearbeitungserfahrung mit Echtzeit-Zusammenarbeit und Versionskontrolle.",
-      "previewDescription": "Professionelles Content-Management-System mit intuitiver Bearbeitung, Medienbibliothek und Versionskontrolle. Erstellen und veröffentlichen Sie Inhalte mit Leichtigkeit.",
       "link": "Mehr über Content Studio erfahren",
-      "previewTags": ["Editor", "Medien", "Inhalt"],
+      "previewDescription": "Professionelles Content-Management-System mit intuitiver Bearbeitung, Medienbibliothek und Versionskontrolle. Erstellen und veröffentlichen Sie Inhalte mit Leichtigkeit.",
+      "previewTags": [
+        "Editor",
+        "Medien",
+        "Inhalt"
+      ],
       "title": "Sanity Studio"
     }
   },

@@ -4,17 +4,16 @@
     "description": "Hablemos sobre su proyecto y veamos cómo podemos ayudar a hacer realidad su visión.",
     "title": "¿Listo para Construir Algo Increíble?"
   },
-  "featureSection": {
-    "keyBenefits": "Beneficios Clave",
-    "explore": "Explorar",
-    "previewDescription": "Experimente potentes funciones diseñadas para aplicaciones web modernas. Construido con escalabilidad y experiencia de usuario en mente."
-  },
   "feature1Description": "Ofrecemos servicios de alta calidad con atención al detalle y compromiso con la excelencia.",
   "feature1Title": "Excelencia Profesional",
   "feature2Description": "Operamos en múltiples países y atendemos clientes en todo el mundo.",
   "feature2Title": "Alcance Global",
   "feature3Description": "Atención al cliente las 24 horas para que su negocio nunca se detenga.",
   "feature3Title": "Soporte 24/7",
+  "featureSection": {
+    "explore": "Explorar",
+    "keyBenefits": "Beneficios Clave"
+  },
   "features": {
     "admin": {
       "badge": "Panel de Administración",
@@ -41,9 +40,13 @@
         }
       },
       "description": "Potente panel de administración con analítica en tiempo real, gestión de usuarios y controles integrales del sistema. Monitoree su plataforma con información detallada y gestione todos los aspectos desde un solo lugar.",
-      "previewDescription": "Centro de control administrativo completo con monitoreo en tiempo real, gestión de usuarios y analítica avanzada. Todo lo que necesita para gestionar su plataforma eficientemente.",
       "link": "Más información sobre el Panel de Administración",
-      "previewTags": ["Dashboard", "Usuarios", "Analítica"],
+      "previewDescription": "Centro de control administrativo completo con monitoreo en tiempo real, gestión de usuarios y analítica avanzada. Todo lo que necesita para gestionar su plataforma eficientemente.",
+      "previewTags": [
+        "Dashboard",
+        "Usuarios",
+        "Analítica"
+      ],
       "title": "Dashboard de Admin"
     },
     "contact": {
@@ -71,9 +74,13 @@
         }
       },
       "description": "Página de contacto profesional con validación de formularios, información de ubicación y mapa interactivo. Póngase en contacto fácilmente y reciba respuestas rápidas.",
-      "previewDescription": "Sistema de contacto profesional con formularios validados, mapas interactivos y notificaciones instantáneas. Facilite que los clientes se comuniquen con usted.",
       "link": "Más información sobre Contáctenos",
-      "previewTags": ["Formulario", "Mapa", "Info"],
+      "previewDescription": "Sistema de contacto profesional con formularios validados, mapas interactivos y notificaciones instantáneas. Facilite que los clientes se comuniquen con usted.",
+      "previewTags": [
+        "Formulario",
+        "Mapa",
+        "Info"
+      ],
       "title": "Sistema de Contacto"
     },
     "shop": {
@@ -101,9 +108,13 @@
         }
       },
       "description": "Tienda en línea completa con catálogo de productos, carrito de compras y pago seguro. Explore servicios, gestione pedidos y disfrute de una experiencia de compra fluida.",
-      "previewDescription": "Plataforma de comercio electrónico moderna con catálogo de productos, gestión de carritos y pago seguro. Incluye soporte multi-moneda y filtrado avanzado.",
       "link": "Más información sobre E-commerce",
-      "previewTags": ["Productos", "Carrito", "Pago"],
+      "previewDescription": "Plataforma de comercio electrónico moderna con catálogo de productos, gestión de carritos y pago seguro. Incluye soporte multi-moneda y filtrado avanzado.",
+      "previewTags": [
+        "Productos",
+        "Carrito",
+        "Pago"
+      ],
       "title": "Tienda E-commerce"
     },
     "studio": {
@@ -131,9 +142,13 @@
         }
       },
       "description": "CMS headless impulsado por Sanity.io para crear, gestionar y publicar contenido estructurado. Experiencia de edición enriquecida con colaboración en tiempo real y control de versiones.",
-      "previewDescription": "Sistema de gestión de contenido profesional con edición intuitiva, biblioteca de medios y control de versiones. Cree y publique contenido con facilidad.",
       "link": "Más información sobre el Estudio de Contenido",
-      "previewTags": ["Editor", "Medios", "Contenido"],
+      "previewDescription": "Sistema de gestión de contenido profesional con edición intuitiva, biblioteca de medios y control de versiones. Cree y publique contenido con facilidad.",
+      "previewTags": [
+        "Editor",
+        "Medios",
+        "Contenido"
+      ],
       "title": "Sanity Studio"
     }
   },

@@ -14,7 +14,7 @@ interface FeatureSectionProps {
 
 export const FeatureSection: React.FC<FeatureSectionProps> = ({ section, index }) => {
   const theme = useTheme();
-  const { t } = useTranslation();
+  const { t } = useTranslation('home');
   const isEven = index % 2 === 0;
   const colorScheme = colors[section.colorScheme];
 
@@ -83,7 +83,7 @@ export const FeatureSection: React.FC<FeatureSectionProps> = ({ section, index }
                   variant="h5"
                   sx={{ fontWeight: 700, mb: 3, color: colorScheme.primary }}
                 >
-                  {t('home.featureSection.keyBenefits')}
+                  {t('featureSection.keyBenefits')}
                 </Typography>
                 <BenefitGrid benefits={section.benefits} color={colorScheme.primary} />
               </Box>
@@ -110,7 +110,7 @@ export const FeatureSection: React.FC<FeatureSectionProps> = ({ section, index }
                     },
                   }}
                 >
-                  {t('home.featureSection.explore')} {section.badge}
+                  {t('featureSection.explore')} {section.badge}
                 </Button>
               </Box>
             </Stack>

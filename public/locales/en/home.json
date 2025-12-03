@@ -5,17 +5,16 @@
     "subtitle": "Let's build something amazing together",
     "title": "Ready to Build Something Amazing?"
   },
-  "featureSection": {
-    "keyBenefits": "Key Benefits",
-    "explore": "Explore",
-    "previewDescription": "Experience powerful features designed for modern web applications. Built with scalability and user experience in mind."
-  },
   "feature1Description": "Delivering top-quality services with attention to detail and commitment to excellence.",
   "feature1Title": "Professional Excellence",
   "feature2Description": "Operating across multiple countries and serving clients worldwide.",
   "feature2Title": "Global Reach",
   "feature3Description": "Round-the-clock customer support to ensure your business never stops.",
   "feature3Title": "24/7 Support",
+  "featureSection": {
+    "explore": "Explore",
+    "keyBenefits": "Key Benefits"
+  },
   "features": {
     "admin": {
       "badge": "Admin Panel",
@@ -42,9 +41,13 @@
         }
       },
       "description": "Powerful administration panel with real-time analytics, user management, and comprehensive system controls. Monitor your platform with detailed insights and manage all aspects from one place.",
-      "previewDescription": "Complete admin control center with real-time monitoring, user management, and advanced analytics. Everything you need to manage your platform efficiently.",
       "link": "Learn more about Admin Panel",
-      "previewTags": ["Dashboard", "Users", "Analytics"],
+      "previewDescription": "Complete admin control center with real-time monitoring, user management, and advanced analytics. Everything you need to manage your platform efficiently.",
+      "previewTags": [
+        "Dashboard",
+        "Users",
+        "Analytics"
+      ],
       "title": "Admin Dashboard"
     },
     "contact": {
@@ -72,9 +75,13 @@
         }
       },
       "description": "Professional contact page with form validation, location information, and interactive map. Get in touch easily and receive prompt responses.",
-      "previewDescription": "Professional contact system with validated forms, interactive maps, and instant notifications. Make it easy for customers to reach you.",
       "link": "Learn more about Get in Touch",
-      "previewTags": ["Form", "Map", "Info"],
+      "previewDescription": "Professional contacts system with validated forms, interactive maps, and instant notifications. Make it easy for customers to reach you.",
+      "previewTags": [
+        "Form",
+        "Map",
+        "Info"
+      ],
       "title": "Contact System"
     },
     "feature1": {
@@ -118,9 +125,13 @@
         }
       },
       "description": "Full-featured online shop with product catalog, shopping cart, and secure checkout. Browse services, manage orders, and enjoy a seamless shopping experience.",
-      "previewDescription": "Modern e-commerce platform with product catalog, cart management, and secure checkout. Multi-currency support and advanced filtering included.",
       "link": "Learn more about E-commerce",
-      "previewTags": ["Products", "Cart", "Checkout"],
+      "previewDescription": "Modern e-commerce platform with product catalog, cart management, and secure checkout. Multi-currency support and advanced filtering included.",
+      "previewTags": [
+        "Products",
+        "Cart",
+        "Checkout"
+      ],
       "title": "E-commerce Shop"
     },
     "studio": {
@@ -148,9 +159,13 @@
         }
       },
       "description": "Headless CMS powered by Sanity.io for creating, managing, and publishing structured content. Rich editing experience with real-time collaboration and version control.",
-      "previewDescription": "Professional content management system with intuitive editing, media library, and version control. Create and publish content with ease.",
       "link": "Learn more about Content Studio",
-      "previewTags": ["Editor", "Media", "Content"],
+      "previewDescription": "Professional content management system with intuitive editing, media library, and version control. Create and publish content with ease.",
+      "previewTags": [
+        "Editor",
+        "Media",
+        "Content"
+      ],
       "title": "Sanity Studio"
     },
     "subtitle": "We deliver excellence in every project",

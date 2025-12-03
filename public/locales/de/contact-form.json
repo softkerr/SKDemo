@@ -1,199 +1,199 @@
 {
-  "title": "Erweitertes Kontaktformular",
-  "subtitle": "Mehrstufiges Formular mit Validierung und automatischem Speichern",
-  "progress": {
-    "step": "Schritt {{current}} von {{total}}",
-    "complete": "{{percent}}% Abgeschlossen"
-  },
   "alerts": {
     "dataLoaded": "Vorherige Formulardaten aus dem lokalen Speicher geladen"
   },
+  "buttons": {
+    "next": "Weiter",
+    "prev": "Zurück",
+    "reset": "Zurücksetzen",
+    "submit": "Absenden"
+  },
+  "progress": {
+    "complete": "{{percent}}% abgeschlossen",
+    "step": "Schritt {{current}} von {{total}}"
+  },
   "steps": {
-    "personalInfo": {
-      "label": "Persönliche Informationen",
-      "fields": {
-        "firstName": {
-          "label": "Vorname",
-          "placeholder": "Max",
-          "error": {
-            "required": "Vorname ist erforderlich",
-            "minLength": "Vorname muss mindestens 2 Zeichen lang sein"
-          }
-        },
-        "lastName": {
-          "label": "Nachname",
-          "placeholder": "Mustermann",
-          "error": {
-            "required": "Nachname ist erforderlich",
-            "minLength": "Nachname muss mindestens 2 Zeichen lang sein"
-          }
-        },
-        "email": {
-          "label": "E-Mail-Adresse",
-          "placeholder": "max.mustermann@beispiel.de",
-          "error": {
-            "required": "E-Mail ist erforderlich",
-            "invalid": "Ungültige E-Mail-Adresse"
-          }
-        },
-        "phone": {
-          "label": "Telefonnummer",
-          "placeholder": "+49 123 456789",
-          "error": {
-            "invalid": "Ungültige Telefonnummer"
-          }
-        },
-        "dateOfBirth": {
-          "label": "Geburtsdatum",
-          "placeholder": "TT.MM.JJJJ"
-        }
-      }
-    },
     "businessInfo": {
-      "label": "Geschäftsinformationen",
       "fields": {
         "companyName": {
-          "label": "Firmenname",
-          "placeholder": "Musterfirma GmbH",
           "error": {
-            "required": "Firmenname ist erforderlich",
-            "minLength": "Firmenname muss mindestens 2 Zeichen lang sein"
-          }
-        },
-        "position": {
-          "label": "Position/Titel",
-          "placeholder": "Softwareentwickler",
-          "error": {
-            "required": "Position ist erforderlich",
-            "minLength": "Position muss mindestens 2 Zeichen lang sein"
-          }
-        },
-        "industry": {
-          "label": "Branche",
-          "placeholder": "Branche auswählen",
-          "options": {
-            "select": "Auswählen...",
-            "technology": "Technologie",
-            "finance": "Finanzen",
-            "healthcare": "Gesundheitswesen",
-            "education": "Bildung",
-            "retail": "Einzelhandel",
-            "manufacturing": "Fertigung",
-            "other": "Sonstiges"
+            "minLength": "Der Firmenname muss mindestens 2 Zeichen lang sein",
+            "required": "Der Firmenname ist erforderlich"
           },
-          "error": {
-            "required": "Bitte wählen Sie eine Branche aus"
-          }
+          "label": "Firmenname",
+          "placeholder": "Acme Corporation"
         },
         "companySize": {
-          "label": "Unternehmensgröße",
-          "placeholder": "Unternehmensgröße auswählen",
-          "options": {
-            "select": "Auswählen...",
-            "1-10": "1-10 Mitarbeiter",
-            "11-50": "11-50 Mitarbeiter",
-            "51-200": "51-200 Mitarbeiter",
-            "201-500": "201-500 Mitarbeiter",
-            "501+": "501+ Mitarbeiter"
-          },
           "error": {
             "required": "Bitte wählen Sie die Unternehmensgröße aus"
-          }
+          },
+          "label": "Unternehmensgröße",
+          "options": {
+            "1-10": "1–10 Mitarbeiter",
+            "11-50": "11–50 Mitarbeiter",
+            "201-500": "201–500 Mitarbeiter",
+            "501+": "501+ Mitarbeiter",
+            "51-200": "51–200 Mitarbeiter",
+            "select": "Auswählen..."
+          },
+          "placeholder": "Unternehmensgröße auswählen"
+        },
+        "industry": {
+          "error": {
+            "required": "Bitte wählen Sie eine Branche aus"
+          },
+          "label": "Branche",
+          "options": {
+            "education": "Bildung",
+            "finance": "Finanzen",
+            "healthcare": "Gesundheitswesen",
+            "manufacturing": "Fertigung",
+            "other": "Andere",
+            "retail": "Einzelhandel",
+            "select": "Auswählen...",
+            "technology": "Technologie"
+          },
+          "placeholder": "Branche auswählen"
+        },
+        "position": {
+          "error": {
+            "minLength": "Die Position muss mindestens 2 Zeichen lang sein",
+            "required": "Die Position ist erforderlich"
+          },
+          "label": "Position/Titel",
+          "placeholder": "Softwareentwickler"
         },
         "website": {
-          "label": "Firmenwebsite",
-          "placeholder": "https://beispiel.de",
           "error": {
             "invalid": "Ungültige URL"
-          }
+          },
+          "label": "Unternehmenswebsite",
+          "placeholder": "https://beispiel.de"
         }
-      }
+      },
+      "label": "Unternehmensinformationen"
     },
     "message": {
-      "label": "Nachricht",
       "fields": {
-        "subject": {
-          "label": "Betreff",
-          "placeholder": "Projektanfrage",
-          "error": {
-            "required": "Betreff ist erforderlich",
-            "minLength": "Betreff muss mindestens 5 Zeichen lang sein"
-          }
+        "attachments": {
+          "label": "Ich habe Anhänge zu senden (werden per E-Mail angefordert)"
         },
         "category": {
-          "label": "Kategorie",
-          "placeholder": "Kategorie auswählen",
-          "options": {
-            "select": "Auswählen...",
-            "general": "Allgemeine Anfrage",
-            "support": "Technischer Support",
-            "sales": "Vertrieb",
-            "partnership": "Partnerschaft",
-            "feedback": "Feedback"
-          },
           "error": {
             "required": "Bitte wählen Sie eine Kategorie aus"
-          }
+          },
+          "label": "Kategorie",
+          "options": {
+            "feedback": "Feedback",
+            "general": "Allgemeine Anfrage",
+            "partnership": "Partnerschaft",
+            "sales": "Vertrieb",
+            "select": "Auswählen...",
+            "support": "Technischer Support"
+          },
+          "placeholder": "Kategorie auswählen"
+        },
+        "message": {
+          "error": {
+            "minLength": "Die Nachricht muss mindestens 20 Zeichen enthalten",
+            "required": "Die Nachricht ist erforderlich"
+          },
+          "label": "Nachricht",
+          "placeholder": "Bitte geben Sie Details zu Ihrer Anfrage an..."
         },
         "priority": {
           "label": "Priorität",
           "options": {
+            "high": "Hoch",
             "low": "Niedrig",
-            "medium": "Mittel",
-            "high": "Hoch"
+            "medium": "Mittel"
           }
         },
-        "message": {
-          "label": "Nachricht",
-          "placeholder": "Bitte geben Sie Details zu Ihrer Anfrage an...",
+        "subject": {
           "error": {
-            "required": "Nachricht ist erforderlich",
-            "minLength": "Nachricht muss mindestens 20 Zeichen lang sein"
-          }
-        },
-        "attachments": {
-          "label": "Ich habe Anhänge zu senden (werden per E-Mail angefordert)"
+            "minLength": "Der Betreff muss mindestens 5 Zeichen enthalten",
+            "required": "Der Betreff ist erforderlich"
+          },
+          "label": "Betreff",
+          "placeholder": "Projektanfrage"
         }
-      }
+      },
+      "label": "Nachricht"
+    },
+    "personalInfo": {
+      "fields": {
+        "dateOfBirth": {
+          "label": "Geburtsdatum",
+          "placeholder": "MM/TT/JJJJ"
+        },
+        "email": {
+          "error": {
+            "invalid": "Ungültige E-Mail-Adresse",
+            "required": "E-Mail ist erforderlich"
+          },
+          "label": "E-Mail-Adresse",
+          "placeholder": "john.doe@example.com"
+        },
+        "firstName": {
+          "error": {
+            "minLength": "Der Vorname muss mindestens 2 Zeichen lang sein",
+            "required": "Der Vorname ist erforderlich"
+          },
+          "label": "Vorname",
+          "placeholder": "John"
+        },
+        "lastName": {
+          "error": {
+            "minLength": "Der Nachname muss mindestens 2 Zeichen lang sein",
+            "required": "Der Nachname ist erforderlich"
+          },
+          "label": "Nachname",
+          "placeholder": "Doe"
+        },
+        "phone": {
+          "error": {
+            "invalid": "Ungültige Telefonnummer"
+          },
+          "label": "Telefonnummer",
+          "placeholder": "+1 (555) 123-4567"
+        }
+      },
+      "label": "Persönliche Informationen"
     },
     "preferences": {
-      "label": "Einstellungen",
       "fields": {
         "contactMethod": {
           "label": "Bevorzugte Kontaktmethode",
           "options": {
+            "both": "Beides",
             "email": "E-Mail",
-            "phone": "Telefon",
-            "both": "Beides"
+            "phone": "Telefon"
           }
-        },
-        "newsletterSubscribe": {
-          "label": "Abonnieren Sie unseren Newsletter für Updates und Angebote"
         },
         "marketingConsent": {
-          "label": "Ich stimme dem Erhalt von Marketing-Mitteilungen zu"
+          "label": "Ich stimme dem Erhalt von Marketingmitteilungen zu"
+        },
+        "newsletterSubscribe": {
+          "label": "Newsletter abonnieren für Updates und Angebote"
         },
         "termsAccepted": {
-          "label": "Ich akzeptiere die {{terms}} und die {{privacy}}",
-          "terms": "Allgemeinen Geschäftsbedingungen",
-          "privacy": "Datenschutzerklärung",
           "error": {
-            "required": "Sie müssen die Allgemeinen Geschäftsbedingungen akzeptieren"
-          }
+            "required": "Sie müssen die allgemeinen Geschäftsbedingungen akzeptieren"
+          },
+          "label": "Ich akzeptiere die {{terms}} und die {{privacy}}",
+          "privacy": "Datenschutzrichtlinie",
+          "terms": "Allgemeinen Geschäftsbedingungen"
         }
-      }
+      },
+      "label": "Einstellungen"
     }
   },
-  "buttons": {
-    "prev": "Zurück",
-    "next": "Weiter",
-    "submit": "Absenden",
-    "reset": "Zurücksetzen"
-  },
+  "subtitle": "Mehrstufiges Formular mit Validierung und automatischer Speicherung",
   "success": {
-    "title": "Vielen Dank!",
+    "action": "Weiteres Formular absenden",
+    "description": "Wir melden uns innerhalb von 24–48 Stunden bei Ihnen.",
     "message": "Ihr Formular wurde erfolgreich übermittelt.",
-    "description": "Wir werden uns innerhalb von 24-48 Stunden bei Ihnen melden.",
-    "action": "Weiteres Formular absenden"
-  }
+    "title": "Vielen Dank!"
+  },
+  "title": "Erweitertes Kontaktformular"
 }

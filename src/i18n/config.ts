@@ -12,9 +12,21 @@ const getSavedLanguage = (): string => {
   if (savedLanguage) return savedLanguage;
   
   // Fallback to browser language
-  const browserLanguage = navigator.language.split('-')[0];
-  const supportedLanguages = ['en', 'de', 'es', 'fr'];
-  return supportedLanguages.includes(browserLanguage) ? browserLanguage : 'en';
+  const browserLanguage = navigator.language;
+  const languageMap: Record<string, string> = {
+    'en': 'en',
+    'de': 'de',
+    'es': 'es',
+    'fr': 'fr-FR',
+    'fr-FR': 'fr-FR',
+  };
+  
+  // Try exact match first, then language code only
+  const exactMatch = languageMap[browserLanguage];
+  if (exactMatch) return exactMatch;
+  
+  const languageCode = browserLanguage.split('-')[0];
+  return languageMap[languageCode] || 'en';
 };
 
 // Initialize i18next with local translation files
@@ -29,8 +41,8 @@ if (typeof window !== 'undefined') {
     .init({
       lng: getSavedLanguage(), // Use saved language or browser default
       fallbackLng: 'en',
-      supportedLngs: ['en', 'de', 'es', 'fr'],
-      load: 'languageOnly',
+      supportedLngs: ['en', 'de', 'es', 'fr-FR'],
+      load: 'all', // Load all language codes including region-specific ones
       
       // Namespaces for better organization
       ns: ['common', 'home', 'services', 'pricing', 'about', 'contact', 'contact-form', 'sanity', 'admin'],

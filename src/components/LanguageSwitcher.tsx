@@ -12,7 +12,7 @@ const languages: { code: Language; label: string; flag: string }[] = [
   { code: 'en', label: 'English', flag: '🇬🇧' },
   { code: 'de', label: 'Deutsch', flag: '🇩🇪' },
   { code: 'es', label: 'Español', flag: '🇪🇸' },
-  { code: 'fr', label: 'Français', flag: '🇫🇷' },
+  { code: 'fr-FR', label: 'Français', flag: '🇫🇷' },
 ];
 
 export const LanguageSwitcher: React.FC = () => {

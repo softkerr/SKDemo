@@ -1,0 +1,199 @@
+{
+  "alerts": {
+    "dataLoaded": "Données précédentes du formulaire chargées depuis le stockage local"
+  },
+  "buttons": {
+    "next": "Suivant",
+    "prev": "Précédent",
+    "reset": "Réinitialiser",
+    "submit": "Envoyer"
+  },
+  "progress": {
+    "complete": "{{percent}}% terminé",
+    "step": "Étape {{current}} sur {{total}}"
+  },
+  "steps": {
+    "businessInfo": {
+      "fields": {
+        "companyName": {
+          "error": {
+            "minLength": "Le nom de l’entreprise doit contenir au moins 2 caractères",
+            "required": "Le nom de l’entreprise est requis"
+          },
+          "label": "Nom de l’entreprise",
+          "placeholder": "Acme Corporation"
+        },
+        "companySize": {
+          "error": {
+            "required": "Veuillez sélectionner la taille de l’entreprise"
+          },
+          "label": "Taille de l’entreprise",
+          "options": {
+            "1-10": "1-10 employés",
+            "11-50": "11-50 employés",
+            "201-500": "201-500 employés",
+            "501+": "501+ employés",
+            "51-200": "51-200 employés",
+            "select": "Sélectionner..."
+          },
+          "placeholder": "Sélectionner la taille de l’entreprise"
+        },
+        "industry": {
+          "error": {
+            "required": "Veuillez sélectionner un secteur"
+          },
+          "label": "Secteur d’activité",
+          "options": {
+            "education": "Éducation",
+            "finance": "Finance",
+            "healthcare": "Santé",
+            "manufacturing": "Industrie manufacturière",
+            "other": "Autre",
+            "retail": "Commerce de détail",
+            "select": "Sélectionner...",
+            "technology": "Technologie"
+          },
+          "placeholder": "Sélectionner le secteur"
+        },
+        "position": {
+          "error": {
+            "minLength": "Le poste doit contenir au moins 2 caractères",
+            "required": "Le poste est requis"
+          },
+          "label": "Poste/Titre",
+          "placeholder": "Développeur logiciel"
+        },
+        "website": {
+          "error": {
+            "invalid": "URL invalide"
+          },
+          "label": "Site Web de l’entreprise",
+          "placeholder": "https://exemple.com"
+        }
+      },
+      "label": "Informations sur l’entreprise"
+    },
+    "message": {
+      "fields": {
+        "attachments": {
+          "label": "J’ai des pièces jointes à envoyer (elles seront demandées par e-mail)"
+        },
+        "category": {
+          "error": {
+            "required": "Veuillez sélectionner une catégorie"
+          },
+          "label": "Catégorie",
+          "options": {
+            "feedback": "Retour d’information",
+            "general": "Demande générale",
+            "partnership": "Partenariat",
+            "sales": "Ventes",
+            "select": "Sélectionner...",
+            "support": "Support technique"
+          },
+          "placeholder": "Sélectionner une catégorie"
+        },
+        "message": {
+          "error": {
+            "minLength": "Le message doit contenir au moins 20 caractères",
+            "required": "Le message est requis"
+          },
+          "label": "Message",
+          "placeholder": "Veuillez fournir des détails concernant votre demande..."
+        },
+        "priority": {
+          "label": "Priorité",
+          "options": {
+            "high": "Élevée",
+            "low": "Faible",
+            "medium": "Moyenne"
+          }
+        },
+        "subject": {
+          "error": {
+            "minLength": "L’objet doit contenir au moins 5 caractères",
+            "required": "L’objet est requis"
+          },
+          "label": "Objet",
+          "placeholder": "Demande de projet"
+        }
+      },
+      "label": "Message"
+    },
+    "personalInfo": {
+      "fields": {
+        "dateOfBirth": {
+          "label": "Date de naissance",
+          "placeholder": "MM/JJ/AAAA"
+        },
+        "email": {
+          "error": {
+            "invalid": "Adresse e-mail invalide",
+            "required": "L'adresse e-mail est requise"
+          },
+          "label": "Adresse e-mail",
+          "placeholder": "john.doe@example.com"
+        },
+        "firstName": {
+          "error": {
+            "minLength": "Le prénom doit contenir au moins 2 caractères",
+            "required": "Le prénom est requis"
+          },
+          "label": "Prénom",
+          "placeholder": "John"
+        },
+        "lastName": {
+          "error": {
+            "minLength": "Le nom doit contenir au moins 2 caractères",
+            "required": "Le nom est requis"
+          },
+          "label": "Nom",
+          "placeholder": "Doe"
+        },
+        "phone": {
+          "error": {
+            "invalid": "Numéro de téléphone invalide"
+          },
+          "label": "Numéro de téléphone",
+          "placeholder": "+1 (555) 123-4567"
+        }
+      },
+      "label": "Informations personnelles"
+    },
+    "preferences": {
+      "fields": {
+        "contactMethod": {
+          "label": "Méthode de contact préférée",
+          "options": {
+            "both": "Les deux",
+            "email": "E-mail",
+            "phone": "Téléphone"
+          }
+        },
+        "marketingConsent": {
+          "label": "J’accepte de recevoir des communications marketing"
+        },
+        "newsletterSubscribe": {
+          "label": "S’abonner à notre newsletter pour des mises à jour et offres"
+        },
+        "termsAccepted": {
+          "error": {
+            "required": "Vous devez accepter les termes et conditions"
+          },
+          "label": "J’accepte les {{terms}} et la {{privacy}}",
+          "privacy": "politique de confidentialité",
+          "terms": "conditions générales"
+        }
+      },
+      "label": "Préférences"
+    }
+  },
+  "subtitle": "Formulaire multi-étapes avec validation et sauvegarde automatique",
+  "success": {
+    "action": "Envoyer un autre formulaire",
+    "description": "Nous vous répondrons dans un délai de 24 à 48 heures.",
+    "message": "Votre formulaire a été soumis avec succès.",
+    "title": "Merci !"
+  },
+  "title": "Formulaire de contact avancé"
+}

@@ -7,70 +7,70 @@
   },
   "banner": {
     "sanityCommand": "npm run seed:products",
-    "sanityDisabled": "Utilisation de données produits statiques. Pour activer Sanity CMS, exécutez :"
+    "sanityDisabled": "Usando datos de productos estáticos. Para habilitar Sanity CMS, ejecute:"
   },
   "cart": {
-    "apply": "Appliquer",
-    "checkout": "Passer la commande",
-    "empty": "Votre panier est vide",
-    "emptyMessage": "Commencez à ajouter des services à votre panier",
-    "promoCode": "Entrez le code promo",
-    "quantity": "Quantité",
-    "remove": "Supprimer",
-    "subtotal": "Sous-total",
-    "tax": "Taxe",
-    "title": "Panier",
+    "apply": "Aplicar",
+    "checkout": "Finalizar Compra",
+    "empty": "Tu carrito está vacío",
+    "emptyMessage": "Comienza a agregar servicios a tu carrito",
+    "promoCode": "Ingrese código promocional",
+    "quantity": "Cantidad",
+    "remove": "Eliminar",
+    "subtotal": "Subtotal",
+    "tax": "Impuestos",
+    "title": "Carrito de Compras",
     "total": "Total"
   },
   "categories": {
-    "all": "Tous les Services",
-    "consulting": "Conseil",
-    "development": "Développement",
-    "maintenance": "Maintenance",
+    "all": "Todos los Servicios",
+    "consulting": "Consultoría",
+    "development": "Desarrollo",
+    "maintenance": "Mantenimiento",
     "marketing": "Marketing",
     "seo": "SEO",
-    "webDesign": "Design Web"
+    "webDesign": "Diseño Web"
   },
   "checkout": {
-    "comingSoon": "Fonctionnalité de paiement bientôt disponible !",
-    "total": "Total :",
-    "yourCart": "Votre panier :"
+    "comingSoon": "¡Funcionalidad de pago próximamente!",
+    "total": "Total:",
+    "yourCart": "Tu carrito:"
   },
   "filters": {
-    "categories": "Catégories",
-    "of": "sur",
-    "search": "Rechercher des services...",
-    "services": "services",
-    "showing": "Affichage"
+    "categories": "Categorías",
+    "of": "de",
+    "search": "Buscar servicios...",
+    "services": "servicios",
+    "showing": "Mostrando"
   },
   "hero": {
-    "subtitle": "Parcourez et achetez nos services professionnels de développement web",
-    "title": "Boutique de Services"
+    "subtitle": "Explore y adquiera nuestros servicios profesionales de desarrollo web",
+    "title": "Tienda de Servicios"
   },
-  "loading": "Chargement des produits...",
+  "loading": "Cargando productos...",
   "noResults": {
-    "clearFilters": "Effacer les Filtres",
-    "message": "Essayez d'ajuster vos filtres ou votre recherche",
-    "title": "Aucun service trouvé"
+    "clearFilters": "Limpiar Filtros",
+    "message": "Intenta ajustar tus filtros o búsqueda",
+    "title": "No se encontraron servicios"
   },
   "notifications": {
-    "addedToCart": "{{productName}} ajouté au panier !",
-    "quantityUpdated": "Quantité mise à jour",
-    "removedFromCart": "{{productName}} retiré du panier"
+    "addedToCart": "¡{{productName}} agregado al carrito!",
+    "quantityUpdated": "Cantidad actualizada",
+    "removedFromCart": "{{productName}} eliminado del carrito"
   },
   "product": {
-    "addToCart": "Ajouter au Panier",
-    "deliveryTime": "Délai de Livraison",
-    "inCart": "Dans le Panier",
-    "oneTime": "paiement unique",
-    "perMonth": "par mois",
-    "perYear": "par an"
+    "addToCart": "Agregar al Carrito",
+    "deliveryTime": "Tiempo de Entrega",
+    "inCart": "En el Carrito",
+    "oneTime": "pago único",
+    "perMonth": "por mes",
+    "perYear": "por año"
   },
   "sort": {
-    "highToLow": "Prix décroissant",
-    "lowToHigh": "Prix croissant",
-    "popular": "Populaire"
+    "highToLow": "Mayor a Menor",
+    "lowToHigh": "Menor a Mayor",
+    "popular": "Popular"
   },
-  "subtitle": "Parcourez et achetez nos services professionnels de développement web",
-  "title": "Boutique de Services"
+  "subtitle": "Explore y adquiera nuestros servicios profesionales de desarrollo web",
+  "title": "Tienda de Servicios"
 }

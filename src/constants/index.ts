@@ -17,8 +17,8 @@ export const LANGUAGES: Record<Language, LanguageConfig> = {
     label: 'Español',
     flag: '🇪🇸',
   },
-  fr: {
-    code: 'fr',
+  'fr-FR': {
+    code: 'fr-FR',
     label: 'Français',
     flag: '🇫🇷',
   },

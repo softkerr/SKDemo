@@ -1,1 +1,78 @@
-{}
+{
+  "shop": {
+    "title": "Service Shop",
+    "subtitle": "Browse and purchase our professional web development services",
+    "hero": {
+      "title": "Service Shop",
+      "subtitle": "Browse and purchase our professional web development services"
+    },
+    "loading": "Loading products...",
+    "badges": {
+      "popular": "Popular",
+      "new": "New",
+      "bestValue": "Best Value",
+      "essential": "Essential"
+    },
+    "categories": {
+      "all": "All Services",
+      "webDesign": "Web Design",
+      "development": "Development",
+      "seo": "SEO",
+      "marketing": "Marketing",
+      "consulting": "Consulting",
+      "maintenance": "Maintenance"
+    },
+    "filters": {
+      "search": "Search services...",
+      "categories": "Categories",
+      "showing": "Showing",
+      "of": "of",
+      "services": "services"
+    },
+    "sort": {
+      "popular": "Popular",
+      "lowToHigh": "Low to High",
+      "highToLow": "High to Low"
+    },
+    "product": {
+      "addToCart": "Add to Cart",
+      "inCart": "In Cart",
+      "deliveryTime": "Delivery Time",
+      "perMonth": "per month",
+      "perYear": "per year",
+      "oneTime": "one-time payment"
+    },
+    "cart": {
+      "title": "Shopping Cart",
+      "empty": "Your cart is empty",
+      "emptyMessage": "Start adding services to your cart",
+      "subtotal": "Subtotal",
+      "tax": "Tax",
+      "total": "Total",
+      "checkout": "Checkout",
+      "quantity": "Quantity",
+      "remove": "Remove",
+      "promoCode": "Enter promo code",
+      "apply": "Apply"
+    },
+    "checkout": {
+      "yourCart": "Your cart:",
+      "total": "Total:",
+      "comingSoon": "Checkout functionality coming soon!"
+    },
+    "noResults": {
+      "title": "No services found",
+      "message": "Try adjusting your filters or search query",
+      "clearFilters": "Clear Filters"
+    },
+    "notifications": {
+      "addedToCart": "{{productName}} added to cart!",
+      "removedFromCart": "{{productName}} removed from cart",
+      "quantityUpdated": "Quantity updated"
+    },
+    "banner": {
+      "sanityDisabled": "Using static product data. To enable Sanity CMS, run:",
+      "sanityCommand": "npm run seed:products"
+    }
+  }
+}

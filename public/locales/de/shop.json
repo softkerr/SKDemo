@@ -1,20 +1,20 @@
 {
   "badges": {
     "bestValue": "Bestes Angebot",
-    "essential": "Essentiell",
+    "essential": "Wesentlich",
     "new": "Neu",
     "popular": "Beliebt"
   },
   "banner": {
     "sanityCommand": "npm run seed:products",
-    "sanityDisabled": "Statische Produktdaten werden verwendet. Um Sanity CMS zu aktivieren, führen Sie aus:"
+    "sanityDisabled": "Verwende statische Produktdaten. Um Sanity CMS zu aktivieren, führen Sie aus:"
   },
   "cart": {
     "apply": "Anwenden",
     "checkout": "Zur Kasse",
     "empty": "Ihr Warenkorb ist leer",
-    "emptyMessage": "Fügen Sie Dienstleistungen zu Ihrem Warenkorb hinzu",
-    "promoCode": "Gutscheincode eingeben",
+    "emptyMessage": "Beginnen Sie, Dienste zu Ihrem Warenkorb hinzuzufügen",
+    "promoCode": "Promocode eingeben",
     "quantity": "Menge",
     "remove": "Entfernen",
     "subtotal": "Zwischensumme",
@@ -23,7 +23,7 @@
     "total": "Gesamt"
   },
   "categories": {
-    "all": "Alle Dienstleistungen",
+    "all": "Alle Dienste",
     "consulting": "Beratung",
     "development": "Entwicklung",
     "maintenance": "Wartung",
@@ -32,26 +32,26 @@
     "webDesign": "Webdesign"
   },
   "checkout": {
-    "comingSoon": "Checkout-Funktion kommt bald!",
+    "comingSoon": "Checkout-Funktionalität kommt bald!",
     "total": "Gesamt:",
     "yourCart": "Ihr Warenkorb:"
   },
   "filters": {
     "categories": "Kategorien",
     "of": "von",
-    "search": "Dienstleistungen suchen...",
-    "services": "Dienstleistungen",
-    "showing": "Anzeige"
+    "search": "Dienste suchen...",
+    "services": "Dienste",
+    "showing": "Zeige"
   },
   "hero": {
-    "subtitle": "Durchsuchen und kaufen Sie unsere professionellen Webentwicklungsdienstleistungen",
-    "title": "Service-Shop"
+    "subtitle": "Entdecken und erwerben Sie unsere professionellen Webentwicklungsdienstleistungen",
+    "title": "Service Shop"
   },
   "loading": "Produkte werden geladen...",
   "noResults": {
     "clearFilters": "Filter löschen",
     "message": "Versuchen Sie, Ihre Filter oder Suchanfrage anzupassen",
-    "title": "Keine Dienstleistungen gefunden"
+    "title": "Keine Dienste gefunden"
   },
   "notifications": {
     "addedToCart": "{{productName}} zum Warenkorb hinzugefügt!",
@@ -67,10 +67,10 @@
     "perYear": "pro Jahr"
   },
   "sort": {
-    "highToLow": "Hoch zu Niedrig",
-    "lowToHigh": "Niedrig zu Hoch",
+    "highToLow": "Hoch bis Niedrig",
+    "lowToHigh": "Niedrig bis Hoch",
     "popular": "Beliebt"
   },
-  "subtitle": "Durchsuchen und kaufen Sie unsere professionellen Webentwicklungsdienstleistungen",
-  "title": "Service-Shop"
+  "subtitle": "Entdecken und erwerben Sie unsere professionellen Webentwicklungsdienstleistungen",
+  "title": "Service Shop"
 }

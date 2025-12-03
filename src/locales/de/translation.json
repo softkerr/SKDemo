@@ -1,1 +1,277 @@
-{}
+{
+  "contact-form": {
+    "alerts": {
+      "dataLoaded": "Vorherige Formulardaten aus dem lokalen Speicher geladen"
+    },
+    "buttons": {
+      "next": "Weiter",
+      "prev": "Zurück",
+      "reset": "Zurücksetzen",
+      "submit": "Absenden"
+    },
+    "progress": {
+      "complete": "{{percent}}% abgeschlossen",
+      "step": "Schritt {{current}} von {{total}}"
+    },
+    "steps": {
+      "businessInfo": {
+        "fields": {
+          "companyName": {
+            "error": {
+              "minLength": "Der Firmenname muss mindestens 2 Zeichen lang sein",
+              "required": "Der Firmenname ist erforderlich"
+            },
+            "label": "Firmenname",
+            "placeholder": "Acme Corporation"
+          },
+          "companySize": {
+            "error": {
+              "required": "Bitte wählen Sie die Unternehmensgröße aus"
+            },
+            "label": "Unternehmensgröße",
+            "options": {
+              "1-10": "1–10 Mitarbeiter",
+              "11-50": "11–50 Mitarbeiter",
+              "201-500": "201–500 Mitarbeiter",
+              "501+": "501+ Mitarbeiter",
+              "51-200": "51–200 Mitarbeiter",
+              "select": "Auswählen..."
+            },
+            "placeholder": "Unternehmensgröße auswählen"
+          },
+          "industry": {
+            "error": {
+              "required": "Bitte wählen Sie eine Branche aus"
+            },
+            "label": "Branche",
+            "options": {
+              "education": "Bildung",
+              "finance": "Finanzen",
+              "healthcare": "Gesundheitswesen",
+              "manufacturing": "Fertigung",
+              "other": "Andere",
+              "retail": "Einzelhandel",
+              "select": "Auswählen...",
+              "technology": "Technologie"
+            },
+            "placeholder": "Branche auswählen"
+          },
+          "position": {
+            "error": {
+              "minLength": "Die Position muss mindestens 2 Zeichen lang sein",
+              "required": "Die Position ist erforderlich"
+            },
+            "label": "Position/Titel",
+            "placeholder": "Softwareentwickler"
+          },
+          "website": {
+            "error": {
+              "invalid": "Ungültige URL"
+            },
+            "label": "Unternehmenswebsite",
+            "placeholder": "https://beispiel.de"
+          }
+        },
+        "label": "Unternehmensinformationen"
+      },
+      "message": {
+        "fields": {
+          "attachments": {
+            "label": "Ich habe Anhänge zu senden (werden per E-Mail angefordert)"
+          },
+          "category": {
+            "error": {
+              "required": "Bitte wählen Sie eine Kategorie aus"
+            },
+            "label": "Kategorie",
+            "options": {
+              "feedback": "Feedback",
+              "general": "Allgemeine Anfrage",
+              "partnership": "Partnerschaft",
+              "sales": "Vertrieb",
+              "select": "Auswählen...",
+              "support": "Technischer Support"
+            },
+            "placeholder": "Kategorie auswählen"
+          },
+          "message": {
+            "error": {
+              "minLength": "Die Nachricht muss mindestens 20 Zeichen enthalten",
+              "required": "Die Nachricht ist erforderlich"
+            },
+            "label": "Nachricht",
+            "placeholder": "Bitte geben Sie Details zu Ihrer Anfrage an..."
+          },
+          "priority": {
+            "label": "Priorität",
+            "options": {
+              "high": "Hoch",
+              "low": "Niedrig",
+              "medium": "Mittel"
+            }
+          },
+          "subject": {
+            "error": {
+              "minLength": "Der Betreff muss mindestens 5 Zeichen enthalten",
+              "required": "Der Betreff ist erforderlich"
+            },
+            "label": "Betreff",
+            "placeholder": "Projektanfrage"
+          }
+        },
+        "label": "Nachricht"
+      },
+      "personalInfo": {
+        "fields": {
+          "dateOfBirth": {
+            "label": "Geburtsdatum",
+            "placeholder": "MM/TT/JJJJ"
+          },
+          "email": {
+            "error": {
+              "invalid": "Ungültige E-Mail-Adresse",
+              "required": "E-Mail ist erforderlich"
+            },
+            "label": "E-Mail-Adresse",
+            "placeholder": "john.doe@example.com"
+          },
+          "firstName": {
+            "error": {
+              "minLength": "Der Vorname muss mindestens 2 Zeichen lang sein",
+              "required": "Der Vorname ist erforderlich"
+            },
+            "label": "Vorname",
+            "placeholder": "John"
+          },
+          "lastName": {
+            "error": {
+              "minLength": "Der Nachname muss mindestens 2 Zeichen lang sein",
+              "required": "Der Nachname ist erforderlich"
+            },
+            "label": "Nachname",
+            "placeholder": "Doe"
+          },
+          "phone": {
+            "error": {
+              "invalid": "Ungültige Telefonnummer"
+            },
+            "label": "Telefonnummer",
+            "placeholder": "+1 (555) 123-4567"
+          }
+        },
+        "label": "Persönliche Informationen"
+      },
+      "preferences": {
+        "fields": {
+          "contactMethod": {
+            "label": "Bevorzugte Kontaktmethode",
+            "options": {
+              "both": "Beides",
+              "email": "E-Mail",
+              "phone": "Telefon"
+            }
+          },
+          "marketingConsent": {
+            "label": "Ich stimme dem Erhalt von Marketingmitteilungen zu"
+          },
+          "newsletterSubscribe": {
+            "label": "Newsletter abonnieren für Updates und Angebote"
+          },
+          "termsAccepted": {
+            "error": {
+              "required": "Sie müssen die allgemeinen Geschäftsbedingungen akzeptieren"
+            },
+            "label": "Ich akzeptiere die {{terms}} und die {{privacy}}",
+            "privacy": "Datenschutzrichtlinie",
+            "terms": "Allgemeinen Geschäftsbedingungen"
+          }
+        },
+        "label": "Einstellungen"
+      }
+    },
+    "subtitle": "Mehrstufiges Formular mit Validierung und automatischer Speicherung",
+    "success": {
+      "action": "Weiteres Formular absenden",
+      "description": "Wir melden uns innerhalb von 24–48 Stunden bei Ihnen.",
+      "message": "Ihr Formular wurde erfolgreich übermittelt.",
+      "title": "Vielen Dank!"
+    },
+    "title": "Erweitertes Kontaktformular"
+  },
+  "shop": {
+    "title": "Service Shop",
+    "subtitle": "Entdecken und erwerben Sie unsere professionellen Webentwicklungsdienstleistungen",
+    "hero": {
+      "title": "Service Shop",
+      "subtitle": "Entdecken und erwerben Sie unsere professionellen Webentwicklungsdienstleistungen"
+    },
+    "loading": "Produkte werden geladen...",
+    "badges": {
+      "popular": "Beliebt",
+      "new": "Neu",
+      "bestValue": "Bestes Angebot",
+      "essential": "Wesentlich"
+    },
+    "categories": {
+      "all": "Alle Dienste",
+      "webDesign": "Webdesign",
+      "development": "Entwicklung",
+      "seo": "SEO",
+      "marketing": "Marketing",
+      "consulting": "Beratung",
+      "maintenance": "Wartung"
+    },
+    "filters": {
+      "search": "Dienste suchen...",
+      "categories": "Kategorien",
+      "showing": "Zeige",
+      "of": "von",
+      "services": "Dienste"
+    },
+    "sort": {
+      "popular": "Beliebt",
+      "lowToHigh": "Niedrig bis Hoch",
+      "highToLow": "Hoch bis Niedrig"
+    },
+    "product": {
+      "addToCart": "In den Warenkorb",
+      "inCart": "Im Warenkorb",
+      "deliveryTime": "Lieferzeit",
+      "perMonth": "pro Monat",
+      "perYear": "pro Jahr",
+      "oneTime": "einmalige Zahlung"
+    },
+    "cart": {
+      "title": "Warenkorb",
+      "empty": "Ihr Warenkorb ist leer",
+      "emptyMessage": "Beginnen Sie, Dienste zu Ihrem Warenkorb hinzuzufügen",
+      "subtotal": "Zwischensumme",
+      "tax": "Steuer",
+      "total": "Gesamt",
+      "checkout": "Zur Kasse",
+      "quantity": "Menge",
+      "remove": "Entfernen",
+      "promoCode": "Promocode eingeben",
+      "apply": "Anwenden"
+    },
+    "checkout": {
+      "yourCart": "Ihr Warenkorb:",
+      "total": "Gesamt:",
+      "comingSoon": "Checkout-Funktionalität kommt bald!"
+    },
+    "noResults": {
+      "title": "Keine Dienste gefunden",
+      "message": "Versuchen Sie, Ihre Filter oder Suchanfrage anzupassen",
+      "clearFilters": "Filter löschen"
+    },
+    "notifications": {
+      "addedToCart": "{{productName}} zum Warenkorb hinzugefügt!",
+      "removedFromCart": "{{productName}} aus dem Warenkorb entfernt",
+      "quantityUpdated": "Menge aktualisiert"
+    },
+    "banner": {
+      "sanityDisabled": "Verwende statische Produktdaten. Um Sanity CMS zu aktivieren, führen Sie aus:",
+      "sanityCommand": "npm run seed:products"
+    }
+  }
+}

@@ -1,1 +1,78 @@
-{}
+{
+  "shop": {
+    "title": "Tienda de Servicios",
+    "subtitle": "Explore y adquiera nuestros servicios profesionales de desarrollo web",
+    "hero": {
+      "title": "Tienda de Servicios",
+      "subtitle": "Explore y adquiera nuestros servicios profesionales de desarrollo web"
+    },
+    "loading": "Cargando productos...",
+    "badges": {
+      "popular": "Popular",
+      "new": "Nuevo",
+      "bestValue": "Mejor Valor",
+      "essential": "Esencial"
+    },
+    "categories": {
+      "all": "Todos los Servicios",
+      "webDesign": "Diseño Web",
+      "development": "Desarrollo",
+      "seo": "SEO",
+      "marketing": "Marketing",
+      "consulting": "Consultoría",
+      "maintenance": "Mantenimiento"
+    },
+    "filters": {
+      "search": "Buscar servicios...",
+      "categories": "Categorías",
+      "showing": "Mostrando",
+      "of": "de",
+      "services": "servicios"
+    },
+    "sort": {
+      "popular": "Popular",
+      "lowToHigh": "Menor a Mayor",
+      "highToLow": "Mayor a Menor"
+    },
+    "product": {
+      "addToCart": "Agregar al Carrito",
+      "inCart": "En el Carrito",
+      "deliveryTime": "Tiempo de Entrega",
+      "perMonth": "por mes",
+      "perYear": "por año",
+      "oneTime": "pago único"
+    },
+    "cart": {
+      "title": "Carrito de Compras",
+      "empty": "Tu carrito está vacío",
+      "emptyMessage": "Comienza a agregar servicios a tu carrito",
+      "subtotal": "Subtotal",
+      "tax": "Impuestos",
+      "total": "Total",
+      "checkout": "Finalizar Compra",
+      "quantity": "Cantidad",
+      "remove": "Eliminar",
+      "promoCode": "Ingrese código promocional",
+      "apply": "Aplicar"
+    },
+    "checkout": {
+      "yourCart": "Tu carrito:",
+      "total": "Total:",
+      "comingSoon": "¡Funcionalidad de pago próximamente!"
+    },
+    "noResults": {
+      "title": "No se encontraron servicios",
+      "message": "Intenta ajustar tus filtros o búsqueda",
+      "clearFilters": "Limpiar Filtros"
+    },
+    "notifications": {
+      "addedToCart": "¡{{productName}} agregado al carrito!",
+      "removedFromCart": "{{productName}} eliminado del carrito",
+      "quantityUpdated": "Cantidad actualizada"
+    },
+    "banner": {
+      "sanityDisabled": "Usando datos de productos estáticos. Para habilitar Sanity CMS, ejecute:",
+      "sanityCommand": "npm run seed:products"
+    }
+  }
+}

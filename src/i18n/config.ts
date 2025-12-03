@@ -41,7 +41,9 @@ if (typeof window !== 'undefined') {
       
       // React specific options
       react: {
-        useSuspense: false,
+        useSuspense: true, // Enable Suspense to wait for translations to load
+        bindI18n: 'languageChanged loaded',
+        bindI18nStore: 'added removed',
       },
       
       // HTTP Backend configuration - load from public/locales

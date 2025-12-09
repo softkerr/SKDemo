@@ -55,7 +55,7 @@ export const FeatureSection: React.FC<FeatureSectionProps> = ({ section, index }
       <Container maxWidth="lg" sx={{ position: 'relative', zIndex: 1 }}>
         <Grid container spacing={8} alignItems="center">
           {/* Content */}
-          <Grid item xs={12} md={6} order={{ xs: 2, md: isEven ? 1 : 2 }}>
+          <Grid size={{ xs: 12, md: 6 }} order={{ xs: 2, md: isEven ? 1 : 2 }}>
             <Stack spacing={4}>
               <Box>
                 <Typography
@@ -117,7 +117,7 @@ export const FeatureSection: React.FC<FeatureSectionProps> = ({ section, index }
           </Grid>
 
           {/* Preview Card */}
-          <Grid item xs={12} md={6} order={{ xs: 1, md: isEven ? 2 : 1 }}>
+          <Grid size={{ xs: 12, md: 6 }} order={{ xs: 1, md: isEven ? 2 : 1 }}>
             <Paper
               elevation={0}
               sx={{

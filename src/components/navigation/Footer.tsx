@@ -45,7 +45,7 @@ export const Footer: React.FC = () => {
     >
       <Container maxWidth="lg">
         <Grid container spacing={4}>
-          <Grid item xs={12} md={4}>
+          <Grid size={{ xs: 12, md: 4 }}>
             <Typography variant="h6" fontWeight={800} gutterBottom>
               {COMPANY_INFO.name}
             </Typography>
@@ -83,7 +83,7 @@ export const Footer: React.FC = () => {
             </Stack>
           </Grid>
 
-          <Grid item xs={12} sm={6} md={4}>
+          <Grid size={{ xs: 12, sm: 6, md: 4 }}>
             <Typography variant="h6" fontWeight={700} gutterBottom>
               {t('footer.company')}
             </Typography>
@@ -103,7 +103,7 @@ export const Footer: React.FC = () => {
             </Stack>
           </Grid>
 
-          <Grid item xs={12} sm={6} md={4}>
+          <Grid size={{ xs: 12, sm: 6, md: 4 }}>
             <Typography variant="h6" fontWeight={700} gutterBottom>
               {t('footer.legal')}
             </Typography>

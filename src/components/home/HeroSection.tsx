@@ -43,7 +43,7 @@ export const HeroSection: React.FC = () => {
       <Container maxWidth="lg">
         <Grid container spacing={6} alignItems="center">
           {/* Left: Content */}
-          <Grid item xs={12} md={7}>
+          <Grid size={{ xs: 12, md: 7 }}>
             <Stack spacing={5}>
               <Box>
                 <Typography
@@ -142,7 +142,7 @@ export const HeroSection: React.FC = () => {
             </Stack>
           </Grid>
 
-          <Grid item xs={12} md={5}>
+          <Grid size={{ xs: 12, md: 5 }}>
             <Stack spacing={3}>
               {businessCardsList.map((metric, idx) => (
                 <Box

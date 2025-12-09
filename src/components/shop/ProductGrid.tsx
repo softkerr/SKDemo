@@ -13,7 +13,7 @@ export const ProductGrid: React.FC<ProductGridProps> = ({ products, onAddToCart,
   return (
     <Grid container spacing={3}>
       {products.map((product) => (
-        <Grid item xs={12} sm={6} lg={4} key={product.id}>
+        <Grid size={{ xs: 12, sm: 6, lg: 4 }} key={product.id}>
           <ProductCard
             product={product}
             onAddToCart={onAddToCart}

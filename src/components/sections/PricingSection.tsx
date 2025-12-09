@@ -135,7 +135,7 @@ export function PricingSection() {
         {/* Pricing Cards */}
         <Grid container spacing={4} alignItems="stretch">
           {plans.map(({ key, features, highlighted }) => (
-            <Grid item xs={12} md={4} key={key}>
+            <Grid size={{ xs: 12, md: 4 }} key={key}>
               <Card
                 elevation={highlighted ? 8 : 0}
                 sx={{

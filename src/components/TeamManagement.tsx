@@ -335,7 +335,7 @@ export default function TeamManagement() {
 
         {/* Stats Cards */}
         <Grid container spacing={3} sx={{ mb: 4 }}>
-          <Grid item xs={12} sm={6} md={3}>
+          <Grid size={{ xs: 12, sm: 6, md: 3 }}>
             <Card>
               <CardContent>
                 <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
@@ -355,7 +355,7 @@ export default function TeamManagement() {
             </Card>
           </Grid>
 
-          <Grid item xs={12} sm={6} md={3}>
+          <Grid size={{ xs: 12, sm: 6, md: 3 }}>
             <Card>
               <CardContent>
                 <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
@@ -375,7 +375,7 @@ export default function TeamManagement() {
             </Card>
           </Grid>
 
-          <Grid item xs={12} sm={6} md={3}>
+          <Grid size={{ xs: 12, sm: 6, md: 3 }}>
             <Card>
               <CardContent>
                 <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
@@ -395,7 +395,7 @@ export default function TeamManagement() {
             </Card>
           </Grid>
 
-          <Grid item xs={12} sm={6} md={3}>
+          <Grid size={{ xs: 12, sm: 6, md: 3 }}>
             <Card>
               <CardContent>
                 <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
@@ -419,7 +419,7 @@ export default function TeamManagement() {
         {/* Filters */}
         <Paper sx={{ p: 2, mb: 3 }}>
           <Grid container spacing={2} alignItems="center">
-            <Grid item xs={12} sm={4}>
+            <Grid size={{ xs: 12, sm: 4 }}>
               <FormControl fullWidth size="small">
                 <InputLabel>Filter by Role</InputLabel>
                 <Select
@@ -438,7 +438,7 @@ export default function TeamManagement() {
               </FormControl>
             </Grid>
 
-            <Grid item xs={12} sm={4}>
+            <Grid size={{ xs: 12, sm: 4 }}>
               <FormControl fullWidth size="small">
                 <InputLabel>Filter by Department</InputLabel>
                 <Select
@@ -456,7 +456,7 @@ export default function TeamManagement() {
               </FormControl>
             </Grid>
 
-            <Grid item xs={12} sm={4}>
+            <Grid size={{ xs: 12, sm: 4 }}>
               <Box sx={{ display: 'flex', gap: 1, justifyContent: 'flex-end' }}>
                 <Button
                   variant={viewMode === 'grid' ? 'contained' : 'outlined'}
@@ -493,7 +493,7 @@ export default function TeamManagement() {
       ) : (
         <Grid container spacing={3}>
           {filteredMembers.map((member) => (
-            <Grid item xs={12} sm={6} md={viewMode === 'grid' ? 4 : 12} key={member.id}>
+            <Grid size={{ xs: 12, sm: 6, md: viewMode === 'grid' ? 4 : 12 }} key={member.id}>
               <Card>
                 <CardContent>
                   <Box sx={{ display: 'flex', justifyContent: 'space-between', mb: 2 }}>
@@ -604,7 +604,7 @@ export default function TeamManagement() {
 
                   {/* Tasks */}
                   <Grid container spacing={2} sx={{ mb: 2 }}>
-                    <Grid item xs={6}>
+                    <Grid size={{ xs: 6 }}>
                       <Box sx={{ textAlign: 'center', p: 1, bgcolor: 'action.hover', borderRadius: 1 }}>
                         <Typography variant="h6" fontWeight={600}>
                           {member.tasksAssigned}
@@ -614,7 +614,7 @@ export default function TeamManagement() {
                         </Typography>
                       </Box>
                     </Grid>
-                    <Grid item xs={6}>
+                    <Grid size={{ xs: 6 }}>
                       <Box sx={{ textAlign: 'center', p: 1, bgcolor: 'action.hover', borderRadius: 1 }}>
                         <Typography variant="h6" fontWeight={600} color="success.main">
                           {member.tasksCompleted}

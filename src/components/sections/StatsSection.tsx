@@ -59,7 +59,7 @@ export function StatsSection() {
 
         <Grid container spacing={4}>
           {stats.map(({ key }) => (
-            <Grid item xs={6} md={3} key={key}>
+            <Grid size={{ xs: 6, md: 3 }} key={key}>
               <Box
                 sx={{
                   textAlign: 'center',

@@ -81,7 +81,7 @@ export default function ShopPage() {
 
         <Grid container spacing={3}>
           {!isMobile && (
-            <Grid item md={3}>
+            <Grid size={{ md: 3 }}>
               <FilterSidebar
                 selectedCategory={selectedCategory}
                 onCategoryChange={setSelectedCategory}
@@ -93,7 +93,7 @@ export default function ShopPage() {
             </Grid>
           )}
 
-          <Grid item xs={12} md={9}>
+          <Grid size={{ xs: 12, md: 9 }}>
             {loading && (
               <Box
                 sx={{

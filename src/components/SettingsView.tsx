@@ -305,7 +305,7 @@ export default function SettingsView() {
           {/* Profile Tab */}
           <TabPanel value={activeTab} index={0}>
             <Grid container spacing={3}>
-              <Grid item xs={12}>
+              <Grid size={{ xs: 12 }}>
                 <Box sx={{ display: 'flex', alignItems: 'center', gap: 3, mb: 3 }}>
                   <Avatar
                     sx={{
@@ -330,7 +330,7 @@ export default function SettingsView() {
                 </Box>
               </Grid>
 
-              <Grid item xs={12} md={6}>
+              <Grid size={{ xs: 12, md: 6 }}>
                 <TextField
                   label="Full Name"
                   fullWidth
@@ -339,7 +339,7 @@ export default function SettingsView() {
                 />
               </Grid>
 
-              <Grid item xs={12} md={6}>
+              <Grid size={{ xs: 12, md: 6 }}>
                 <TextField
                   label="Email"
                   type="email"
@@ -349,7 +349,7 @@ export default function SettingsView() {
                 />
               </Grid>
 
-              <Grid item xs={12} md={6}>
+              <Grid size={{ xs: 12, md: 6 }}>
                 <TextField
                   label="Phone"
                   fullWidth
@@ -358,7 +358,7 @@ export default function SettingsView() {
                 />
               </Grid>
 
-              <Grid item xs={12} md={6}>
+              <Grid size={{ xs: 12, md: 6 }}>
                 <FormControl fullWidth>
                   <InputLabel>Role</InputLabel>
                   <Select
@@ -374,7 +374,7 @@ export default function SettingsView() {
                 </FormControl>
               </Grid>
 
-              <Grid item xs={12} md={6}>
+              <Grid size={{ xs: 12, md: 6 }}>
                 <TextField
                   label="Department"
                   fullWidth
@@ -383,7 +383,7 @@ export default function SettingsView() {
                 />
               </Grid>
 
-              <Grid item xs={12} md={6}>
+              <Grid size={{ xs: 12, md: 6 }}>
                 <FormControl fullWidth>
                   <InputLabel>Timezone</InputLabel>
                   <Select
@@ -541,7 +541,7 @@ export default function SettingsView() {
           {/* Appearance Tab */}
           <TabPanel value={activeTab} index={2}>
             <Grid container spacing={3}>
-              <Grid item xs={12} md={6}>
+              <Grid size={{ xs: 12, md: 6 }}>
                 <FormControl fullWidth>
                   <InputLabel>Theme Mode</InputLabel>
                   <Select
@@ -571,7 +571,7 @@ export default function SettingsView() {
                 </FormControl>
               </Grid>
 
-              <Grid item xs={12} md={6}>
+              <Grid size={{ xs: 12, md: 6 }}>
                 <FormControl fullWidth>
                   <InputLabel>Color Scheme</InputLabel>
                   <Select
@@ -587,7 +587,7 @@ export default function SettingsView() {
                 </FormControl>
               </Grid>
 
-              <Grid item xs={12} md={6}>
+              <Grid size={{ xs: 12, md: 6 }}>
                 <FormControl fullWidth>
                   <InputLabel>Font Size</InputLabel>
                   <Select
@@ -602,7 +602,7 @@ export default function SettingsView() {
                 </FormControl>
               </Grid>
 
-              <Grid item xs={12}>
+              <Grid size={{ xs: 12 }}>
                 <FormControlLabel
                   control={
                     <Switch
@@ -616,7 +616,7 @@ export default function SettingsView() {
                 />
               </Grid>
 
-              <Grid item xs={12}>
+              <Grid size={{ xs: 12 }}>
                 <FormControlLabel
                   control={
                     <Switch
@@ -635,13 +635,13 @@ export default function SettingsView() {
           {/* Security Tab */}
           <TabPanel value={activeTab} index={3}>
             <Grid container spacing={3}>
-              <Grid item xs={12}>
+              <Grid size={{ xs: 12 }}>
                 <Alert severity="info" icon={<Shield />}>
                   Keep your account secure with these security settings
                 </Alert>
               </Grid>
 
-              <Grid item xs={12}>
+              <Grid size={{ xs: 12 }}>
                 <Paper variant="outlined" sx={{ p: 2 }}>
                   <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                     <Box>
@@ -662,7 +662,7 @@ export default function SettingsView() {
                 </Paper>
               </Grid>
 
-              <Grid item xs={12} md={6}>
+              <Grid size={{ xs: 12, md: 6 }}>
                 <FormControl fullWidth>
                   <InputLabel>Session Timeout (minutes)</InputLabel>
                   <Select
@@ -678,7 +678,7 @@ export default function SettingsView() {
                 </FormControl>
               </Grid>
 
-              <Grid item xs={12} md={6}>
+              <Grid size={{ xs: 12, md: 6 }}>
                 <FormControl fullWidth>
                   <InputLabel>Password Expiry (days)</InputLabel>
                   <Select
@@ -694,7 +694,7 @@ export default function SettingsView() {
                 </FormControl>
               </Grid>
 
-              <Grid item xs={12}>
+              <Grid size={{ xs: 12 }}>
                 <FormControlLabel
                   control={
                     <Switch
@@ -708,13 +708,13 @@ export default function SettingsView() {
                 />
               </Grid>
 
-              <Grid item xs={12}>
+              <Grid size={{ xs: 12 }}>
                 <Button variant="outlined" startIcon={<Key />} fullWidth>
                   Change Password
                 </Button>
               </Grid>
 
-              <Grid item xs={12}>
+              <Grid size={{ xs: 12 }}>
                 <Button variant="outlined" color="error" startIcon={<Lock />} fullWidth>
                   View Active Sessions
                 </Button>
@@ -725,13 +725,13 @@ export default function SettingsView() {
           {/* Data & Privacy Tab */}
           <TabPanel value={activeTab} index={4}>
             <Grid container spacing={3}>
-              <Grid item xs={12}>
+              <Grid size={{ xs: 12 }}>
                 <Typography variant="h6" gutterBottom>
                   Data Management
                 </Typography>
               </Grid>
 
-              <Grid item xs={12}>
+              <Grid size={{ xs: 12 }}>
                 <FormControlLabel
                   control={
                     <Switch
@@ -743,7 +743,7 @@ export default function SettingsView() {
                 />
               </Grid>
 
-              <Grid item xs={12} md={6}>
+              <Grid size={{ xs: 12, md: 6 }}>
                 <FormControl fullWidth>
                   <InputLabel>Data Retention (days)</InputLabel>
                   <Select
@@ -759,17 +759,17 @@ export default function SettingsView() {
                 </FormControl>
               </Grid>
 
-              <Grid item xs={12}>
+              <Grid size={{ xs: 12 }}>
                 <Divider sx={{ my: 2 }} />
               </Grid>
 
-              <Grid item xs={12}>
+              <Grid size={{ xs: 12 }}>
                 <Typography variant="h6" gutterBottom>
                   Privacy
                 </Typography>
               </Grid>
 
-              <Grid item xs={12}>
+              <Grid size={{ xs: 12 }}>
                 <FormControlLabel
                   control={
                     <Switch
@@ -781,7 +781,7 @@ export default function SettingsView() {
                 />
               </Grid>
 
-              <Grid item xs={12}>
+              <Grid size={{ xs: 12 }}>
                 <FormControlLabel
                   control={
                     <Switch
@@ -793,17 +793,17 @@ export default function SettingsView() {
                 />
               </Grid>
 
-              <Grid item xs={12}>
+              <Grid size={{ xs: 12 }}>
                 <Divider sx={{ my: 2 }} />
               </Grid>
 
-              <Grid item xs={12}>
+              <Grid size={{ xs: 12 }}>
                 <Typography variant="h6" gutterBottom>
                   Import / Export
                 </Typography>
               </Grid>
 
-              <Grid item xs={12} sm={6}>
+              <Grid size={{ xs: 12, sm: 6 }}>
                 <Button
                   variant="outlined"
                   startIcon={<CloudDownload />}
@@ -814,24 +814,24 @@ export default function SettingsView() {
                 </Button>
               </Grid>
 
-              <Grid item xs={12} sm={6}>
+              <Grid size={{ xs: 12, sm: 6 }}>
                 <Button variant="outlined" component="label" startIcon={<CloudUpload />} fullWidth>
                   Import Data
                   <input type="file" hidden accept=".json" onChange={handleImportData} />
                 </Button>
               </Grid>
 
-              <Grid item xs={12}>
+              <Grid size={{ xs: 12 }}>
                 <Divider sx={{ my: 2 }} />
               </Grid>
 
-              <Grid item xs={12}>
+              <Grid size={{ xs: 12 }}>
                 <Typography variant="h6" gutterBottom color="error">
                   Danger Zone
                 </Typography>
               </Grid>
 
-              <Grid item xs={12} sm={6}>
+              <Grid size={{ xs: 12, sm: 6 }}>
                 <Button
                   variant="outlined"
                   color="warning"
@@ -843,7 +843,7 @@ export default function SettingsView() {
                 </Button>
               </Grid>
 
-              <Grid item xs={12} sm={6}>
+              <Grid size={{ xs: 12, sm: 6 }}>
                 <Button
                   variant="outlined"
                   color="error"

@@ -14,7 +14,7 @@ export default function PersonalInfoStep({ control, errors }: PersonalInfoStepPr
 
   return (
     <Grid container spacing={3}>
-      <Grid item xs={12} sm={6}>
+      <Grid size={{ xs: 12, sm: 6 }}>
         <Controller
           name="personalInfo.firstName"
           control={control}
@@ -31,7 +31,7 @@ export default function PersonalInfoStep({ control, errors }: PersonalInfoStepPr
           )}
         />
       </Grid>
-      <Grid item xs={12} sm={6}>
+      <Grid size={{ xs: 12, sm: 6 }}>
         <Controller
           name="personalInfo.lastName"
           control={control}
@@ -48,7 +48,7 @@ export default function PersonalInfoStep({ control, errors }: PersonalInfoStepPr
           )}
         />
       </Grid>
-      <Grid item xs={12} sm={6}>
+      <Grid size={{ xs: 12, sm: 6 }}>
         <Controller
           name="personalInfo.email"
           control={control}
@@ -66,7 +66,7 @@ export default function PersonalInfoStep({ control, errors }: PersonalInfoStepPr
           )}
         />
       </Grid>
-      <Grid item xs={12} sm={6}>
+      <Grid size={{ xs: 12, sm: 6 }}>
         <Controller
           name="personalInfo.phone"
           control={control}
@@ -82,7 +82,7 @@ export default function PersonalInfoStep({ control, errors }: PersonalInfoStepPr
           )}
         />
       </Grid>
-      <Grid item xs={12} sm={6}>
+      <Grid size={{ xs: 12, sm: 6 }}>
         <Controller
           name="personalInfo.dateOfBirth"
           control={control}

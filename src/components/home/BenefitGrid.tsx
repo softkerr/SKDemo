@@ -11,7 +11,7 @@ export const BenefitGrid: React.FC<BenefitGridProps> = ({ benefits, color }) => 
   return (
     <Grid container spacing={2}>
       {benefits.map((item, idx) => (
-        <Grid item xs={12} sm={6} key={idx}>
+        <Grid size={{ xs: 12, sm: 6 }} key={idx}>
           <Stack direction="row" spacing={2} alignItems="flex-start">
             <Box
               sx={{

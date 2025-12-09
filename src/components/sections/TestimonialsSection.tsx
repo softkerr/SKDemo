@@ -61,7 +61,7 @@ export function TestimonialsSection() {
         {/* Testimonials Grid */}
         <Grid container spacing={4}>
           {testimonials.map(({ key }) => (
-            <Grid item xs={12} md={4} key={key}>
+            <Grid size={{ xs: 12, md: 4 }} key={key}>
               <Card
                 elevation={0}
                 sx={{

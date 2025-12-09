@@ -452,7 +452,7 @@ export default function TimelineRoadmap() {
       {/* Projects Overview */}
       <Grid container spacing={3} mb={4}>
         {projects.map((project) => (
-          <Grid item xs={12} md={6} key={project.id}>
+          <Grid size={{ xs: 12, md: 6 }} key={project.id}>
             <Card
               elevation={0}
               sx={{
@@ -560,7 +560,7 @@ export default function TimelineRoadmap() {
         ))}
 
         {projects.length === 0 && (
-          <Grid item xs={12}>
+          <Grid size={{ xs: 12 }}>
             <Card
               elevation={0}
               sx={{

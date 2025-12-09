@@ -71,7 +71,7 @@ export function FeaturesSection() {
         {/* Features Grid */}
         <Grid container spacing={4}>
           {features.map(({ key, icon: Icon }) => (
-            <Grid item xs={12} sm={6} md={4} key={key}>
+            <Grid size={{ xs: 12, sm: 6, md: 4 }} key={key}>
               <Card
                 elevation={0}
                 sx={{

@@ -27,7 +27,7 @@ export default function MessageStep({ control, errors }: MessageStepProps) {
 
   return (
     <Grid container spacing={3}>
-      <Grid item xs={12}>
+      <Grid size={{ xs: 12 }}>
         <Controller
           name="message.subject"
           control={control}
@@ -43,7 +43,7 @@ export default function MessageStep({ control, errors }: MessageStepProps) {
           )}
         />
       </Grid>
-      <Grid item xs={12} sm={6}>
+      <Grid size={{ xs: 12, sm: 6 }}>
         <Controller
           name="message.category"
           control={control}
@@ -67,7 +67,7 @@ export default function MessageStep({ control, errors }: MessageStepProps) {
           )}
         />
       </Grid>
-      <Grid item xs={12} sm={6}>
+      <Grid size={{ xs: 12, sm: 6 }}>
         <Controller
           name="message.priority"
           control={control}
@@ -83,7 +83,7 @@ export default function MessageStep({ control, errors }: MessageStepProps) {
           )}
         />
       </Grid>
-      <Grid item xs={12}>
+      <Grid size={{ xs: 12 }}>
         <Controller
           name="message.message"
           control={control}
@@ -102,7 +102,7 @@ export default function MessageStep({ control, errors }: MessageStepProps) {
           )}
         />
       </Grid>
-      <Grid item xs={12}>
+      <Grid size={{ xs: 12 }}>
         <Controller
           name="message.attachments"
           control={control}

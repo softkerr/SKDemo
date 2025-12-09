@@ -199,7 +199,7 @@ export default function DashboardOverview() {
       {/* Key Metrics */}
       <Grid container spacing={3} mb={4}>
         {/* Total Tasks */}
-        <Grid item xs={12} sm={6} md={3}>
+        <Grid size={{ xs: 12, sm: 6, md: 3 }}>
           <Card
             elevation={0}
             sx={{
@@ -238,7 +238,7 @@ export default function DashboardOverview() {
         </Grid>
 
         {/* Completion Rate */}
-        <Grid item xs={12} sm={6} md={3}>
+        <Grid size={{ xs: 12, sm: 6, md: 3 }}>
           <Card
             elevation={0}
             sx={{
@@ -279,7 +279,7 @@ export default function DashboardOverview() {
         </Grid>
 
         {/* Active Projects */}
-        <Grid item xs={12} sm={6} md={3}>
+        <Grid size={{ xs: 12, sm: 6, md: 3 }}>
           <Card
             elevation={0}
             sx={{
@@ -312,7 +312,7 @@ export default function DashboardOverview() {
         </Grid>
 
         {/* Team Members */}
-        <Grid item xs={12} sm={6} md={3}>
+        <Grid size={{ xs: 12, sm: 6, md: 3 }}>
           <Card
             elevation={0}
             sx={{
@@ -357,7 +357,7 @@ export default function DashboardOverview() {
 
       <Grid container spacing={3}>
         {/* Weekly Activity Chart */}
-        <Grid item xs={12} lg={8}>
+        <Grid size={{ xs: 12, lg: 8 }}>
           <Card
             elevation={0}
             sx={{
@@ -391,7 +391,7 @@ export default function DashboardOverview() {
         </Grid>
 
         {/* Task Priority Distribution */}
-        <Grid item xs={12} lg={4}>
+        <Grid size={{ xs: 12, lg: 4 }}>
           <Card
             elevation={0}
             sx={{
@@ -440,7 +440,7 @@ export default function DashboardOverview() {
         </Grid>
 
         {/* Project Status */}
-        <Grid item xs={12} md={4}>
+        <Grid size={{ xs: 12, md: 4 }}>
           <Card
             elevation={0}
             sx={{
@@ -484,7 +484,7 @@ export default function DashboardOverview() {
         </Grid>
 
         {/* Recent Activity */}
-        <Grid item xs={12} md={4}>
+        <Grid size={{ xs: 12, md: 4 }}>
           <Card
             elevation={0}
             sx={{
@@ -534,7 +534,7 @@ export default function DashboardOverview() {
         </Grid>
 
         {/* Upcoming Deadlines */}
-        <Grid item xs={12} md={4}>
+        <Grid size={{ xs: 12, md: 4 }}>
           <Card
             elevation={0}
             sx={{

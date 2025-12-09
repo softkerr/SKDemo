@@ -236,7 +236,7 @@ export default function AnalyticsView() {
 
       {/* Performance Metrics */}
       <Grid container spacing={3} mb={4}>
-        <Grid item xs={12} sm={6} md={3}>
+        <Grid size={{ xs: 12, sm: 6, md: 3 }}>
           <Card elevation={0} sx={{ border: 1, borderColor: theme.palette.mode === 'dark' ? 'grey.800' : 'grey.200' }}>
             <CardContent>
               <Stack direction="row" spacing={2} alignItems="center">
@@ -262,7 +262,7 @@ export default function AnalyticsView() {
           </Card>
         </Grid>
 
-        <Grid item xs={12} sm={6} md={3}>
+        <Grid size={{ xs: 12, sm: 6, md: 3 }}>
           <Card elevation={0} sx={{ border: 1, borderColor: theme.palette.mode === 'dark' ? 'grey.800' : 'grey.200' }}>
             <CardContent>
               <Stack direction="row" spacing={2} alignItems="center">
@@ -285,7 +285,7 @@ export default function AnalyticsView() {
           </Card>
         </Grid>
 
-        <Grid item xs={12} sm={6} md={3}>
+        <Grid size={{ xs: 12, sm: 6, md: 3 }}>
           <Card elevation={0} sx={{ border: 1, borderColor: theme.palette.mode === 'dark' ? 'grey.800' : 'grey.200' }}>
             <CardContent>
               <Stack direction="row" spacing={2} alignItems="center">
@@ -308,7 +308,7 @@ export default function AnalyticsView() {
           </Card>
         </Grid>
 
-        <Grid item xs={12} sm={6} md={3}>
+        <Grid size={{ xs: 12, sm: 6, md: 3 }}>
           <Card elevation={0} sx={{ border: 1, borderColor: theme.palette.mode === 'dark' ? 'grey.800' : 'grey.200' }}>
             <CardContent>
               <Stack direction="row" spacing={2} alignItems="center">
@@ -334,7 +334,7 @@ export default function AnalyticsView() {
 
       <Grid container spacing={3}>
         {/* Velocity Trend */}
-        <Grid item xs={12} lg={8}>
+        <Grid size={{ xs: 12, lg: 8 }}>
           <Card elevation={0} sx={{ border: 1, borderColor: theme.palette.mode === 'dark' ? 'grey.800' : 'grey.200' }}>
             <CardContent>
               <Typography variant="h6" sx={{ fontWeight: 600, mb: 3 }}>
@@ -386,7 +386,7 @@ export default function AnalyticsView() {
         </Grid>
 
         {/* Team Performance Radar */}
-        <Grid item xs={12} lg={4}>
+        <Grid size={{ xs: 12, lg: 4 }}>
           <Card elevation={0} sx={{ border: 1, borderColor: theme.palette.mode === 'dark' ? 'grey.800' : 'grey.200' }}>
             <CardContent>
               <Typography variant="h6" sx={{ fontWeight: 600, mb: 3 }}>
@@ -429,7 +429,7 @@ export default function AnalyticsView() {
         </Grid>
 
         {/* Burndown Chart */}
-        <Grid item xs={12} lg={6}>
+        <Grid size={{ xs: 12, lg: 6 }}>
           <Card elevation={0} sx={{ border: 1, borderColor: theme.palette.mode === 'dark' ? 'grey.800' : 'grey.200' }}>
             <CardContent>
               <Typography variant="h6" sx={{ fontWeight: 600, mb: 3 }}>
@@ -470,7 +470,7 @@ export default function AnalyticsView() {
         </Grid>
 
         {/* Priority Trend */}
-        <Grid item xs={12} lg={6}>
+        <Grid size={{ xs: 12, lg: 6 }}>
           <Card elevation={0} sx={{ border: 1, borderColor: theme.palette.mode === 'dark' ? 'grey.800' : 'grey.200' }}>
             <CardContent>
               <Typography variant="h6" sx={{ fontWeight: 600, mb: 3 }}>
@@ -499,7 +499,7 @@ export default function AnalyticsView() {
         </Grid>
 
         {/* Project Timeline Comparison */}
-        <Grid item xs={12} lg={8}>
+        <Grid size={{ xs: 12, lg: 8 }}>
           <Card elevation={0} sx={{ border: 1, borderColor: theme.palette.mode === 'dark' ? 'grey.800' : 'grey.200' }}>
             <CardContent>
               <Typography variant="h6" sx={{ fontWeight: 600, mb: 3 }}>
@@ -583,7 +583,7 @@ export default function AnalyticsView() {
         </Grid>
 
         {/* Top Performers */}
-        <Grid item xs={12} lg={4}>
+        <Grid size={{ xs: 12, lg: 4 }}>
           <Card elevation={0} sx={{ border: 1, borderColor: theme.palette.mode === 'dark' ? 'grey.800' : 'grey.200' }}>
             <CardContent>
               <Typography variant="h6" sx={{ fontWeight: 600, mb: 3 }}>

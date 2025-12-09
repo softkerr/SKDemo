@@ -74,5 +74,38 @@
       "sanityDisabled": "Using static product data. To enable Sanity CMS, run:",
       "sanityCommand": "npm run seed:products"
     }
+  },
+  "admin": {
+    "liveOverview": {
+      "title": "Overview",
+      "subtitle": "Real-time project metrics and team performance",
+      "badge": "Live Data",
+      "online": "online",
+      "metrics": {
+        "totalTasks": {
+          "title": "Total Tasks",
+          "completed": "completed"
+        },
+        "activeProjects": {
+          "title": "Active Projects",
+          "total": "total"
+        },
+        "teamPerformance": {
+          "title": "Team Performance",
+          "active": "active"
+        },
+        "highPriority": {
+          "title": "High Priority",
+          "dueSoon": "due soon"
+        }
+      },
+      "progress": "Progress",
+      "trends": {
+        "excellent": "Excellent",
+        "good": "Good",
+        "actionNeeded": "Action needed",
+        "onTrack": "On track"
+      }
+    }
   }
 }

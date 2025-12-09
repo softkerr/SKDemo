@@ -1,6 +1,7 @@
 import React from 'react';
 import { Box, Card, Tabs, Tab, useTheme } from '@mui/material';
-import { adminTabs } from '@/data/admin';
+import { getAdminTabs } from '@/data/admin';
+import { useTranslation } from 'react-i18next';
 
 interface AdminTabsProps {
   activeTab: number;
@@ -31,6 +32,10 @@ function TabPanel(props: TabPanelProps) {
 
 export const AdminTabs: React.FC<AdminTabsProps> = ({ activeTab, onTabChange }) => {
   const theme = useTheme();
+  const { i18n } = useTranslation();
+
+  // Get tabs with current language
+  const adminTabs = React.useMemo(() => getAdminTabs(), [i18n.language]);
 
   return (
     <Card

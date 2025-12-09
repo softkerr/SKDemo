@@ -146,8 +146,36 @@
     "badge": "Données en Direct",
     "completedTasks": "Terminées",
     "highPriority": "Haute Priorité",
+    "metrics": {
+      "activeProjects": {
+        "title": "Projets Actifs",
+        "total": "total"
+      },
+      "highPriority": {
+        "dueSoon": "à échéance bientôt",
+        "title": "Haute Priorité"
+      },
+      "teamPerformance": {
+        "active": "actifs",
+        "title": "Performance de l'Équipe"
+      },
+      "totalTasks": {
+        "completed": "terminées",
+        "title": "Tâches Totales"
+      }
+    },
+    "online": "en ligne",
+    "progress": "Progrès",
+    "subtitle": "Métriques de projet et performances de l'équipe en temps réel",
     "teamPerformance": "Performance de l'Équipe",
+    "title": "Aperçu",
     "totalTasks": "Tâches Totales",
+    "trends": {
+      "actionNeeded": "Action requise",
+      "excellent": "Excellent",
+      "good": "Bon",
+      "onTrack": "Sur la bonne voie"
+    },
     "upcomingDeadlines": "Échéances Prochaines"
   },
   "settings": {

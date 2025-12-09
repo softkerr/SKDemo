@@ -22,12 +22,14 @@ import {
   Timeline as TimelineIcon,
   Speed as SpeedIcon,
 } from '@mui/icons-material';
+import { useTranslation } from 'react-i18next';
 import { useAppSelector, useAppDispatch } from '@/store/hooks';
 import { setKanbanData } from '@/store/slices/kanbanSlice';
 import { setTimelineData } from '@/store/slices/timelineSlice';
 import { setTeamData } from '@/store/slices/teamSlice';
 
 export default function LiveOverview() {
+  const { t } = useTranslation('admin');
   const dispatch = useAppDispatch();
   const kanbanData = useAppSelector((state) => state.kanban.data);
   const projects = useAppSelector((state) => state.timeline.projects);
@@ -54,36 +56,38 @@ export default function LiveOverview() {
   // Calculate metrics from Redux state
   const allTasks = kanbanData?.tasks ? Object.values(kanbanData.tasks) : [];
   const totalTasks = allTasks.length;
-  
+
   // Get completed tasks (tasks in "Done" column)
-  const doneColumn = kanbanData?.columns ? Object.values(kanbanData.columns).find(
-    col => col.title.toLowerCase() === 'done'
-  ) : null;
+  const doneColumn = kanbanData?.columns
+    ? Object.values(kanbanData.columns).find((col) => col.title.toLowerCase() === 'done')
+    : null;
   const completedTasks = doneColumn?.taskIds?.length || 0;
-  
+
   // Get in-progress tasks
-  const inProgressColumn = kanbanData?.columns ? Object.values(kanbanData.columns).find(
-    col => col.title.toLowerCase().includes('progress')
-  ) : null;
+  const inProgressColumn = kanbanData?.columns
+    ? Object.values(kanbanData.columns).find((col) => col.title.toLowerCase().includes('progress'))
+    : null;
   const inProgressTasks = inProgressColumn?.taskIds?.length || 0;
-  
+
   const completionRate = totalTasks > 0 ? (completedTasks / totalTasks) * 100 : 0;
 
-  const activeProjects = Array.isArray(projects) 
-    ? projects.filter((p) => p.status === 'active').length 
+  const activeProjects = Array.isArray(projects)
+    ? projects.filter((p) => p.status === 'active').length
     : 0;
   const totalProjects = Array.isArray(projects) ? projects.length : 0;
-  const avgProjectProgress = Array.isArray(projects) && projects.length > 0
-    ? projects.reduce((acc, p) => acc + p.progress, 0) / projects.length
-    : 0;
+  const avgProjectProgress =
+    Array.isArray(projects) && projects.length > 0
+      ? projects.reduce((acc, p) => acc + p.progress, 0) / projects.length
+      : 0;
 
-  const activeMembers = Array.isArray(teamMembers) 
-    ? teamMembers.filter((m) => m.status === 'Active').length 
+  const activeMembers = Array.isArray(teamMembers)
+    ? teamMembers.filter((m) => m.status === 'Active').length
     : 0;
   const totalMembers = Array.isArray(teamMembers) ? teamMembers.length : 0;
-  const avgPerformance = Array.isArray(teamMembers) && teamMembers.length > 0
-    ? teamMembers.reduce((acc, m) => acc + m.performance, 0) / teamMembers.length
-    : 0;
+  const avgPerformance =
+    Array.isArray(teamMembers) && teamMembers.length > 0
+      ? teamMembers.reduce((acc, m) => acc + m.performance, 0) / teamMembers.length
+      : 0;
 
   // Get high priority tasks
   const highPriorityTasks = allTasks.filter((task) => task.priority === 'high').length;
@@ -104,40 +108,44 @@ export default function LiveOverview() {
 
   const metrics = [
     {
-      title: 'Total Tasks',
+      title: t('liveOverview.metrics.totalTasks.title'),
       value: totalTasks,
-      subtitle: `${completedTasks} completed`,
+      subtitle: `${completedTasks} ${t('liveOverview.metrics.totalTasks.completed')}`,
       icon: <AssignmentIcon />,
       color: 'primary.main',
       progress: completionRate,
       trend: completedTasks > 0 ? '+12%' : '0%',
     },
     {
-      title: 'Active Projects',
+      title: t('liveOverview.metrics.activeProjects.title'),
       value: activeProjects,
-      subtitle: `${totalProjects} total`,
+      subtitle: `${totalProjects} ${t('liveOverview.metrics.activeProjects.total')}`,
       icon: <TimelineIcon />,
       color: 'info.main',
       progress: avgProjectProgress,
       trend: activeProjects > 0 ? '+8%' : '0%',
     },
     {
-      title: 'Team Performance',
+      title: t('liveOverview.metrics.teamPerformance.title'),
       value: `${Math.round(avgPerformance)}%`,
-      subtitle: `${activeMembers}/${totalMembers} active`,
+      subtitle: `${activeMembers}/${totalMembers} ${t('liveOverview.metrics.teamPerformance.active')}`,
       icon: <TrendingUpIcon />,
       color: 'success.main',
       progress: avgPerformance,
-      trend: avgPerformance >= 85 ? 'Excellent' : 'Good',
+      trend:
+        avgPerformance >= 85 ? t('liveOverview.trends.excellent') : t('liveOverview.trends.good'),
     },
     {
-      title: 'High Priority',
+      title: t('liveOverview.metrics.highPriority.title'),
       value: highPriorityTasks,
-      subtitle: `${upcomingDeadlines} due soon`,
+      subtitle: `${upcomingDeadlines} ${t('liveOverview.metrics.highPriority.dueSoon')}`,
       icon: <SpeedIcon />,
       color: 'warning.main',
       progress: (inProgressTasks / (totalTasks || 1)) * 100,
-      trend: highPriorityTasks > 0 ? 'Action needed' : 'On track',
+      trend:
+        highPriorityTasks > 0
+          ? t('liveOverview.trends.actionNeeded')
+          : t('liveOverview.trends.onTrack'),
     },
   ];
 
@@ -146,32 +154,33 @@ export default function LiveOverview() {
       <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 3 }}>
         <Box>
           <Typography variant="h5" sx={{ fontWeight: 600, mb: 0.5 }}>
-            Overview
+            {t('liveOverview.title')}
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            Real-time project metrics and team performance
+            {t('liveOverview.subtitle')}
           </Typography>
         </Box>
         <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
           {activeTeamMembers.length > 0 && (
             <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
-              <AvatarGroup max={5} sx={{ '& .MuiAvatar-root': { width: 32, height: 32, fontSize: '0.875rem' } }}>
+              <AvatarGroup
+                max={5}
+                sx={{ '& .MuiAvatar-root': { width: 32, height: 32, fontSize: '0.875rem' } }}
+              >
                 {activeTeamMembers.map((member) => (
                   <Tooltip key={member.id} title={member.name}>
-                    <Avatar sx={{ bgcolor: 'primary.main' }}>
-                      {member.avatar}
-                    </Avatar>
+                    <Avatar sx={{ bgcolor: 'primary.main' }}>{member.avatar}</Avatar>
                   </Tooltip>
                 ))}
               </AvatarGroup>
               <Typography variant="body2" color="text.secondary">
-                {activeMembers} online
+                {activeMembers} {t('liveOverview.online')}
               </Typography>
             </Box>
           )}
           <Chip
             icon={<CheckCircleIcon />}
-            label="Live Data"
+            label={t('liveOverview.badge')}
             color="success"
             size="small"
             sx={{ fontWeight: 600 }}
@@ -193,7 +202,14 @@ export default function LiveOverview() {
               }}
             >
               <CardContent>
-                <Box sx={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', mb: 2 }}>
+                <Box
+                  sx={{
+                    display: 'flex',
+                    alignItems: 'flex-start',
+                    justifyContent: 'space-between',
+                    mb: 2,
+                  }}
+                >
                   <Box sx={{ flex: 1 }}>
                     <Typography color="text.secondary" variant="body2" gutterBottom>
                       {metric.title}
@@ -219,7 +235,7 @@ export default function LiveOverview() {
                 <Box sx={{ mb: 1 }}>
                   <Box sx={{ display: 'flex', justifyContent: 'space-between', mb: 0.5 }}>
                     <Typography variant="caption" color="text.secondary">
-                      Progress
+                      {t('liveOverview.progress')}
                     </Typography>
                     <Typography variant="caption" fontWeight={600}>
                       {Math.round(metric.progress)}%
@@ -253,8 +269,8 @@ export default function LiveOverview() {
                     metric.trend.includes('+') || metric.trend === 'Excellent'
                       ? 'success'
                       : metric.trend === 'Action needed'
-                      ? 'warning'
-                      : 'default'
+                        ? 'warning'
+                        : 'default'
                   }
                 />
               </CardContent>

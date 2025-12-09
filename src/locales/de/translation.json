@@ -273,5 +273,38 @@
       "sanityDisabled": "Verwende statische Produktdaten. Um Sanity CMS zu aktivieren, führen Sie aus:",
       "sanityCommand": "npm run seed:products"
     }
+  },
+  "admin": {
+    "liveOverview": {
+      "title": "Übersicht",
+      "subtitle": "Echtzeit-Projektmetriken und Teamleistung",
+      "badge": "Live-Daten",
+      "online": "online",
+      "metrics": {
+        "totalTasks": {
+          "title": "Aufgaben Gesamt",
+          "completed": "abgeschlossen"
+        },
+        "activeProjects": {
+          "title": "Aktive Projekte",
+          "total": "gesamt"
+        },
+        "teamPerformance": {
+          "title": "Teamleistung",
+          "active": "aktiv"
+        },
+        "highPriority": {
+          "title": "Hohe Priorität",
+          "dueSoon": "bald fällig"
+        }
+      },
+      "progress": "Fortschritt",
+      "trends": {
+        "excellent": "Ausgezeichnet",
+        "good": "Gut",
+        "actionNeeded": "Maßnahme erforderlich",
+        "onTrack": "Auf Kurs"
+      }
+    }
   }
 }

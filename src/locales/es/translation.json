@@ -74,5 +74,38 @@
       "sanityDisabled": "Usando datos de productos estáticos. Para habilitar Sanity CMS, ejecute:",
       "sanityCommand": "npm run seed:products"
     }
+  },
+  "admin": {
+    "liveOverview": {
+      "title": "Resumen",
+      "subtitle": "Métricas de proyectos y rendimiento del equipo en tiempo real",
+      "badge": "Datos en Vivo",
+      "online": "en línea",
+      "metrics": {
+        "totalTasks": {
+          "title": "Tareas Totales",
+          "completed": "completadas"
+        },
+        "activeProjects": {
+          "title": "Proyectos Activos",
+          "total": "total"
+        },
+        "teamPerformance": {
+          "title": "Rendimiento del Equipo",
+          "active": "activos"
+        },
+        "highPriority": {
+          "title": "Alta Prioridad",
+          "dueSoon": "vencen pronto"
+        }
+      },
+      "progress": "Progreso",
+      "trends": {
+        "excellent": "Excelente",
+        "good": "Bueno",
+        "actionNeeded": "Acción necesaria",
+        "onTrack": "En camino"
+      }
+    }
   }
 }

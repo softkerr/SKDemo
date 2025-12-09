@@ -146,8 +146,36 @@
     "badge": "Live Data",
     "completedTasks": "Completed",
     "highPriority": "High Priority",
+    "metrics": {
+      "activeProjects": {
+        "title": "Active Projects",
+        "total": "total"
+      },
+      "highPriority": {
+        "dueSoon": "due soon",
+        "title": "High Priority"
+      },
+      "teamPerformance": {
+        "active": "active",
+        "title": "Team Performance"
+      },
+      "totalTasks": {
+        "completed": "completed",
+        "title": "Total Tasks"
+      }
+    },
+    "online": "online",
+    "progress": "Progress",
+    "subtitle": "Real-time project metrics and team performance",
     "teamPerformance": "Team Performance",
+    "title": "Overview",
     "totalTasks": "Total Tasks",
+    "trends": {
+      "actionNeeded": "Action needed",
+      "excellent": "Excellent",
+      "good": "Good",
+      "onTrack": "On track"
+    },
     "upcomingDeadlines": "Upcoming Deadlines"
   },
   "settings": {

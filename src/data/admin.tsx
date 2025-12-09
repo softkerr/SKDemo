@@ -6,6 +6,7 @@ import DashboardOverview from '@/components/DashboardOverview';
 import AnalyticsView from '@/components/AnalyticsView';
 import TeamManagement from '@/components/TeamManagement';
 import SettingsView from '@/components/SettingsView';
+import i18n from '@/i18n/config';
 
 export interface AdminTabConfig {
   id: string;
@@ -14,41 +15,44 @@ export interface AdminTabConfig {
   component: React.ReactNode;
 }
 
-export const adminTabs: AdminTabConfig[] = [
+export const getAdminTabs = (): AdminTabConfig[] => [
   {
     id: 'kanban',
-    label: 'Kanban Board',
+    label: i18n.t('tabs.kanban', { ns: 'admin' }),
     icon: <ViewKanban />,
     component: <KanbanBoard />,
   },
   {
     id: 'timeline',
-    label: 'Timeline & Roadmap',
+    label: i18n.t('tabs.timeline', { ns: 'admin' }),
     icon: <Timeline />,
     component: <TimelineRoadmap />,
   },
   {
     id: 'dashboard',
-    label: 'Dashboard',
+    label: i18n.t('tabs.dashboard', { ns: 'admin' }),
     icon: <Dashboard />,
     component: <DashboardOverview />,
   },
   {
     id: 'analytics',
-    label: 'Analytics',
+    label: i18n.t('tabs.analytics', { ns: 'admin' }),
     icon: <Assessment />,
     component: <AnalyticsView />,
   },
   {
     id: 'team',
-    label: 'Team',
+    label: i18n.t('tabs.team', { ns: 'admin' }),
     icon: <People />,
     component: <TeamManagement />,
   },
   {
     id: 'settings',
-    label: 'Settings',
+    label: i18n.t('tabs.settings', { ns: 'admin' }),
     icon: <Settings />,
     component: <SettingsView />,
   },
 ];
+
+// Legacy export for backward compatibility
+export const adminTabs = getAdminTabs();

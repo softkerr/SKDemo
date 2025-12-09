@@ -1,8 +1,10 @@
 import React from 'react';
 import { Box, Container, Typography, Chip, useTheme } from '@mui/material';
+import { useTranslation } from 'react-i18next';
 
 export const AdminHero = () => {
   const theme = useTheme();
+  const { t } = useTranslation('admin');
 
   return (
     <Box
@@ -37,7 +39,7 @@ export const AdminHero = () => {
       <Container maxWidth="lg" sx={{ position: 'relative', zIndex: 1 }}>
         <Box sx={{ textAlign: 'center' }}>
           <Chip
-            label="Admin Dashboard"
+            label={t('hero.badge')}
             sx={{
               mb: 2,
               fontWeight: 600,
@@ -56,7 +58,7 @@ export const AdminHero = () => {
               textShadow: '2px 2px 8px rgba(0,0,0,0.2)',
             }}
           >
-            Project Management Hub
+            {t('hero.title')}
           </Typography>
           <Typography
             variant="h5"
@@ -68,7 +70,7 @@ export const AdminHero = () => {
               lineHeight: 1.6,
             }}
           >
-            Manage your projects with powerful tools: Kanban boards, timelines, analytics, and more
+            {t('hero.description')}
           </Typography>
         </Box>
       </Container>

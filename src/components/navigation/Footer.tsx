@@ -20,10 +20,10 @@ export const Footer: React.FC = () => {
 
   const footerLinks = {
     company: [
-      { label: t('common.shop'), href: ROUTES.SHOP },
-      { label: t('common.studio'), href: ROUTES.STUDIO },
-      { label: t('common.admin'), href: ROUTES.ADMIN },
-      { label: t('common.contacts'), href: ROUTES.CONTACTS },
+      { label: t('navigation.shop'), href: ROUTES.SHOP },
+      { label: t('navigation.studio'), href: ROUTES.STUDIO },
+      { label: t('navigation.admin'), href: ROUTES.ADMIN },
+      { label: t('navigation.contacts'), href: ROUTES.CONTACTS },
     ],
     legal: [
       { label: t('footer.links.privacy'), href: '#' },
@@ -126,7 +126,7 @@ export const Footer: React.FC = () => {
 
         <Box sx={{ mt: 4, pt: 3, borderTop: 1, borderColor: 'divider' }}>
           <Typography variant="body2" color="text.secondary" align="center">
-            © {new Date().getFullYear()} {COMPANY_INFO.name}. {t('footer.rights')}
+            © {new Date().getFullYear()} {COMPANY_INFO.name}.
           </Typography>
         </Box>
       </Container>

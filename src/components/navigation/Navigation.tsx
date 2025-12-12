@@ -192,15 +192,9 @@ export const Navigation: React.FC = () => {
 
           <Stack spacing={2} sx={{ px: 2 }}>
             <Box>
-              <Typography variant="caption" color="text.secondary" gutterBottom display="block">
-                {t('currency.label')}
-              </Typography>
               <CurrencySwitcher />
             </Box>
             <Box>
-              <Typography variant="caption" color="text.secondary" gutterBottom display="block">
-                {t('language.label')}
-              </Typography>
               <LanguageSwitcher />
             </Box>
           </Stack>
